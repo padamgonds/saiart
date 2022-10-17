@@ -1,0 +1,671 @@
+﻿/************ Desktop Media Query start **************/
+		
+		 .setwidthpopup .Popup
+        {
+            width: 1330px !important;
+            left: 125px !important; /*height:600px !important;*/
+            margin-left: 43px !important;
+        }
+		
+		
+		.OUT_panel_adj
+		{
+			margin-top: -20px;
+		}
+		.OUT_chk_adj
+		{
+			margin-top: 4px;
+     
+		}
+		.OUT_page_adj
+		{
+		   margin-top: 100px !important; 
+		}
+
+
+	
+	.Div_Name {
+            font-size: 16px;
+            color: white;
+            background-color: #02478c;
+            padding-left: 40px !important;
+            padding-right: 58px !important;
+            padding-bottom: 6px;
+            margin-left: 61px;
+    
+        }
+       .Div_Role {
+            font-size: 16px;
+            color: white;
+            background-color: #02478c;
+            padding-left: 68px !important;
+            padding-right: 85px !important;
+            padding-bottom: 6px;
+            margin-left: 30px;
+        }
+        .Div_Primary {
+            font-size: 16px;
+            color: white;
+            background-color: #02478c;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 10px;
+        }
+
+
+		.panel_padding
+		{
+			padding-bottom: 30px;
+		}
+		.asterisk_input:after
+        {
+            content: " *";
+            color: #e32;
+            position: absolute;
+            margin: 1px -11px 0 -10px;
+            font-size: xx-large;
+            padding: 0 5px 0 0;
+        }
+/************ Desktop Media Query End **************/
+
+/************* Tab Media Query Start *************/
+@media only screen and (min-width : 1024px) and (max-width : 1024px)
+{
+	
+}
+@media only screen and (min-width : 951px) and (max-width : 1020px){
+		
+	.OUT_panel_adj {
+		margin-top: 11px;
+	}
+	
+	.Div_Name {
+			font-size: 16px;
+			color: white;
+			background-color: #02478c;
+			padding-left: 24px !important;
+			padding-right: 49px !important;
+			padding-bottom: 6px;
+			margin-left: 3px;
+		}
+		 .Div_Role
+        {
+            font-size: 16px;
+            color: white;
+            background-color: #02478c;
+            padding-left: 35px !important;
+			padding-right: 47px !important;
+            padding-bottom: 6px;
+        }
+        .Div_Primary {
+            font-size: 16px;
+            color: white;
+            background-color: #02478c;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 10px;
+        }
+        .panel_padding {
+			padding-bottom: 12px;
+		}
+		.OUT_page_adj {
+			margin-top: 198px !important;
+		}
+		
+		.lbl-bdtl-err-div1 {
+			line-height: 1 ! important;
+			margin-top: -39px ! important;
+			margin-left: 351px ! important;
+		}
+		.setwidthpopup .Popup {
+			    width: 1330px !important;
+				left: -43px !important;
+				/* height: 600px !important; */
+				margin-left: -178px !important;
+				margin-top: 50px;
+		}
+}
+
+@media only screen and (min-width: 861px) and (max-width: 950px) {
+		.OUT_panel_adj {
+			margin-top: 11px;
+		}
+		.Div_Name {
+			font-size: 16px;
+			color: white;
+			background-color: #02478c;
+			padding-left: 24px !important;
+			padding-right: 49px !important;
+			padding-bottom: 6px;
+			margin-left: 3px;
+		}
+		 .Div_Role
+        {
+            font-size: 16px;
+            color: white;
+            background-color: #02478c;
+            padding-left: 35px !important;
+			padding-right: 47px !important;
+            padding-bottom: 6px;
+        }
+        .Div_Primary {
+            font-size: 16px;
+            color: white;
+            background-color: #02478c;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 10px;
+        }
+         .btn_out
+        {
+        	    margin-left: 21px ! important;
+        }
+        .panel_padding {
+			padding-bottom: 12px;
+		}
+		
+		.setwidthpopup .Popup {
+			width: 1330px !important;
+			/* left: -43px !important; */
+			/* height: 600px !important; */
+			margin-left: -6px !important;
+			margin-top: 50px;
+		}
+}
+
+@media only screen and (min-width: 781px) and (max-width: 860px) {
+		.OUT_panel_adj {
+			margin-top: 11px;
+		}
+		
+		.Div_Name {
+			    font-size: 16px;
+				color: white;
+				background-color: #02478c;
+				padding-left: 40px !important;
+				padding-right: 32px !important;
+				padding-bottom: 6px;
+				margin-left: 3px;
+		}
+		 .Div_Role
+        {
+               font-size: 16px;
+				color: white;
+				background-color: #02478c;
+				padding-left: 44px !important;
+				padding-right: 36px !important;
+				padding-bottom: 6px;
+				margin-left: 4px;
+        }
+        .Div_Primary {
+                font-size: 16px;
+				color: white;
+				background-color: #02478c;
+				padding-bottom: 1px;
+				padding-left: 5px;
+				padding-right: 22px;
+				/* margin-left: 11px; */
+        }
+        .btn_out
+        {
+        	    margin-left: 21px ! important;
+        }
+        .panel_padding {
+				padding-bottom: 12px;
+			}
+		.setwidthpopup .Popup {
+			width: 1330px !important;
+			left: -43px !important;
+			/* height: 600px !important; */
+			margin-left: -178px !important;
+			margin-top: 50px;
+			
+		}
+}
+
+@media only screen and (min-width: 751px) and (max-width: 780px) {
+		.OUT_panel_adj {
+			margin-top: 11px;
+	}
+	
+		.Div_Name {
+				font-size: 16px;
+				color: white;
+				background-color: #02478c;
+				padding-left: 7px !important;
+				padding-right: 63px !important;
+				padding-bottom: 6px;
+		}
+	
+		.Div_Role
+            {
+                font-size: 16px;
+                color: white;
+                background-color: #02478c;
+                padding-left: 77px !important;
+                padding-right: 78px !important;
+                padding-bottom: 6px;
+            }
+            .Div_Primary
+            {
+                font-size: 16px;
+                color: white;
+                background-color: #02478c; 
+                padding-bottom: 6px;
+            }
+             .btn_out
+        {
+        	    margin-left: 21px ! important;
+        }
+        .panel_padding {
+		  padding-bottom: 12px;
+		}
+		.setwidthpopup .Popup {
+			width: 1330px !important;
+			/* left: -43px !important; */
+			/* height: 600px !important; */
+			margin-left: -6px !important;
+			margin-top: 50px;
+		}
+}
+
+/************ Tab Media Query End **************/
+
+ 
+
+/************* Mobile Media Query Start *************/
+
+@media only screen and (min-width: 661px) and (max-width: 750px) {
+
+}
+
+@media only screen and (min-width: 631px) and (max-width: 660px) {
+
+}
+
+@media only screen and (min-width: 571px) and (max-width: 630px) {
+
+}
+
+@media only screen and (min-width: 491px) and (max-width: 570px) {
+
+}
+
+@media only screen and (min-width: 461px) and (max-width: 490px) {
+
+}
+
+@media only screen and (min-width: 411px) and (max-width: 460px) {
+
+			.div_margin
+			{
+				    margin-left: 15px;
+			}
+			.OUT_page_adj
+			{
+			  /* margin-top: -20px !important;*/
+			       margin-top: 163px !important;
+			}
+
+			.OUT_panel_adj
+			{
+				margin-top: 11px;
+			}
+
+
+			.bit-dtl-bg {
+				background-color: #e8e9e9;
+				 padding: 0% 0% 0% 0%;
+			}
+			.OUT_width_adj_upp
+			{
+					width: 352px;
+				margin-left: 24px;
+			}
+			.OUT_ddl_adj
+			{
+					margin-top: 10px;
+			}
+			.OUT_chk_adj
+			{
+				margin-top: 4px;
+				   margin-left: -306px;
+			}
+			.OUT_btn_adj
+			{
+					margin-left: -16px;
+			}
+			.title
+			{
+					/*margin-top: -25px;*/
+					margin-top: -92px;
+			}
+			.lbl-bdtl-err-div {
+				/* line-height: 1 ! important; */
+				margin-top: 0px !important;
+				margin-left: 1% !important;
+			}
+			.panel_padding {
+			padding-bottom: 12px;
+		}
+		.asterisk_input:after {
+				content: " *";
+				color: #e32;
+				position: absolute;
+				margin: -24px -11px 0 -133px;
+				font-size: xx-large;
+				padding: 0 22px 0 0;
+			}
+			.btn_out {
+				margin-left: 2px ! important;
+			}
+			.setwidthpopup .Popup  {
+				    left: -4px !important;
+					width: 385px !important;
+					margin-left: 13px !important;
+		}
+}
+
+@media only screen and (min-width: 371px) and (max-width: 410px) {
+		.div_margin
+		{
+			    margin-left: 15px;
+		}
+		.OUT_panel_adj
+		{
+			/*margin-top: 0px;*/
+			/*margin-top: 11px !important;*/
+			margin-top:1px !important;
+		}
+
+		.OUT_page_adj
+		{
+		   margin-top: -10px !important;
+		}
+		.OUT_page_adj1
+		{
+		  /* margin-top: -10px !important;*/
+		  margin-top: 153px !important;
+		}
+
+		.bit-dtl-bg {
+			background-color: #e8e9e9;
+			 padding: 0% 0% 0% 0%;
+		}
+		.OUT_width_adj_upp
+		{
+				width: 310px;
+			margin-left: 24px;
+		}
+		.OUT_ddl_adj
+		{
+				margin-top: 10px;
+		}
+		.OUT_chk_adj
+		{
+			margin-top: 4px;
+			   margin-left: -264px;
+		}
+		.title
+		{
+				/*margin-top: -25px;*/
+				    margin-top: -95px;
+		}
+		.lbl-bdtl-err-div {
+			/* line-height: 1 ! important; */
+			margin-top: 0px !important;
+			margin-left: 1% !important;
+		}
+		.panel_padding {
+			padding-bottom: 12px;
+		}
+		.asterisk_input:after {
+				content: " *";
+				color: #e32;
+				position: absolute;
+				margin: -24px -11px 0 -90px;
+				font-size: xx-large;
+				padding: 0 22px 0 0;
+			}
+		
+		.btn_out {
+			margin-left: 2px ! important;
+		}
+		.setwidthpopup .Popup {
+			    width: 300px !important;
+				left: -4px !important;
+				/* height: 600px !important; */
+				margin-left: 26px !important;
+		}
+}
+
+@media only screen and (min-width: 331px) and (max-width: 370px) {
+		.div_margin
+		{
+			    margin-left: 15px;
+		}
+		
+		.OUT_panel_adj
+		{
+			margin-top: 0px !important;
+		}
+
+		.OUT_page_adj1
+		{
+		  /* margin-top: 50px !important; */
+		       margin-top: 150px !important;
+		}
+		/*.OUT_page_adj
+		{
+		   margin-top: 50px !important;
+		}*/
+
+		.bit-dtl-bg {
+			background-color: #e8e9e9;
+			 padding: 0% 0% 0% 0%;
+		}
+		.OUT_width_adj_upp
+		{
+				 width: 299px;
+			margin-left: 24px;
+		}
+		.OUT_ddl_adj
+		{
+				margin-top: 10px;
+		}
+		.OUT_chk_adj
+		{
+			margin-top: 4px;
+			   margin-left: -254px;
+		}
+		.OUT_btn_adj
+		{
+				margin-left: -16px;
+		}
+		.title
+		{
+				/*margin-top: -25px;*/
+				    margin-top: -80px;
+		}
+		.lbl-bdtl-err-div {
+			/* line-height: 1 ! important; */
+			margin-top: 0px !important;
+			margin-left: 1% !important;
+		}
+		.panel_padding {
+			padding-bottom: 12px;
+		}
+		
+		.asterisk_input:after {
+				content: " *";
+				color: #e32;
+				position: absolute;
+				margin: -24px -11px 0 -80px;
+				font-size: xx-large;
+				padding: 0 22px 0 0;
+			}
+			.btn_out {
+				margin-left: 2px ! important;
+			}
+			.setwidthpopup .Popup {
+			    width: 950px !important;
+				left: -4px !important;
+				/* height: 600px !important; */
+				margin-left: -299px !important;
+		}
+			
+}
+
+@media only screen and (min-width: 311px) and (max-width: 330px) {
+			.div_margin
+				{
+						margin-left: 15px;
+				}
+			
+			.OUT_panel_adj
+			{
+				margin-top: 0px !important;
+			}
+
+			.OUT_page_adj1
+			{
+			   margin-top: 100px !important;
+			}
+			
+			/*.OUT_page_adj
+			{
+			   margin-top: -10px !important;
+			 
+			}*/
+
+			.bit-dtl-bg {
+				background-color: #e8e9e9;
+				 padding: 0% 0% 0% 0%;
+			}
+			.OUT_width_adj_upp
+			{
+					 width: 260px;
+				margin-left: 24px;
+			}
+			.OUT_ddl_adj
+			{
+					margin-top: 10px;
+			}
+			.OUT_chk_adj
+			{
+				margin-top: 4px;
+				margin-left: -215px;
+			}
+			.btn_out 
+			{
+	
+				margin-left: 8px ! important;
+			}
+			.title
+			{
+					margin-top: -30px;
+			}
+			.lbl-bdtl-err-div {
+				/* line-height: 1 ! important; */
+				margin-top: 0px !important;
+				margin-left: 1% !important;
+			}
+			.panel_padding {
+				padding-bottom: 12px;
+			}
+			
+			.asterisk_input:after {
+				content: " *";
+				color: #e32;
+				position: absolute;
+				margin: -24px -11px 0 -45px;
+				font-size: xx-large;
+				padding: 0 22px 0 0;
+			}		
+			.btn_out {
+			margin-left: 2px ! important;
+		}	
+		.setwidthpopup .Popup  {
+			    width: 100px !important;
+				left: -4px !important;
+				/* height: 600px !important; */
+				margin-left: 5px !important;
+				margin-top: 15px;
+		}
+}
+
+@media only screen and (min-width: 240px) and (max-width: 310px) {
+					.OUT_page_adj
+				{
+				   margin-top: 50px !important; 
+				}
+			
+				.div_margin
+				{
+						margin-left: 15px;
+				}
+				
+				.OUT_panel_adj
+				{
+					margin-top: 0px;
+				}
+
+				.bit-dtl-bg {
+					background-color: #e8e9e9;
+					 padding: 0% 0% 0% 0%;
+				}
+				.OUT_width_adj_upp
+				{
+						width: 352px;
+					margin-left: 24px;
+				}
+				.OUT_ddl_adj
+				{
+						margin-top: 10px;
+				}
+				.OUT_chk_adj
+				{
+					margin-top: 4px;
+					   margin-left: -306px;
+				}
+				.btn_out 
+				{
+	
+					margin-left: 8px ! important;
+				}
+				.title
+				{
+						margin-top: -30px;
+				}
+				.lbl-bdtl-err-div {
+					/* line-height: 1 ! important; */
+					margin-top: 0px !important;
+					margin-left: 1% !important;
+				}
+				.panel_padding {
+					padding-bottom: 12px;
+				}
+				
+				.asterisk_input:after {
+				content: " *";
+				color: #e32;
+				position: absolute;
+				margin: -24px -11px 0 -60px;
+				font-size: xx-large;
+				padding: 0 22px 0 0;
+			}
+			.btn_out {
+				margin-left: 2px ! important;
+			}
+			
+			.setwidthpopup .Popup{
+			width: 1330px !important;
+			left: -4px !important;
+			/* height: 600px !important; */
+			 margin-left: 43px !important;
+		}
+}
+
+
+
+/************ Mobile Media Query End **************/

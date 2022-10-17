@@ -1,0 +1,376 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Myriad Pro Regular.ttf);
+}
+
+.login-header
+{
+     position: fixed;   
+     top: 0;  
+}
+
+
+
+.login-header img
+{
+    width: 20%;
+    padding: 3%;
+}
+
+
+.header img
+{
+      width: 30%;
+      padding: 3%;
+}
+
+.header-rigth-image
+{
+   padding-top: 1%;
+}
+
+
+.header
+{
+    top: 25px;  
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+}
+
+
+
+
+.footer
+{
+    text-align: center;
+    position: fixed;
+    color: #ffffff;
+    bottom: 0; 
+    width:100%;
+    height:50px;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+
+}
+
+
+
+
+.copyright-symbol
+{
+   font-size: 14px;  
+}
+
+.copyright
+{
+    font-family: myFont , Myriad Pro;
+    font-weight:normal;
+    line-height: 53px;
+    font-size: 15px; 
+}
+
+.login-page-bg {
+   background-image: url("../img/repeating-left.png");   
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+
+.login-form
+{
+    margin-top:10%;
+    padding:5%;
+    background:url("../img/repeating-left.png") no-repeat;
+    background-size:cover;
+    border-radius: 20px;
+}
+
+
+
+#login .input-group
+{
+    background: #004299 !important;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3)) !important;
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 ) !important;  
+    
+}
+
+
+#txtLanID{
+    background: url(../img/user.png) left no-repeat;
+    padding-left: 40px;
+    background-size: 40px auto;
+    color: #ffffff !important;
+}
+
+#txtPassword{
+    background:url(../img/key.png) left no-repeat;
+    padding-left: 40px;
+	background-size: 40px auto;
+	color: #ffffff !important;
+}
+
+.form-logo img
+{
+      width: 30%;  
+}
+
+.frm-btn
+{
+    color: #0069b0;
+    text-align: center;
+    font-family: myFont , Myriad Pro;
+    padding:3%;
+    
+}
+
+.frm-btn-txt
+{
+    color: #ffffff;
+}
+
+.tag-line
+{
+     font-family: myFont , Myriad Pro;
+     color: #ffffff;
+     font-weight:normal;
+     font-size:40px;
+}
+
+
+
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+
+
+@media only screen and (min-width: 1681px) and (max-width: 1920px)
+{
+    
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1680px)
+{
+    
+}
+@media only screen and (min-width: 1367px) and (max-width: 1440px)
+{
+   
+    
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px)
+{
+    
+   
+    
+}  
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+    
+   
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+  .login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+    background-size: initial;
+    
+}
+   
+}
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+--------------------------------------------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and  (max-width: 767px) {
+  
+
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+     .login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+    background-size: initial;
+    
+}
+}
+
+@media only screen and (min-width: 361px) and (max-width: 479px) {
+     .login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+    background-size: initial;
+    
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+        
+     .login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+    background-size: initial;
+    
+}
+}
+
+@media only screen and (min-width: 241px) and (max-width: 319px) {
+     .login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+    background-size: initial;
+    
+}
+}
+
+@media only screen and (min-width: 176px) and (max-width: 240px) {
+     .login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+    background-size: initial;
+    
+}
+}
+
+
+
+
+
+/*Added By Mangesh */
+.err_message
+{
+    color:Red;
+}
+
+
+/**Added By Snehal**/
+.searchButton
+{
+  background: url(../img/search.png) right no-repeat; 
+  background-size: 20px;
+  padding-left:auto;
+   
+}
+.home-page-bg
+   {
+      background-image: url("../img/background.png") ;   
+     background-repeat   : no-repeat;
+      background-size: cover;
+}
+.search
+{
+    
+    padding-right: 55px;
+    background-size: 21px auto;
+    border-radius: 14px;
+}
+.user-name-dtl-grd
+{
+     font-family: myFont , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+    padding-bottom:80px;
+    
+}
+/******/
+
+
+.blue-box
+{
+	font-family: myFont , Myriad Pro;
+    background-color: #0169b0;  
+    color: #ffffff;
+    padding: 3%;
+    text-align: center;
+    border: 1px gray solid; 
+    
+}
+
+#createnewbidbg
+{
+    background: url(../img/addbtn.png) left no-repeat;
+    padding-left: 46px;
+    background-size: 40px auto;
+    background-color: #337ab7;
+   
+}
+
+.homepagebg
+{
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	 opacity: 1;
+    filter: alpha(opacity=40);
+}
+
+.user-name
+{
+     font-family: myFont , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+}
+
+.user-name img
+{
+    width: 10%;
+}
+
+.grid td, .grid th{
+  text-align:center;
+}
+
+

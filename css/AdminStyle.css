@@ -1,0 +1,102 @@
+﻿
+/************** Desktop Media Query Start ************/
+
+@media only screen and (min-width : 1681px) and (max-width : 1920px){
+
+}
+@media only screen and (min-width : 1671px) and (max-width : 1680px){
+
+}
+@media only screen and (min-width : 1591px) and (max-width : 1670px){
+
+}
+@media only screen and (min-width : 1431px) and (max-width : 1590px){
+
+}
+@media only screen and (min-width : 1361px) and (max-width : 1430px){
+
+}
+@media only screen and (min-width : 1271px) and (max-width : 1360px){
+
+}
+@media only screen and (min-width : 1029px) and (max-width : 1270px){
+
+}
+@media (max-width: 1024px) {
+
+}
+/************ Desktop Media Query End **************/
+
+/************* Tab Media Query Start *************/
+
+@media only screen and (min-width : 951px) and (max-width : 1020px){
+
+}
+
+@media only screen and (min-width: 861px) and (max-width: 950px) {
+
+}
+
+@media only screen and (min-width: 781px) and (max-width: 860px) {
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 780px) {
+
+}
+
+/************ Tab Media Query End **************/
+
+ 
+
+/************* Mobile Media Query Start *************/
+
+@media only screen and (min-width: 661px) and (max-width: 750px) {
+
+}
+
+@media only screen and (min-width: 631px) and (max-width: 660px) {
+
+}
+
+@media only screen and (min-width: 571px) and (max-width: 630px) {
+
+}
+
+@media only screen and (min-width: 491px) and (max-width: 570px) {
+
+}
+
+@media only screen and (min-width: 461px) and (max-width: 490px) {
+
+}
+
+@media only screen and (min-width: 411px) and (max-width: 460px) {
+
+}
+
+@media only screen and (min-width: 371px) and (max-width: 410px) {
+
+}
+
+@media only screen and (min-width: 331px) and (max-width: 370px) {
+
+}
+
+@media only screen and (min-width: 311px) and (max-width: 330px) {
+
+#bid_detail
+{
+    margin-top: -25px ! important;
+    margin-left: -30px;
+}
+
+}
+
+@media only screen and (min-width: 240px) and (max-width: 310px) {
+
+}
+
+
+
+/************ Mobile Media Query End **************/

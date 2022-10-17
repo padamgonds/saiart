@@ -1,0 +1,2493 @@
+/**@font-face {
+    font-family: myFont;
+    src: url(../fonts/Calibri.ttf);
+}
+****/
+
+/**24 March'16 Added**/
+.padding-btn-trac
+{
+  padding-left:7px;	
+}
+
+body
+{
+    font-family:Calibri;
+}
+
+
+/**************** 17 March'16 Added******************************/
+ .margin-heading
+ {
+     margin-left:10px;
+     z-index: -10;
+ }
+
+/**********Added 16 March*************/
+.margin-btn-save
+{
+  margin-left : -293%;
+}
+
+/****logout***/
+.hidden_logout_txt
+{
+	width: 152px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+        /*float:left;*/
+}
+.font_logout
+{
+    font-size:12pt;
+    font-weight:bold;
+    color:White;
+    
+}
+
+/*************************22 March'16*********************************/
+  /*************Chrome ScrollBar Color**********************/
+  .scrollbox::-webkit-scrollbar {
+            width: 1em;
+        }
+ 
+  .scrollbox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+ 
+  .scrollbox::-webkit-scrollbar-thumb {
+     background-color:#808080;
+     outline: 1px solid slategrey;
+     border-radius: 7px;    
+    }
+   .scrollbox::-webkit-scrollbar-button:horizontal {
+     background-size: 100%;
+     height: 10px;
+     width: 10px;
+     -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+      background-color:#808080;
+     }
+     /*** IE ScrollBar Color*****/
+    .scrollbox {
+    scrollbar-face-color: #808080;
+    scrollbar-track-color: #EBEBEB;
+    scrollbar-arrow-color: #808080;
+    scrollbar-dark-shadow-color: #808080;  
+    }
+     
+  /*****************19 March'16*************************/
+  .margin-lnk-login
+  {
+  margin-left: -68px;    
+  }
+ .btn-margin
+ {
+  margin-left: -2%;   
+  }
+   .margin-dsr-add-btn
+    {
+       margin-left: 33%;
+    }
+    .margin-lbl-task
+    {
+     margin-right: -3%;
+    }
+  /************************/  
+  /****12 March'16****/
+.margin-pull-CRM
+{
+    /*margin-left: -13px;*/
+        left: 2%;
+}
+.login-header
+{
+     position: fixed;   
+     top: 0;  
+}
+
+.login-header img
+{
+    width: 20%;
+    padding: 3%;
+}
+
+.master-page-bg {
+   background-image: url("../img/repeating-left.png");   
+   background-repeat: repeat;
+   background-size: contain;
+    
+}
+
+
+.header img
+{
+      width: 30%;
+      padding: 3%;
+}
+
+.header-rigth-image
+{
+   padding-top: 2%;
+}
+
+
+.header
+{
+    /*top: 25px;  */
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+}
+
+.navbar-default {
+    background: #004299 !important;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3)) !important;
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 ) !important;
+}
+
+.navbar {
+     margin-bottom: 0px !important; 
+     border-radius: 0px !important;
+}
+
+
+
+/*.footer
+{
+    text-align: center;
+    position: fixed;
+    color: #ffffff;
+    bottom: 0; 
+    width:100%;
+    height:50px;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+
+}*/
+
+
+
+
+.copyright-symbol
+{
+   font-size: 14px;  
+}
+
+.copyright
+{
+    font-family:Calibri , Myriad Pro;
+    font-weight:normal;
+    line-height: 53px;
+    font-size: 15px; 
+}
+
+
+/*login page css*/
+
+
+.login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+
+.login-form
+{
+    margin-top:10%;
+    padding:5%;
+    /*background:url("../img/background.png") no-repeat;*/
+    background:url("../img/loginbackground.png") no-repeat;
+    background-size:contain;
+    border-radius: 20px;
+}
+
+
+
+#login .input-group
+{
+    background: #004299 !important;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3)) !important;
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 ) !important;  
+    
+}
+
+
+#txtLanID{
+    background: url(../img/user.png) left no-repeat;
+    padding-left: 40px;
+    background-size: 40px auto;
+    color: #ffffff !important;
+}
+
+#txtPassword{
+    background:url(../img/key.png) left no-repeat;
+    padding-left: 40px;
+	background-size: 40px auto;
+	color: #ffffff !important;
+}
+
+.form-logo img
+{
+      width: 30%;  
+}
+
+.frm-btn
+{
+    color: #0069b0;
+    text-align: center;
+    font-family: Calibri , Myriad Pro;
+    padding:3%;
+    
+}
+
+.frm-btn-txt
+{
+    color: #ffffff;
+}
+
+.tag-line
+{
+     font-family: Calibri , Myriad Pro;
+     color: #ffffff;
+     font-weight:normal;
+     font-size:40px;
+}
+
+
+/*Home page css*/
+
+.homepagebg
+{
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	 opacity: 1;
+    filter: alpha(opacity=40);
+}
+
+
+#serach
+{
+    background: url(../img/search.png) right no-repeat;
+    padding-right: 55px;
+    background-size: 21px auto;
+    border-radius: 14px;
+}
+
+.navbar-form .form-group {
+    background: #fcfcfc;
+    background: -moz-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(22%, #f4f4f5), color-stop(55%, #e8e9ea), color-stop(100%, #dadbdd));
+    background: -webkit-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -o-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -ms-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: linear-gradient(to right, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dadbdd', GradientType=1 );
+    border-radius: 10px;
+}
+
+
+.user-name
+{
+     font-family: Calibri , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+}
+
+.user-name img
+{
+    width: 10%;
+}
+
+#createnewbidbg
+{
+    background: url(../img/addbtn.png) left no-repeat;
+    padding-left: 46px;
+    background-size: 40px auto;
+    background-color: #337ab7;
+   
+}
+
+
+
+.blue-box
+{
+	font-family: Calibri , Myriad Pro;
+    background-color: #0169b0;  
+    color: #ffffff;
+    padding: 3%;
+    text-align: center;
+    border: 1px gray solid; 
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    
+}
+
+.box-inner
+{
+	width:98%;
+}
+
+.table-bordered th
+{
+    background-color: #0169b0;  
+     color: #ffffff;
+}
+
+
+
+.table-bordered tr, th ,td
+{
+    /* text-align: center;*/
+   
+}
+
+/*bid detail page*/
+.user-name-dtl
+{
+     font-family: Calibri , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+}
+.user-name-dtl img
+{
+    width: 4%;
+}
+
+.side-bar
+{
+    padding-left:0px;
+}
+
+.left-side-bar
+{
+    background-color: #032759;
+}
+
+.left-bar-user-dtl
+{
+     font-family: Calibri , Myriad Pro;
+     color: #ffffff;
+     font-size:15px;
+}
+
+.list-unstyled li
+{
+    font-family: Calibri , Myriad Pro;
+    color: #ffffff;  
+    font-size:15px;
+    padding:4%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.list-unstyled li img
+{
+      width:8%;
+      padding-right:4px;  
+}
+
+
+
+.nav > li 
+{
+font-family: Calibri , Myriad Pro;
+color: #ffffff;  
+font-size:15px;
+padding:4%;
+border-bottom: 1px solid grey;
+}
+
+.nav > li img
+{
+ width:8%;
+ padding-right:4px;  
+}
+
+
+.nav > li:last-child
+{
+	border-bottom: 0px;
+}
+
+
+.nav > li:hover
+{
+	background-color: #35527a;
+}
+
+.nav > li:active	
+{
+	background-color: #35527a;
+}
+
+.bit-dtl-bg
+{
+  background-color: #e8e9e9;
+
+    padding:2% 2% 0% 2%;
+}
+
+.bid-detl-frm
+{
+    margin:0 2%;
+}
+
+.bid-detl
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:16px;
+	 line-height: 59px;	
+}
+
+.page-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:25px;	
+	  color: #02478c;  
+}
+
+/*** 6 dec 2016 vaibhav changes ***/
+.login-page-bg {
+  /* background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+   background-size: cover;*/
+   
+   
+   background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+
+
+.navbar {
+     margin-bottom: 0px !important; 
+     border-radius: 0px !important;
+     border: 0px !important;
+}
+
+
+.nav > li > a {
+    position: relative;
+    color: #fff !important;
+    padding: 10px 15px;
+}
+
+#sub-navbar
+{
+	display:none;
+}
+
+.master-page-bg {
+   /*background-image: url("../img/background.png");   
+   background-repeat: repeat;
+   background-size: contain;*/
+    
+   background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+.footer
+{
+    text-align: center;
+    color: #ffffff; 
+    height:50px;
+    z-index:1000;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+        bottom: 0;
+    position: fixed;
+
+}
+
+
+.login-form
+{
+    margin-top:10%;
+    padding:5%;
+    /*background:url("../img/background.png") no-repeat;*/
+    background:url("../img/loginbackground.png") no-repeat;
+    background-size:contain;
+    border-radius: 20px;
+}
+
+.homepagebg
+{
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	
+}
+
+.header-rigth-image
+{
+      padding-top: 1%;
+}
+
+
+.bid-detls-frm-adj
+{
+        padding-bottom: 69px;
+} 
+
+/***7 jan 2016 change **/
+
+.login-blue-bg
+{
+
+
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    overflow:hidden;
+    position:relative;
+	height:30px;
+	background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+}
+
+
+
+/*******9 jan changes*******/
+
+.headerbar-left img
+{
+    /*width: 100%;*/
+    /**********************8 march change**********************/
+    width: 131%;
+    padding: 10%;
+}
+
+
+.headerbar-right img
+{
+    width: 100%;
+    padding: 10%;
+}
+
+.icon-adj
+{
+	color:#fff;
+	font-size: 29px;
+    
+}
+
+.rightside-icons
+{
+	color:#fff;
+}
+
+.icons
+{
+	/*padding-top: 68%;*/
+	/*********************8 march change*********************/
+	padding-top: 39%;
+    padding-left: 10%;
+}
+
+.icon-search
+{
+	/*padding-top: 32%;*/
+}
+
+
+.icon-plus
+{
+	/*padding-top: 32%;*/
+}
+
+.user-detail
+{
+	 font-family:Calibri , Myriad Pro;
+	 font-size:15px;
+	 color:#fff;
+	 font-weight: normal;
+}
+
+.user-detail img 
+{
+	width: 5%;
+}
+
+.user-detail-adjust
+{
+	/*float: right;*/
+	padding-left: 40%;
+	padding-top: 3.5%;
+
+}
+
+.header-search-box
+{
+	 padding-top: 18%;
+}
+
+.header-search-box input[type="text"]
+{
+	width:153px !important;
+}
+
+.createBidbtn
+{
+	/*padding-top:180%;*/
+	margin-top: 55px;
+	margin-left: -63px;
+}
+
+/**additional / or **/
+.username-dtls img {
+    width: 4%;
+}
+
+.biddetls{
+    font-family: Calibri , Myriad Pro;
+    font-size: 13px;
+    color: #fff;
+    text-align: right;
+    margin-left: 4%;
+}
+
+
+/*****13 jan chanage ****/
+
+.content-adj
+{
+	 top: 115px;	
+}
+
+/*
+.sidebar {
+    top: 103px;
+}
+*/
+
+.nav-li-adj
+	{
+		margin-top: 107px;
+	}
+	
+.userdetl
+{
+	color:#fff;
+}	
+
+.asterisk_input_es:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 5px;
+}
+.asterisk_input:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+.asterisk_input_ua:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 8px ;
+}
+.asterisk_input_bt:after
+{
+    content:" *";
+    color: #e32;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+	
+/**********************17 March'16 Added**************************/
+.arrow_btn
+{
+    position: fixed;
+   /* margin-top: 97px;*/
+    /*top:97px !important;*/
+   -moz-margin-start: 0px;
+    width: 20px;
+    height: 35px;
+    background-color: #032759;
+    left: 215px !important;
+    margin-left: 3px\0;
+    margin-top:-18px\0; 
+    -webkit-margin-before: 97px;
+    border-radius: 5px;
+    z-index: 1000;
+    /*margin-top: 97px;*/
+    color:#fff !important;
+ }
+ 
+ @-moz-document url-prefix() {
+    .arrow_btn
+    {
+    position: fixed;
+   -moz-margin-start: 0px;
+    width: 20px;
+    height: 35px;
+    background-color: #032759;
+    left: 215px !important;
+    margin-left: 20px\0;
+    margin-top:15px\0; 
+    border-radius: 5px;
+    z-index: 1000;
+    margin-top: 0px;
+    color:#fff !important;
+    top: 97px;
+    }
+}
+
+ .arrow_btn_2
+{
+    position: fixed;
+   /* -moz-margin-top : -18px  !important;*/
+   /* margin-top: 97px;*/
+    width: 20px;
+    height: 35px;
+    background-color: #032759;
+    left: -13px;
+    margin-top:-3px\0; 
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+    top: 97px;
+ }
+ 
+  
+      
+ .glyphicon-adj{
+ /*top: 17px;*/
+ top: 10px;
+ font-size:15px;
+ 
+ }
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+
+
+@media only screen and (min-width: 1681px) and (max-width: 1920px)
+{
+   .content-adj
+	{
+	 top: 175px;	
+	}
+	.nav-li-adj
+	{
+		margin-top: 160px;
+	}
+	/*.sidebar {
+		top: 125px;
+	}*/
+	
+	/*************15 feb 16 change *************/
+	
+	.header-search-box
+	{
+	   padding-top: 21%; 
+	}
+	 
+	.createBidbtn {
+           margin-top: 87px;
+          margin-left: -147px;
+    }
+    
+    .user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 7.5%;
+    }
+    
+    /*******14 March'16 Added*********/
+    .margin-login-txt
+    {
+        margin-left: -6%;
+    }
+    
+    .margin-login-btn
+    {
+     margin-left: -13%;    
+    }
+       /***************17 March'16 Added*******************************/ 
+     .arrow_btn
+     {
+    position: fixed;
+    margin-top: 97px;
+    width: 20px;
+    height: 35px;
+    background-color: #032759;
+    left: -13px;
+    margin-top: -33px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+ }
+ 
+  .arrow_btn-2
+     {
+    position: fixed;
+    margin-top: 97px;
+    width: 20px;
+    height: 35px;
+    background-color: #032759;
+    left: -13px;
+    margin-top: -33px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+ }
+
+ 
+}
+    
+
+
+@media only screen and (min-width: 1441px) and (max-width: 1680px)
+{
+	/********13 jan change*********/
+  /* .sidebar {
+    top: 125px;
+	}
+	*/
+	.nav-li-adj
+	{
+		margin-top: 135px;
+	}
+	
+   .content-adj {
+    top: 148px;
+	}
+	
+	/****************15 feb 16 change *****************/
+	
+	.header-search-box {
+    padding-top: 20%;
+    }
+    
+    .createBidbtn {
+        margin-top: 71px;
+         margin-left: -95px;
+    }
+    
+      .user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 5.5%;
+    }
+    
+      /***************17 March'16 Added*******************************/  
+      .arrow_btn
+      {
+    position: fixed;
+    margin-top: 97px;
+    width : 20px;
+    height: 35px;
+    background-color: #032759;
+    left: -13px;
+    /*top: -18px;*/
+    margin-top: -35px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+ }
+     .arrow_btn-2
+      {
+    position: fixed;
+    margin-top: 97px;
+    width : 20px;
+    height: 35px;
+     background-color: #032759;
+    left: -13px;
+    margin-top: -35px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+ }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1440px)
+{
+   /*******13 jan change********/
+    .nav-li-adj
+	{
+		margin-top: 113px;
+	}
+    /**********************15 feb 16 change*********************/
+    .createBidbtn {
+    margin-top: 59px;
+    margin-left: -63px;
+  }
+  .user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 4.5%;
+ }
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px)
+{
+    
+/** vaibhav 11 jan change**/
+ .icon-adj 
+ {
+    font-size: 27px;
+ }
+ 
+ /*********13 jan change********/
+/*.sidebar {
+    top: 95px;
+}*/ 
+  .nav-li-adj
+	{
+		margin-top: 99px;
+	}
+	
+/*************************15 feb change**************************/	
+	.createBidbtn {
+    margin-top: 51px;
+    margin-left: -63px;
+}
+.user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 2.5%;
+}
+  
+  .bit-dtl-bg-adj
+{
+    padding-bottom:32px !important;
+}
+  
+}  
+@media only screen and (min-width: 992px) and (max-width: 1024px)
+{
+    .arrow_btn
+    {
+        top:10px !important;
+        height:25px;
+        font-size:10px !important;
+        left:166px !important;
+        width:10px !important;
+        padding-left:7px !important;
+    }
+    .arrow_btn_2
+    {
+        top:108px;
+        height:25px;
+        font-size:10px !important;
+    }
+    .btn-sm
+    {
+     margin-left: -28px;
+    }
+.sidebar
+{
+   margin-top: 30px;
+}
+.padding-btn-trac
+{
+    margin-left:26px;
+}
+.padding-btn-delete-trac
+{
+    margin-left:18px;
+}
+.glyphicon-adj 
+{
+    top:5px;
+}
+ .login-form
+{
+	padding: 4%;
+}
+
+/**vaibhav 11 jan cahnge **/
+	
+.icon-adj {
+    font-size: 20px;
+}
+
+.header-search-box {
+    padding-top: 22%;
+    margin-left: -32px;
+}
+#createnewbidbg {
+    background: url(../img/addbtn.png) left no-repeat;
+    padding-left: 39px;
+    background-size: 34px auto;
+    background-color: #337ab7;
+}
+.createBidbtn {
+    padding-top: 22%;
+}
+.user-detail-adjust {
+    padding-top: 0;
+    padding-bottom: 4%;
+     /******************11 march  change screen*******************/
+    padding-left: 33%;
+}
+.icons {
+   /* padding-top: 68%;*/
+   /******************11 march  change screen*******************/
+    padding-top: 45%;
+    padding-left: 5%;
+}
+
+/*********13 jan change********/
+
+.nav-li-adj
+	{
+		 margin-top: 83px;
+	}
+   
+ /*********************15 feb change************************/  
+.header-search-box {
+    padding-top: 15%;
+    margin-left: -32px;
+}
+ 
+ .createBidbtn {
+  margin-top: 0px;
+  margin-left: 12px;
+  padding-top: 39%;
+ }
+ 
+ .search-btn-adj
+ {
+    margin-left: 155px;
+    margin-top: -34px;
+ }
+ 
+ .search-btn-adj-1
+ {
+    margin-left: 155px;
+    margin-top: -59px;
+ }
+ 
+  .bit-dtl-bg-adj {
+    padding-bottom: 39px !important;
+}
+ 
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/*.sidebar
+{
+	position :  absolute !important;
+	top: 123px;
+}*/
+.nav > li img {
+    width: 14%;
+    padding-right: 4px;
+}
+#sub-navbar
+{
+	display:block;
+}
+
+.login-form
+{
+	    padding: 18%;
+	    background-size: cover;
+}
+
+/*** vaibhav 11 jan chnage ***/
+
+.headerbar-left img {
+    width: 90%;
+    padding: 7%;
+}
+
+.headerbar-right
+{
+	float:right;
+}
+.headerbar-right img {
+    width: 90%;
+    padding: 7%;
+}
+.header-rigth-image {
+    padding-top: 2%;
+}
+
+.icon-adj {
+    font-size: 25px;
+}
+
+.navbar-icons
+{
+	 padding-top: 2%;
+    float: right;
+    padding-right: 4%;
+}
+/*****13 jan change******/
+.nav-li-adj {
+    margin-top: 141px;
+}
+.content-adj {
+    top: 149px;
+}
+
+/****************11 march 16  added*********************/
+  /*Bid Details*/
+    .margin-pull-CRM {
+     left : -6%;
+    }
+
+.margin-bdetails-link{
+ margin-top: 98%;
+ } 
+ 
+ /*Site Master*/
+ .margin-search-button
+ {
+     margin-top: 6%;
+ }
+.search-bg-xs
+        {
+            background: #fcfcfc;
+            background: -moz-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(22%, #f4f4f5), color-stop(55%, #e8e9ea), color-stop(100%, #dadbdd));
+            background: -webkit-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -o-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -ms-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: linear-gradient(to right, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dadbdd', GradientType=1 );
+            border-radius: 10px;
+        }
+
+/***********************11 march 2016 added css****************************/
+
+ .ipad-searchbox-adj
+ {
+    width: 120%;
+ }
+        
+ .btn-create-new-margin
+ {
+      margin-top: 15%;
+ }
+ 
+ /**24 March'16 Added**/
+.padding-btn-trac
+{
+  padding-left:44px;
+}
+
+.padding-btn-save-trac
+{
+  padding-left:32px;	
+}
+        
+}
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+--------------------------------------------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and  (max-width: 767px) {
+  
+/*.sidebar
+{
+	position :  absolute !important;
+	top: 109px;
+	
+}*/
+/*Escalation*/
+.margin-div
+{
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.margin-add-align
+{
+ margin-top : 7px;    
+}
+.align-div
+{
+    margin-left: 62px;
+    margin-right: -48px;
+}
+.margin-date
+{
+    margin-left: 62px;
+    margin-right: 270px;
+}
+
+/**/
+.btn-user-access
+{
+    margin-top: 6px;
+}
+.user-access-margin
+{
+    margin-right: -5px;
+    margin-left: -5px;
+ }
+.nav-li
+{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.search-margin
+{
+    margin-top: 12px;
+ }
+ .btn-create-new-margin
+ {
+      margin-top: 15px;
+ }
+.hdr-lbl-color
+{
+     color: White;
+    }
+
+.table_responsive_margin
+{
+    
+     margin-bottom: 60px;  
+}
+#sub-navbar
+{
+	display:block;
+}
+/**********************16 feb 16 change************************/
+.col_height
+{
+    min-height: auto !important;
+    height: auto !important;
+}
+  .asterisk_input:after {
+        content: " *";
+        color: #e32;
+        position: absolute;
+        margin: -7px 0px 0px -2%;
+        font-size: xx-large;
+        padding: 0 5px 0 0;
+    }
+    
+    .asterisk_input_dsr:after{
+         content: " *";
+        color: #e32;
+        position: absolute;
+        margin: -7px 0px 0px -1%;
+        font-size: xx-large;
+        padding: 0 5px 0 0;
+    }
+.logout_res
+{
+    font-size: 20px;
+    color: White;
+
+}
+#ctl00_lblWelcomeMob,#ctl00_lblUserIdMob,#ctl00_lblRoleMob
+{
+     color: White;
+}
+.navbar-toggle
+{
+    margin: 4px 15px;
+}
+.navbar
+{
+    min-height: 45px;    
+}
+.serach-wrapper
+{
+    border: 1px solid #DEDDDD;
+}
+
+#serach {
+    background:none;
+    padding-right: 0px;
+    background-color: transparent;
+    border-radius: 0px;
+    width:88%;
+    border: none;
+    box-shadow:none;
+    float:left;
+    
+}
+
+.searchButton
+{
+    width:12%;
+    box-shadow:none;
+    background-image: url(../img/search.png) center no-repeat !important;
+    background-size: 25px !important;
+}
+ .search-bg-xs
+        {
+            background: #fcfcfc;
+            background: -moz-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(22%, #f4f4f5), color-stop(55%, #e8e9ea), color-stop(100%, #dadbdd));
+            background: -webkit-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -o-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -ms-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: linear-gradient(to right, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dadbdd', GradientType=1 );
+            border-radius: 10px;
+        }
+.form-group
+	{
+		margin-bottom: 10px !important;
+	}
+	 .margin-dsr-add-btn
+    {
+        margin-top: 2%;    
+       margin-left : 6%;
+    }
+    
+    .btn-margin
+     {
+       margin-left: 1%;
+      }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) 
+{
+   #serach {
+    background:none;
+    border: none;
+    outline: none;
+    
+}     
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+  /* .sidebar
+	{
+	position :  absolute !important;
+	top: 110px;
+	
+	}*/
+    .nav > li img {
+    width: 10%;
+    padding-right: 4px;
+	}
+   
+   
+    .header img {
+      width: 46%;
+     padding : 3%;
+    }
+    .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+	display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	.user-name img
+	{
+	 width: 4%;
+	}
+	
+	.login-form {
+		/*padding: 7%;
+		margin: 7%;*/
+		padding: 14%;
+		margin: 2%;
+		background-size: cover;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     } 
+/*********vaibhav 11 jan chnage***********/
+
+.headerbar-left img {
+    width: 100%;
+    padding: 10%;
+}
+
+.headerbar-right
+{
+	float:right;
+}
+.header-rigth-image
+{
+	padding-top: 2%;
+}
+.headerbar-right img {
+	 width: 100%;
+    padding: 4%;
+}
+
+.icons {
+    padding-top: 90%;
+    padding-left: 10%;
+}
+
+.icon-adj {
+    font-size: 20px;
+}
+
+.navbar-icons
+{
+	    padding-top: 3%;
+    float: right;
+    padding-right: 4%;
+}
+/***********13 jan change***********/
+
+.content-adj {
+    top: 146px;
+}
+
+.nav-li-adj {
+    margin-top: 124px;
+}
+
+.modal-dialog {
+        width: 450px !important;
+        margin: 15px auto;
+        top: 38px;
+    }
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 479px) {
+	 .nav > li img {
+    width: 16%;
+    padding-right: 4px;
+	}
+	
+    .header img {
+    width: 66%;
+    padding: 3%;
+    }
+     .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.login-form {
+		/*padding: 7%;
+		margin: 7%;*/
+		
+		padding: 12%;
+		margin: 3%;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.tag-line {
+    font-size: 30px;
+	}
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+
+
+	/*********vaibhav 11 jan chnage***********/
+	
+	.headerbar-left img {
+		width: 139%;
+		padding: 10%;
+	}
+
+	.headerbar-right
+	{
+		margin-left: 32%;
+	}
+	.header-rigth-image
+	{
+		padding-top: 2%;
+	}
+	.headerbar-right img {
+		width: 139%;
+		padding: 3%;
+	}
+
+	.icons {
+		padding-top: 22%;
+		padding-left: 10%;
+	}
+
+	.icon-adj {
+		font-size: 20px;
+	}
+
+	.navbar-icons
+	{
+		padding-top: 4%;
+		float: right;
+		padding-right: 4%;
+	}
+	
+	
+	/****13 jan changes*****/
+	
+	.nav-li-adj {
+    margin-top: 113px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) { 
+   /* .sidebar
+	{
+	position :  absolute !important;
+	top: 88px;
+	
+	}*/
+	.heading-title
+	{
+	    margin-top:-10px;
+	}
+	.hdr-lbl-color
+	{
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+	}
+   .nav > li img {
+    width: 16%;
+    padding-right: 4px;
+	}
+   
+   .header img {
+    width: 66%;
+    padding: 3%;
+   }
+    .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	/*
+	.login-form {
+		padding: 7%;
+		margin: 7%;
+	}*/
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+	/*********vaibhav 11 jan chnage***********/
+	
+	.headerbar-left img {
+		width: 175%;
+		padding: 10%;
+	}
+
+	.headerbar-right
+	{
+		margin-left: 28%;
+	}
+	.header-rigth-image
+	{
+		padding-top: 2%;
+	}
+	.headerbar-right img {
+		    width: 175%;
+			padding: 2%;
+	}
+
+	.icons {
+		padding-top: 22%;
+		padding-left: 10%;
+	}
+
+	.icon-adj {
+		font-size: 20px;
+	}
+
+	.navbar-icons
+	{
+	    padding-top: 5%;
+		float: right;
+		padding-right: 4%;
+	}
+	.modal-dialog {
+        width: 300px  !important;
+        margin: 15px auto;
+         top: 38px;
+    }
+    
+}
+
+@media only screen and (min-width: 241px) and (max-width: 319px) {
+  
+     
+     .header img {
+		width: 66%;
+		padding: 3%;
+	}
+	#sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+     .modal-dialog {
+        width: 280px  !important;
+        margin: 15px auto;
+    }
+}
+
+@media only screen and (min-width: 176px) and (max-width: 240px) {
+    
+ 
+    .header img {
+    width: 66%;
+    padding: 3%;
+	}
+	
+	#sub-navbar
+	{
+		display:block;
+	}
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+     .modal-dialog {
+        width: 240px !important;
+        margin: 15px auto;
+    }
+	
+}
+
+
+
+
+/*****Used only for sider bar *****/
+@media only screen and (min-width: 380px) and (max-width: 479px) 
+{
+	/* .sidebar
+	{
+	position :  absolute !important;
+	top: 97px;
+	
+	}*/
+}
+
+@media only screen and (min-width: 360px) and (max-width: 375px) 
+{
+    
+    .txt-margin-align-notes
+     {
+        margin-left: 7px;
+	    width: 296px;
+      }
+	/* .sidebar
+	{
+	position :  absolute !important;
+	top: 94px;
+	
+	}*/
+	/*******11 March'16 Added Note3********/
+	.margin-pull-CRM
+	{
+	    margin-top: 3%;
+	}
+	
+	.margin-heading
+	{
+	    margin-top: 3%;
+	}
+	.margin-dsr-sub-heading
+    {
+     margin-left : 4%;
+     margin-right: 4%;    
+    }
+    .modal-dialog {
+        width: 320px !important;
+        margin: 15px auto;
+    }
+    
+    /**24 March'16 Added**/
+.padding-btn-trac
+  {
+	padding-left:12px;	
+ }
+ .padding-btn-delete-trac
+ {
+ 	padding-left:0px;	
+ }
+}
+
+.err_message
+{
+    color:Red;
+}
+
+.grid td, .grid th{
+  text-align:center;
+}
+
+.nav > li a:hover , nav > li a:focus {
+		background-color: transparent !important;
+		text-decoration:none;
+
+}
+
+
+.chkboxList 
+{
+    overflow-y: scroll;
+    height: 100px;
+}
+
+
+.cssPager td
+{
+    padding-left: 4px;     
+    padding-right: 4px;    
+}
+
+
+
+
+.col_height
+{
+        height: 700px;
+        padding-top: 14px;
+}
+/*******11 March 16 Added***********/
+.lblerr-adj
+{
+    margin-top: -4%;
+}
+
+/****Only for login screen adjust***/
+
+@media only screen and (min-width: 340px) and (max-width: 360px)
+{
+	.login-form {
+		padding: 12%;
+		margin: 1%;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.nav-li-adj {
+		margin-top: 128px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 339px)
+{
+	.login-form {
+		padding: 11%;
+		margin: 0%;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.form-group
+	{
+		margin-bottom: 10px !important;
+	}
+	.nav-li-adj {
+    margin-top: 120px;
+	}
+	
+}
+
+.fotter_new_wrap
+{
+    width:100%;    
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    color: #ffffff; 
+   
+    z-index:1000;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+      
+}
+
+
+.searchButton
+{
+  background: url(../img/search.png) right no-repeat; 
+  background-size: 20px;
+  padding-left:auto;
+  border: none;
+   
+}
+
+.gray
+{
+    background-color: #F5F5F5;
+}
+.light
+{
+    background-color:#E8E9E9;
+}
+
+.a{
+     cursor:pointer;
+}
+.lstbx
+{
+    height: 60px;
+    cursor: pointer;
+    font-size: 11px;
+    background-color: #00BFFF;
+    padding: 5px;
+    margin: 5px 0px;
+ }
+.serch-li
+{
+    display:block;
+    width:250px;
+    z-index:9999;
+    position:absolute;
+    list-style-type:none;
+    height:200px;
+    background-color:White;
+    padding:10px;
+    overflow:auto;
+    font-size: 12px;
+    background-color:#00BFFF;
+ 
+}    
+.inner-li
+{
+  list-style-type :none;
+  margin-bottom: -50px;
+  
+  
+} 
+
+.chb-padding
+{
+	 padding-top: 0px;
+     padding-left: 32px;
+}
+
+.page-sub-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:18px;	
+	  color: #02478c;  
+}
+
+.section-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:15px;	
+	  color: #02478c;  
+}
+
+/*User Access*/
+.user-accsee-lbl-margin
+{
+   margin-right: 11px; 
+    }
+
+/*DSR*/
+.asterisk_input_dsr:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -0.5%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+
+.asterisk_input_dsr_t:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px 0%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+.btn-cre-dsr
+{
+  padding-left: 651px;
+  padding-top: 19px;
+}	
+.txtarea-h-w
+{
+  height: 144px;
+  width: 246px;
+}
+.pull-left
+{
+  float: left !important;
+}
+.lbl-padding
+{
+    padding-right: 24px;
+}
+.btn-passing-crt
+{
+padding-left: 789px;    
+}
+/************************Added by Snehal 13 Jan*****************************************/
+.gridcontrolsize
+{
+   /* width: 110%;*/
+}
+/****************************Added By Snehal 20 Jan***************/
+/*Bid Documents*/
+.bg-color-colhead
+{
+ background-color:#7da4ff;
+}
+.bg-color-col
+{
+ background-color:#C1ECFA;
+}
+.span-padding
+{
+ padding-top: 40px;
+}
+.red 
+{
+  color: #d14;
+}
+.row-padding-doc
+{
+padding-bottom: 0px; 
+}
+.txt-doc-align
+{
+    text-align:justify;
+}
+.lbl-font-size
+{
+    font-size:large;
+   
+}
+.btn-add-padding
+{
+    padding-left: 498px;
+ }
+.grd-align-center
+{
+   padding-left: 217px;
+}
+  /*******************Added By Snehal 22 jan****************************/
+
+
+.a{
+     cursor:pointer;
+}
+.lstbx
+{
+    height: 60px;
+    cursor: pointer;
+    font-size: 11px;
+    background-color: #00BFFF;
+    padding: 5px;
+    margin: 5px 0px;
+ }
+.serch-li
+{
+    display:block;
+    width:250px;
+    z-index:9999;
+    position:absolute;
+    list-style-type:none;
+    height:200px;
+    background-color:White;
+    padding:10px;
+    overflow:auto;
+    font-size: 12px;
+    background-color:#00BFFF;
+ 
+}    
+.inner-li
+{
+  list-style-type :none;
+  margin-bottom: -50px;
+  
+} 
+
+.chb-padding
+{
+	 padding-top: 0px;
+     padding-left: 32px;
+}
+
+.page-sub-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:18px;	
+	  color: #02478c;  
+}
+
+.section-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:15px;	
+	  color: #02478c;  
+}
+.btn-add-save-padding
+{
+padding-left: 569px;    
+}
+.grd-padding-dl
+{
+padding-left: 26px;    
+}
+.btn-add-save
+{
+    padding-right: 73px;
+}
+
+/*DSR*/
+.btn-cre-dsr
+{
+  padding-left: 651px;
+  padding-top: 19px;
+}	
+.txtarea-h-w
+{
+  height: 144px;
+  width: 246px;
+}
+.pull-left
+{
+  float: left !important;
+}
+.lbl-padding
+{
+    padding-right: 24px;
+}
+.btn-passing-crt
+{
+padding-left: 789px;    
+}
+
+
+.grd_textbox
+{
+    width: 125px;
+}
+
+/*******************Added By Snehal 28 jan****************/
+
+.col_height
+{
+        min-height: 400px;
+        
+}
+#bidmanagement a.collapsed:after {
+    content:"\e080";
+}
+#bidmanagement  a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+}
+
+
+#proposal a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+   float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#proposal a.collapsed:after {
+    content:"\e080";
+}
+
+#solution a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+   float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#solution a.collapsed:after {
+    content:"\e080";
+}
+
+#createDraft a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#createDraft a.collapsed:after {
+    content:"\e080";
+}
+
+#ReviewDraft a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#ReviewDraft a.collapsed:after {
+    content:"\e080";
+}
+
+#finalize a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#finalize a.collapsed:after {
+    content:"\e080";
+}
+
+.panel_gradient
+{
+    background: linear-gradient(to right, #008aac 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    color: #fcf8e3 !important;
+    font-family: Calibri , Myriad Pro !important;
+}
+/**************Added By Snehal 3feb*************************/
+
+th.sortasc a  
+   {
+     display:block; padding:0 4px 0 15px; 
+      background:url(../img/up.png) no-repeat;  
+   }
+  
+  th.sortdesc a 
+ {
+     display:block; padding:0 4px 0 15px; 
+     background:url(../img/down.png) no-repeat;
+ }
+ 
+ #arrow a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    margin-right:2px;
+    color: White;
+   
+}
+#arrow a.collapsed:after {
+    content:"\e080";
+}
+.heading-title
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:15px;	
+	  color: #02478c;  
+}
+
+/*added by Apurva Escalation*/
+.lbl-padding-esc-mail
+{
+    padding-right: 26px;    
+}
+.txt-margin-align
+{
+    margin-left: -62px;
+}
+.txt-margin-align-notes {
+    margin-left: -62px;
+}
+.margin-star
+{
+    margin-left: -20px;
+}
+/*****************15 feb 16 change*********************/
+
+@media only screen and (max-width: 768px)
+{
+    .bit-dtl-bg-adj {
+    padding-bottom: 37px !important;
+    }
+ 
+     .txt-margin-align-notes 
+     {
+        margin-left:-36px;
+     }
+    .txt-margin-align
+     {
+      margin-left: -36px;
+     }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .bit-dtl-bg-adj {
+    padding-bottom: 26px !important;
+ }
+}
+
+.bit-dtl-bg-adj
+{
+    padding-bottom:19px;
+}
+
+.pull-txt-left
+{
+    text-align: left !important;
+}
+
+/*****************11 March Added********************/
+.hdr-lbl-color{
+color: White;
+}
+
+
+/*******************17 MAR - Added By Mangesh *******************/
+.chkbxAdmin
+{
+	padding-top: 6px;
+}
+
+.imgbtn
+{
+	height:19px;
+	width:19px;
+	float:right;
+	border-width: 0px;
+}
+
+/****************************16 march added code**************************/
+.toogle-btn
+{
+    border-color: #ddd;
+    background-color: #337AB7;
+}
+.toogle-btn .icon-bar
+{
+   background-color:White;
+}
+
+
+@media (min-width: 768px){
+    .left-nav-btn .navbar-toggle {
+         display: block; 
+         float:left;
+         margin-left: 15px;
+    }
+}

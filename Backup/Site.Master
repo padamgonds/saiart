@@ -1,0 +1,435 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SaiArtLatest.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <%-- css content--%>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/sidebar.css" rel="stylesheet" type="text/css" />
+    <%--javascript content--%>
+    <script src="js/jquery-1.11.3.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <style type="text/css">
+        .rm_class
+        {
+            display: none;
+        }
+        
+        /* .ht_bidtracking
+        {
+             margin-top: -30px !important;
+        }*/
+    </style>
+    <!--[if lt IE 9]>
+       <script src="js/html5shiv.js" type="text/javascript"></script>
+        <script src="js/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        //$(window.load(function (){
+        $(function () {
+            var side_bar = localStorage.getItem("sidebar");
+            //alert(side_bar);
+            if (side_bar != null && side_bar != '' && side_bar != undefined) {
+                //alert('in');
+                if (side_bar == 'block') {
+                    //alert('in close');
+                    $("#main-wrapper").removeClass("col-md-12");
+                    $("#main-wrapper").addClass("col-md-10");
+                    $("#main-wrapper").addClass("col-md-offset-2");
+
+
+                    $('#right-arrow-btn').css("display", "none");
+                    $('#left-arrow-btn').css("display", "block");
+
+                    $("#left-sidebar-btn").addClass("arrow_btn");
+                    $(".arrow_btn_2").removeClass("arrow_btn_2");
+                    $('#left-sidebar').css('display', 'block');
+
+                }
+                else {
+                    $("#main-wrapper").addClass("col-md-12");
+                    $("#main-wrapper").removeClass("col-md-10");
+                    $("#main-wrapper").removeClass("col-md-offset-2");
+
+                    $('#right-arrow-btn').css("display", "block");
+                    $('#left-arrow-btn').css("display", "none");
+
+                    $("#left-sidebar-btn").addClass("arrow_btn_2");
+                    $(".arrow_btn").removeClass("arrow_btn");
+                    $('#left-sidebar').css('display', 'none');
+
+                }
+            }
+            $("#search-icon").click(function () {
+
+                $("#toggle-searchbox").toggle();
+            });
+
+            $("#newbid").click(function () {
+
+                $("#toggle-newbid").toggle();
+
+            });
+            /********************16 march added code********************/
+            $('#left-sidebar-btn').click(function () {
+                $("#left-sidebar").toggle();
+                var side_bar_status = $("#left-sidebar").css("display");
+                if (side_bar_status == 'block') {
+                    $("#main-wrapper").removeClass("col-md-12");
+                    $("#main-wrapper").addClass("col-md-10");
+                    $("#main-wrapper").addClass("col-md-offset-2");
+
+                    $('#right-arrow-btn').css("display", "none");
+                    $('#left-arrow-btn').css("display", "block");
+
+                    $("#left-sidebar-btn").addClass("arrow_btn");
+                    $(".arrow_btn_2").removeClass("arrow_btn_2");
+                    $('#left-sidebar').css('display', 'block');
+                    localStorage.setItem("sidebar", 'block');
+
+                }
+                else {
+                    $("#main-wrapper").addClass("col-md-12");
+                    $("#main-wrapper").removeClass("col-md-10");
+                    $("#main-wrapper").removeClass("col-md-offset-2");
+
+                    $('#right-arrow-btn').css("display", "block");
+                    $('#left-arrow-btn').css("display", "none");
+
+                    $("#left-sidebar-btn").addClass("arrow_btn_2");
+                    $(".arrow_btn").removeClass("arrow_btn");
+                    $('#left-sidebar').css('display', 'none');
+                    localStorage.setItem("sidebar", 'none');
+                }
+
+
+
+            });
+        });
+
+        function Reporting(repot_id) {
+            window.location = "Reports.aspx?repotingName=" + btoa("1") + "&ReportId=" + btoa(repot_id);
+        }
+
+        function btn_report() {
+            // alert('btn_report');
+            $("#bid_pages").addClass("rm_class");
+            $("#bid_report").removeClass("rm_class");
+
+            window.location = "Reports.aspx?repotingName=" + btoa("1") + "&ReportId=" + btoa("1");
+        }
+
+        function btn_userAccess() {
+            $('#left-sidebar-btn').css('display', 'none');
+        }
+        /*  Method Name - btn_CreateBid_click
+        *  Created By - Snehal 
+        *  Created On - 05 Jan 2015
+        *  Modified By - 
+        *  Modified On - 
+        *  Purpose - This method is used to redirect the user to create bid page
+        */
+        function btn_CreateBid_click() {
+            window.location = "BidDetails.aspx";
+        }
+
+        /*  Method Name - btn_Logout
+        *  Created By - Snehal 
+        *  Created On - 05 Jan 2015
+        *  Modified By - 
+        *  Modified On - 
+        *  Purpose - This method is used to redirect the user to create bid page
+        */
+        function btn_Logout() {
+
+            window.location = "Default.aspx";
+        }
+
+        /*  Method Name - btn_SearchBid_click
+        *  Created By - Snehal 
+        *  Created On - 05 Jan 2015
+        *  Modified By - 
+        *  Modified On - 
+        *  Purpose - This method is used to redirect the user to create bid page
+        */
+        function btn_SearchBid_click() {
+            var val_Bidname = $('#txtSearchBox').val();
+            if (val_Bidname == '' || val_Bidname == null) {
+                val_Bidname = $('#serach').val() || $('#').val();
+            }
+            val_Bidname = val_Bidname.trim();
+            window.location = "ShowSearchBids.aspx?key=" + btoa(val_Bidname);
+        }
+
+        /*  Method Name - btn_CreateBid_click
+        *  Created By - Snehal 
+        *  Created On - 05 Jan 2015
+        *  Modified By - 
+        *  Modified On - 
+        *  Purpose - This method is used to redirect the user to create bid page
+        */
+
+
+        /*  Method Name - searchKeyPress
+        *  Created By - siddharam 
+        *  Created On - 29-feb-2016
+        *  Modified By - 
+        *  Modified On - 
+        *  Purpose - This method is used to search the data entered in search textbox. 
+        */
+
+        function searchKeyPress(e) {
+
+            e = e || window.event;
+            // alert(e.keyCode);
+            if (e.keyCode == 13 || e.keyCode == 66) {
+                //document.getElementById('btnSearch').click();
+                $('.searchButton').click();
+                return false;
+            }
+            return true;
+        }
+        //for prevent back space
+        $(document).on("keydown", function (e) {
+            if (e.which === 8 && !$(e.target).is("input:not([readonly]), textarea")) {
+                e.preventDefault();
+            }
+        });
+
+
+        /*  Method Name - mousese hover activity dropdown
+        *  Created By - siddharam 
+        *  Created On - 23-may-2016
+        *  Modified By - 
+        *  Modified On - 
+        *  Purpose - This method is used to show drop down on mouse hover.
+        */
+
+        //        $(function () {
+
+        //            $("#activity_tracker").mouseover(function () {
+        //                $("#activity_tracker_list").css("display", "block");
+        //            });
+
+        //            $('#activity_tracker').click(function (e) {
+        //                e.stopPropagation();
+        //            });
+
+        //            $('html').click(function (e) {
+        //                var clicked = e.target;
+        //                var currentID = clicked.id
+        //                //alert("id " +currentID);
+        //                if (currentID != 'mobile-nav') {
+        //                    $('#activity_tracker_list').css("display", "none");
+        //                }
+        //            });
+        //        });
+
+
+        $(document).ready(function () {
+            var name = GetParameterValues('repotingName');
+            var report_id = GetParameterValues('ReportId');
+            //alert('name:' + name);
+            //alert('report_id:' + report_id);
+
+            $('#' + atob(report_id)).attr('style', 'color:#E51736 !important');
+
+            if (name == "MQ==") {
+                //alert('2');
+                $("#bid_pages").addClass("rm_class");
+                $("#bid_report").removeClass("rm_class");
+            }
+            else {
+                $("#bid_pages").removeClass("rm_class");
+                $("#bid_report").addClass("rm_class");
+            }
+
+            //  function GetParameterValues(param) {
+            //                var url = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            //                for (var i = 0; i < url.length; i++) {
+            //                    var urlparam = url[i].split('=');
+            //                    if (urlparam[0] == param) {
+            //                        return urlparam[1];
+            //                    }
+            //                }
+
+
+            //  }
+
+            // get url parameter second function when parametre is encoded
+            function GetParameterValues(name) {
+                var regexS = "[\\?&]" + name + "=([^&#]*)",
+  regex = new RegExp(regexS),
+  results = regex.exec(window.location.search);
+                if (results == null) {
+                    return "";
+                } else {
+                    return decodeURIComponent(results[1].replace(/\+/g, " "));
+                }
+            }
+
+
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="master-page-bg">
+    <div class="header navbar navbar-static navbar-fixed-top ">
+        <div class="container-fluid ">
+            <div class="row header">
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6  headerbar-left-adjs">
+                            <div class="pull-left">
+                                <img src="img/wallapepar2.jpg" alt="" style="width: 115px !important; height: 96px !important;" />
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6 headerbar-right headerbar-right-adjs">
+                            <div class="pull-left">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6  headerbar-left-adjs">
+                            <div class="pull-left">
+                                <img src="img/index_02.gif" alt="" class="logo_sai_adj" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 header-rigth-image">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-sm hidden-xs font_logout-adjs">
+                            <a href="Logout.aspx" class="pull-right">Logout &nbsp;<span class="glyphicon glyphicon-off"
+                                style="top: 2px;"></span></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 col-lg-8 hidden-xs hidden-sm">
+                            <ul class="headerbar-nav">
+                                <li class="navliadjs" id="HomeMenu" runat="server"><a href="Home.aspx" id="ahref_Home"
+                                    runat="server">Model Available</a></li>
+                                <li class="divider-vertical" id="HomeMenu_nav" runat="server"></li>
+                                <li class="navliadjs" id="mybid_nav" runat="server"><a href="PartyDashboard.aspx"
+                                    id="mybidslg" runat="server">Party Master</a></li>
+                            </ul>
+                        </div>
+                        <!--dropdown added-->
+                        <!--dropdown end-->
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 hidden-sm hidden-xs">
+                            <form id="Form1" class="navbar-form" role="search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row disable-scroll-sitemastr">
+            <div class="col-xs-7 col-sm-3 col-md-2 sidebar side-bar sidebar-left sidebar-animate sidebar-md-show sidebar left-side-bar margin_togglmenu_resp"
+                id="left-sidebar">
+                <div id="bid_pages">
+                    <ul class="nav navbar-stacked nav-li-adj margin-bdetails-link" id="bid_allpages"
+                        runat="server">
+                        <li class="nav-li"><a href="PartyMaster.aspx" runat="server" id="ahref_BidDetails">
+                            <img src="img/list-symbol.png" alt="">
+                            Party Insert </a></li>
+                        <li><a href="ModelInsertNew.aspx" runat="server" id="ahref_BidTeam">
+                            <img src="img/list-symbol.png" alt="">
+                            Model Insert</a></li>
+                        <li><a href="HomeUpdate.aspx" runat="server" id="a1">
+                            <img src="img/list-symbol.png" alt="">
+                            Model master Update</a></li>
+                        <li id="li_bid_tracking" runat="server"><a href="PartyUpdate.aspx" runat="server"
+                            id="ahref_BidTracking">
+                            <img src="img/list-symbol.png" alt="">
+                            Party Update </a></li>
+                        <li id="li1" runat="server"><a href="FinalBookList.aspx" runat="server" id="a2">
+                            <img src="img/list-symbol.png" alt="">
+                            Final Book List </a></li>
+                        <%--  <li><a href="BidDocuments.aspx" runat="server" id="ahref_BidDocuments">
+                            <img src="img/list-symbol.png" alt="">
+                            Documents </a></li>
+                        <li><a href="BidDSR.aspx" runat="server" id="ahref_BidDSR">
+                            <img src="img/list-symbol.png" alt="">
+                            DSR </a></li>--%>
+                    </ul>
+                </div>
+                <div id="bid_report" class="rm_class">
+                    <ul class="nav navbar-stacked nav-li-adj margin-bdetails-link" id="bid_reports" runat="server">
+                    </ul>
+                </div>
+            </div>
+            <div class="main col-md-12 content-adj " id="main-wrapper">
+                <div class="col-md-1 hidden-xs hidden-sm arrow_btn_2" id="left-sidebar-btn">
+                    <div id="left-arrow-btn" style="display: none;">
+                        <span class="glyphicon glyphicon-chevron-left glyphicon-adj"></span>
+                    </div>
+                    <div id="right-arrow-btn" style="display: block;">
+                        <span class="glyphicon glyphicon-chevron-right glyphicon-adj"></span>
+                    </div>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div class="container-fluid text-center" style="padding: 15px;">
+                    <a id="divSessionTO" style="display: none;" href="#" title="Forgot password" style="color: #000;"
+                        data-target="#divSessioTimeOut" data-toggle="modal"><i class="fa fa-lock fa-fw">
+                        </i>Session Timeout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Session Time-out Modal Window-->
+    <div class="modal fade" id="divSessioTimeOut" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" style="margin-top: 150px;">
+            <div class="modal-content">
+                <div class="modal-header custom-modal">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" title="Close">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        <i class="fa fa-unlock fa-lg"></i>&nbsp;Session Time-out</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row" style="padding: 0px;">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    Your session will timeout in the next 5 minutes due to prolonged inactivity.<br />
+                                    Please Save/Submit your entries immediately to avoid loss of data.<br />
+                                    You will be redirected to the login screen if you try to Save/Submit after the timeout
+                                    has occurred.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- modal body end -->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <script type="text/javascript">
+        var sessionTimeout = "<%= Session.Timeout %>";
+        window.setTimeout("DisplaySessionTimeoutPre1()", (sessionTimeout - 5) * 60 * 1000);
+
+        function DisplaySessionTimeoutPre1() {
+            $('#divSessionTO').click();
+        }
+
+
+    </script>
+</body>
+</html>

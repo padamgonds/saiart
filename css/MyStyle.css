@@ -1,0 +1,783 @@
+﻿
+/* Created By : Priyanka Nikam
+   Created Date : 1-Jul-2017
+   Purpose : Style For Mobile View **/
+   
+body {
+}
+
+.EMD_BG_lbl-bdtl-err-div {
+    line-height: 1 ! important;
+    margin-top: -39px ! important;
+    margin-left: 255px ! important;
+   /* margin-top: -25px ! important;
+    margin-left: 31px ! important;*/
+}
+
+.EMD_BG_lbl-bdtl-err-div1 {
+    line-height: 1 ! important;   
+    margin-top : -25px ! important;
+    margin-left: 31px ! important;
+}
+
+.panel-title
+{
+	cursor:pointer !important;
+}
+
+  .asterisk_input
+  {
+           padding-bottom: 10px;
+ }
+ 
+ 
+@media only screen and (min-width: 320px) and (max-width: 359px) 
+{
+	.admin_error
+	{
+		    margin-top: -8px ! important;
+	}
+	.admin_dt_panel
+	{
+		    margin-top: -35px !important;
+	}
+	.admin_cluster
+	{
+		    margin-top: 10px;
+	}
+	.admin_panel_tab
+	{
+		margin-top:-9px !important;
+	}
+	
+	.Adminfrm_time
+	{
+		margin-left: 2px !important;
+	}
+	.Admin_time
+	{
+		margin-left: -44px !important;
+	}
+	
+	.Admin_Div_Week
+	{
+		    color: white;
+			background-color: #02478c;
+			margin-right:5px !important;
+	}
+	.Admin_Gov
+	{
+		    margin-left: 20%;
+	}
+	.Admin_panel
+	{
+		 width: 284px !important;
+		 margin-left: 12px !important;
+	}
+	
+	.Admin_textbox
+	{
+		margin-bottom: 5px !important;
+	}
+	
+	.Admin_label
+	{
+		display:none;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+		
+	.EMD_BG_lbl-bdtl-err-div1 {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+
+	 .EMD_BG_File_Upd
+    {
+      margin-top: 5px;
+      margin-left: -70px;
+    }
+    
+     .EMD-BG_btn_Upload
+    {
+    	margin-top: 5px;
+        margin-left : -70px;
+    }
+    
+    .EMD-bit-dtl-bg {
+    background-color: #e8e9e9;
+    padding: 2% 5% 6% 6%;
+	}
+	
+	.EMD-div-margin
+	{
+		    margin: 5px;
+	}
+	
+	.EMD-Ctr-margin
+	{
+		margin-bottom: 5px;
+	}
+	.EMD-title
+	{
+		text-align: center;
+		font-weight: bold;
+	}
+}
+@media only screen and (min-width: 360px) and (max-width: 375px) 
+{
+	.admin_error
+	{
+		    margin-top: -8px ! important;
+	}
+	.admin_dt_panel
+	{
+		    margin-top: -35px !important;
+	}
+	.admin_cluster
+	{
+		    margin-top: 10px;
+	}
+	.admin_panel_tab
+	{
+		margin-top:16px !important;
+	}
+	
+	.Adminfrm_time
+	{
+		margin-left: 5px !important;
+	}
+	.Admin_time
+	{
+		margin-left: -44px !important;
+	}
+	
+	.Admin_Div_Week
+	{
+		    color: white;
+			background-color: #02478c;
+			margin-right:10px !important;
+	}
+	.Admin_Gov
+	{
+		    margin-left: 19%;
+	}
+	
+	.Admin_panel
+	{
+		 width: 321px !important;
+		 margin-left: 12px !important;
+	}
+	
+	.Admin_textbox
+	{
+		margin-bottom: 5px !important;
+	}
+	
+	.Admin_label
+	{
+		display:none;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div1 {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+	
+	  .EMD-bit-dtl-bg {
+    background-color: #e8e9e9;
+    padding: 2% 5% 6% 6%;
+	}
+	
+	.EMD-div-margin
+	{
+		    margin: 5px;
+	}
+	
+	.EMD-Ctr-margin
+	{
+		margin-bottom: 5px;
+	}
+	.EMD-title
+	{
+		text-align: center;
+		font-weight: bold;
+	}
+	
+		.Popup {
+    width: 400px !important;
+    height: 600px  !important;
+    margin-left: -2px  !important;
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 420px) 
+{
+	.admin_error
+	{
+		    margin-top: -8px ! important;
+	}
+	.admin_dt_panel
+	{
+		    margin-top: -35px !important;
+	}
+	.admin_cluster
+	{
+		    margin-top: 10px;
+	}
+	.admin_panel_tab
+	{
+		margin-top:-9px !important;
+	}
+	
+	.Adminfrm_time
+	{
+		margin-left: 14px !important;
+	}
+	.Admin_time
+	{
+		/*margin-left: -44px !important;*/
+		margin-left:-60px !important;
+	}
+	
+	.Admin_Div_Week
+	{
+		    color: white;
+			background-color: #02478c;
+			margin-right:10px !important;
+	}
+	.Admin_Gov
+	
+	{
+		    margin-left: 17%;
+	}
+	
+	.Admin_panel
+	{
+		 width: 365px !important;
+		 margin-left: 12px !important;
+	}
+	.Admin_textbox
+	{
+		margin-bottom: 5px !important;
+	}
+	.Admin_label
+	{
+		display:none;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div1 {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+	
+	  .EMD-bit-dtl-bg {
+    background-color: #e8e9e9;
+    padding: 2% 5% 6% 6%;
+	}
+	
+	.EMD-div-margin
+	{
+		    margin: 5px;
+	}
+	
+	.EMD-Ctr-margin
+	{
+		margin-bottom: 5px;
+	}
+	.EMD-title
+	{
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	.Popup {
+    width: 410px !important;
+    height: 600px  !important;
+    margin-left: -2px  !important;
+}
+}
+
+
+@media only screen and (min-width:800px) and (max-width:900)
+{
+	
+	
+	.Adminfrm_time
+	{
+		margin-left: 14px !important;
+	}
+	.Admin_time
+	{
+		margin-left: -44px !important;
+	}
+	
+	.Admin_Div_Week
+	{
+		    color: white !important;
+			background-color: #02478c !important;
+			margin-right:10px !important;
+	}
+	.Admin_Gov
+	{
+		    margin-left: 17%;
+	}
+	
+	.Admin_panel
+	{
+		 width: 365px !important;
+		 margin-left: 12px !important;
+	}
+	.Admin_textbox
+	{
+		margin-bottom: 5px !important;
+	}
+	.Admin_label
+	{
+		display:none;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div1 {
+    line-height: 1 ! important;
+    margin-top: 7px ! important;
+    margin-left: 1px ! important;
+	}
+	
+	  .EMD-bit-dtl-bg {
+    background-color: #e8e9e9;
+    padding: 2% 5% 6% 6%;
+	}
+	
+	.EMD-div-margin
+	{
+		    margin: 5px;
+	}
+	
+	.EMD-Ctr-margin
+	{
+		margin-bottom: 5px;
+	}
+	.EMD-title
+	{
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+/* Created By : Priyanka Nikam
+   Created Date : 1-Jul-2017
+   Purpose : Style For desktop View **/
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1024px)
+{  
+	.gridmargin
+	{
+		margin-left: 69px ;
+	}
+	
+	.Admin_label1
+	{
+		display:none ;
+	}
+    
+	 .EMD_BG_File_Upd
+    {
+         margin-left: -20px ;
+    }
+    
+    .EMD-BG_btn_Upload
+    {
+    	margin-left: -28px;
+    }  
+}
+
+
+
+@media only screen and (min-width : 1029px) and (max-width : 1270px){
+	.Admin_label1
+	{
+		display:none;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+}
+
+@media only screen and (min-width : 1681px) and (max-width : 1920px){
+	.Admin_label1
+	{
+		display:none;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+}
+
+@media only screen and (min-width : 1671px) and (max-width : 1680px){
+	.Admin_label1
+	{
+		display:none;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+}
+
+@media only screen and (min-width : 1591px) and (max-width : 1670px){
+	.Admin_label1
+	{
+		display:none;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+}
+
+@media only screen and (min-width : 1431px) and (max-width : 1590px){
+	.Admin_label1
+	{
+		display:none;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+}
+@media only screen and (min-width : 1361px) and (max-width : 1430px){
+	.Admin_label1
+	{
+		display:none;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+}
+@media only screen and (min-width : 1271px) and (max-width : 1360px){
+	.Admin_label1
+	{
+		display:none;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}	
+}
+
+
+/* Created By : Priyanka Nikam
+   Created Date : 3-Jul-2017
+   Purpose : Style For Tab View **/
+   
+@media only screen  and (min-width: 1024px) and (max-width: 1024px)
+    {    		
+    	
+    			.OUT_page_adj {
+					margin-top: 117px !important;
+				}
+
+    		    .createQualification-link {
+				
+					margin-left: 300px !important;
+					margin-top: -66px !important;
+			    }
+    			.TopMargin_SPOC {
+					margin-top: 12% !important;
+				}
+    			.margin-pull-CRM {
+					margin-left: 19px !important;
+					margin-top: 5px;
+				}	
+    	
+    			.asterisk_input {
+					padding-bottom: 17px !important;
+				}	
+    			.TopMargin_SPOC {
+					margin-top: 115px;
+				}
+
+    			.fuplodbtn-bqf_view {
+						margin-left: -11px !important;
+			     }
+
+    			.Admin_label
+				{
+					display:none !important;
+				}
+    			.hidden-md {
+						 display: inherit !important; 
+				}
+    			.Div_Weeks
+    			{
+    				padding-left: 64px !important;
+    			}
+    	
+    		   .panelmargin
+				{
+					margin-top:-34px !important;
+				}
+    			.Admin_textbox {
+				   margin-bottom: 5px !important;
+				}
+				.gridmargin
+				{
+					margin-left: 69px;
+				}
+				.EMD_BG_lbl-bdtl-err-div {
+					line-height: 1 ! important;
+					margin-top: -12px ! important;
+					margin-left: 1px ! important;
+				}
+				.EMD_BG_lbl-bdtl-err-div1 {
+					line-height: 1 ! important;
+					margin-top: -12px ! important;
+					margin-left: 1px ! important;
+				}
+				.panelmargin
+				{
+					margin-top:-30px !important;
+				}
+				.admin_panel_tab
+				{
+					margin-top:125px !important;
+				}
+				.Admin_gov_lbl
+				{
+					margin-left:108px !important;
+				}
+	
+				.Admin_nongov_lbl
+				{
+					margin-left: 124px;
+				}
+				.Admin_Gov
+				{
+						margin-left: -7% !important;
+				}
+				.Admin_time
+				{
+					margin-left: -189px !important;
+				}
+				.Admin_Div_Week
+				{
+						color: white !important;
+						background-color: #02478c !important;
+						margin-right:12px !important;
+				}
+	
+				
+    }
+  @media only screen and (min-width: 751px) and (max-width: 950px)
+{
+	.createQualification-link {
+		/* margin-left: 549px !important; */
+		margin-left: 300px !important;
+		margin-top: -44px !important;
+	}
+	.Comptency {
+			 margin-left: 0px !important;
+		}
+		
+	.TopMargin_SPOC {
+    margin-top: 15%;
+	}
+
+	.asterisk_input {
+		padding-bottom: 16px !important;
+	}
+
+	.margin-pull-CRM {
+		margin-top: 6px;
+		margin-left: 24px;
+	}	
+	
+	.btn_uploadbqf_align {
+		margin-left: -43px !important;
+		margin-top: 17px;
+	}
+
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+	
+	.EMD_BG_lbl-bdtl-err-div {
+		line-height: 1 ! important;
+		margin-top: -12px ! important;
+		margin-left: 1px ! important;
+	}
+	.EMD_BG_lbl-bdtl-err-div1 {
+		line-height: 1 ! important;
+		margin-top: -12px ! important;
+		margin-left: 1px ! important;
+	}
+	.Admin_gov_lbl
+	{
+		margin-left:108px !important;
+	}
+	
+	.Admin_nongov_lbl
+	{
+		margin-left: 122px;
+	}
+	.Admin_Gov
+	{
+		    margin-left: -7% !important;
+	}
+	.Admin_time
+	{
+		margin-left: -189px !important;
+	}
+	.Admin_Div_Week
+	{
+		    color: white !important;
+			background-color: #02478c !important;
+			margin-right:11px !important;
+	}
+	
+	.Admin_label1
+	{
+		display:none;
+	}
+} 
+
+ @media only screen and (min-width: 951px) and (max-width:991px)
+{
+	.btn-sm-pull {
+		margin-left: 27px ! important;
+		margin-top: 5px;
+	}
+
+	.btn_uploadbqf_align {
+    margin-left: -73px !important;
+    margin-top: 8px !important;
+	}
+
+	.asterisk_input {
+		padding-bottom: 16px !important;
+	}
+	.Comptency {
+			 margin-left: 0px !important;
+		}
+	.Admin_textbox {
+	   margin-bottom: 5px !important;
+	}
+	.gridmargin
+	{
+		margin-left: 69px;
+	}
+	.EMD_BG_lbl-bdtl-err-div {
+		line-height: 1 ! important;
+		margin-top: -12px ! important;
+		margin-left: 1px ! important;
+	}
+	.EMD_BG_lbl-bdtl-err-div1 {
+		line-height: 1 ! important;
+		margin-top: -12px ! important;
+		margin-left: 1px ! important;
+	}
+	.panelmargin
+	{
+		margin-top:-30px !important;
+	}
+	.admin_panel_tab
+	{
+		margin-top:202px !important;
+	}
+	.Admin_gov_lbl
+	{
+		margin-left:108px !important;
+	}
+	
+	.Admin_nongov_lbl
+	{
+		margin-left: 122px;
+	}
+	.Admin_Gov
+	{
+		    margin-left: -7% !important;
+	}
+	.Admin_time
+	{
+		margin-left: -189px !important;
+	}
+	.Admin_Div_Week
+	{
+		    color: white !important;
+			background-color: #02478c !important;
+			margin-right:10px !important;
+	}
+	
+	.Admin_label1
+	{
+		display:none;
+	}
+} 
+
+
+	
+   /*Text Tooltip*/
+.tooltip-dashboard
+{
+   overflow:hidden; 
+   text-overflow : ellipsis;
+   white-space :nowrap;
+   width:150pxs;   /*100px;*/
+   cursor: pointer;
+   padding-bottom: 1px;
+}
+
+.label-popup
+{
+	font-family: Calibri , Myriad Pro;
+    font-size: 16px;
+    color: #02478c;
+    text-align:left !important;
+}
+
+ .Background
+ {
+     background-color: Black;
+     filter: alpha(opacity=90);
+     opacity: 0.8;
+ }
+ .Popup
+ {
+     width: 800px;
+     height: 600px;
+ }
+.grid
+
+

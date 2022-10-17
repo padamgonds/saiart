@@ -1,0 +1,981 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Myriad Pro Regular.ttf);
+}
+
+.login-header
+{
+     position: fixed;   
+     top: 0;  
+}
+
+.login-header img
+{
+    width: 20%;
+    padding: 3%;
+}
+
+.master-page-bg {
+   background-image: url("../img/repeating-left.png");   
+   background-repeat: repeat;
+   background-size: contain;
+    
+}
+
+
+.header img
+{
+      width: 30%;
+      padding: 3%;
+}
+
+.header-rigth-image
+{
+   padding-top: 2%;
+}
+
+
+.header
+{
+    top: 25px;  
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+}
+
+.navbar-default {
+    background: #004299 !important;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3)) !important;
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 ) !important;
+}
+
+.navbar {
+     margin-bottom: 0px !important; 
+     border-radius: 0px !important;
+}
+
+
+
+/*.footer
+{
+    text-align: center;
+    position: fixed;
+    color: #ffffff;
+    bottom: 0; 
+    width:100%;
+    height:50px;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+
+}*/
+
+
+
+
+.copyright-symbol
+{
+   font-size: 14px;  
+}
+
+.copyright
+{
+    font-family: myFont , Myriad Pro;
+    font-weight:normal;
+    line-height: 53px;
+    font-size: 15px; 
+}
+
+
+/*login page css*/
+
+
+.login-page-bg {
+   background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+
+.login-form
+{
+    margin-top:10%;
+    padding:5%;
+    /*background:url("../img/background.png") no-repeat;*/
+    background:url("../img/loginbackground.png") no-repeat;
+    background-size:contain;
+    border-radius: 20px;
+}
+
+
+
+#login .input-group
+{
+    background: #004299 !important;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3)) !important;
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 ) !important;  
+    
+}
+
+
+#txtLanID{
+    background: url(../img/user.png) left no-repeat;
+    padding-left: 40px;
+    background-size: 40px auto;
+    color: #ffffff !important;
+}
+
+#txtPassword{
+    background:url(../img/key.png) left no-repeat;
+    padding-left: 40px;
+	background-size: 40px auto;
+	color: #ffffff !important;
+}
+
+.form-logo img
+{
+      width: 30%;  
+}
+
+.frm-btn
+{
+    color: #0069b0;
+    text-align: center;
+    font-family: myFont , Myriad Pro;
+    padding:3%;
+    
+}
+
+.frm-btn-txt
+{
+    color: #ffffff;
+}
+
+.tag-line
+{
+     font-family: myFont , Myriad Pro;
+     color: #ffffff;
+     font-weight:normal;
+     font-size:40px;
+}
+
+
+/*Home page css*/
+
+.homepagebg
+{
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	 opacity: 1;
+    filter: alpha(opacity=40);
+}
+
+
+#serach
+{
+    background: url(../img/search.png) right no-repeat;
+    padding-right: 55px;
+    background-size: 21px auto;
+    border-radius: 14px;
+}
+
+.navbar-form .form-group {
+    background: #fcfcfc;
+    background: -moz-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(22%, #f4f4f5), color-stop(55%, #e8e9ea), color-stop(100%, #dadbdd));
+    background: -webkit-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -o-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -ms-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: linear-gradient(to right, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dadbdd', GradientType=1 );
+    border-radius: 10px;
+}
+
+
+.user-name
+{
+     font-family: myFont , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+}
+
+.user-name img
+{
+    width: 10%;
+}
+
+#createnewbidbg
+{
+    background: url(../img/addbtn.png) left no-repeat;
+    padding-left: 46px;
+    background-size: 40px auto;
+    background-color: #337ab7;
+   
+}
+
+
+
+.blue-box
+{
+	font-family: myFont , Myriad Pro;
+    background-color: #0169b0;  
+    color: #ffffff;
+    padding: 3%;
+    text-align: center;
+    border: 1px gray solid; 
+    
+}
+
+.box-inner
+{
+	width:98%;
+}
+
+.table-bordered th
+{
+    background-color: #0169b0;  
+     color: #ffffff;
+}
+
+
+
+.table-bordered tr, th ,td
+{
+     text-align: center;
+   
+}
+
+/*bid detail page*/
+.user-name-dtl
+{
+     font-family: myFont , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+}
+.user-name-dtl img
+{
+    width: 4%;
+}
+
+.side-bar
+{
+    padding-left:0px;
+}
+
+.left-side-bar
+{
+    background-color: #032759;
+}
+
+.left-bar-user-dtl
+{
+     font-family: myFont , Myriad Pro;
+     color: #ffffff;
+     font-size:15px;
+}
+
+.list-unstyled li
+{
+    font-family: myFont , Myriad Pro;
+    color: #ffffff;  
+    font-size:15px;
+    padding:4%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.list-unstyled li img
+{
+      width:8%;
+      padding-right:4px;  
+}
+
+
+
+.nav > li 
+{
+font-family: myFont , Myriad Pro;
+color: #ffffff;  
+font-size:15px;
+padding:4%;
+border-bottom: 1px solid grey;
+}
+
+.nav > li img
+{
+ width:8%;
+ padding-right:4px;  
+}
+
+
+.nav > li:last-child
+{
+	border-bottom: 0px;
+}
+
+
+.nav > li:hover
+{
+	background-color: #35527a;
+}
+
+.nav > li:active	
+{
+	background-color: #35527a;
+}
+
+.bit-dtl-bg
+{
+  background-color: #e8e9e9;
+
+    padding:2%;
+}
+
+.bid-detl-frm
+{
+    margin:2%;
+}
+
+.bid-detl
+{
+	 font-family: myFont , Myriad Pro;
+	 font-size:16px;
+	 line-height: 59px;	
+}
+
+.page-heading
+{
+	 font-family: myFont , Myriad Pro;
+	 font-size:25px;	
+	  color: #02478c;  
+}
+
+/*** 6 dec 2016 vaibhav changes ***/
+.login-page-bg {
+  /* background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+   background-size: cover;*/
+   
+   
+   background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+
+
+.navbar {
+     margin-bottom: 0px !important; 
+     border-radius: 0px !important;
+     border: 0px !important;
+}
+
+
+.nav > li > a {
+    position: relative;
+    color: #fff !important;
+    padding: 10px 15px;
+}
+
+#sub-navbar
+{
+	display:none;
+}
+
+.master-page-bg {
+   /*background-image: url("../img/background.png");   
+   background-repeat: repeat;
+   background-size: contain;*/
+    
+   background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+.footer
+{
+    text-align: center;
+    color: #ffffff; 
+    height:50px;
+    z-index:1000;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+
+}
+
+
+.login-form
+{
+    margin-top:10%;
+    padding:5%;
+    /*background:url("../img/background.png") no-repeat;*/
+    background:url("../img/loginbackground.png") no-repeat;
+    background-size:contain;
+    border-radius: 20px;
+}
+
+.homepagebg
+{
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	
+}
+
+.header-rigth-image
+{
+      padding-top: 1%;
+}
+
+
+.bid-detls-frm-adj
+{
+        padding-bottom: 69px;
+ } 
+
+
+
+
+
+
+
+
+
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+
+
+@media only screen and (min-width: 1681px) and (max-width: 1920px)
+{
+    
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1680px)
+{
+   
+}
+@media only screen and (min-width: 1367px) and (max-width: 1440px)
+{
+   
+    
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px)
+{
+    
+  
+}  
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+
+ .login-form
+{
+	padding: 4%;
+}
+   
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.sidebar
+{
+	position :  absolute !important;
+	top: 107px;
+}
+.nav > li img {
+    width: 14%;
+    padding-right: 4px;
+}
+#sub-navbar
+{
+	display:block;
+}
+
+.login-form
+{
+	    padding: 18%;
+	    background-size: cover;
+}
+
+
+
+}
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+--------------------------------------------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and  (max-width: 767px) {
+  
+.sidebar
+{
+	position :  absolute !important;
+	top: 109px;
+	
+}
+#sub-navbar
+{
+	display:block;
+}
+
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+   .sidebar
+	{
+	position :  absolute !important;
+	top: 103px;
+	
+	}
+    .nav > li img {
+    width: 10%;
+    padding-right: 4px;
+	}
+   
+   
+    .header img {
+      width: 46%;
+     padding : 3%;
+    }
+    .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+	display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	.user-name img
+	{
+	 width: 4%;
+	}
+	
+	.login-form {
+		/*padding: 7%;
+		margin: 7%;*/
+		padding: 14%;
+		margin: 2%;
+		background-size: cover;
+	}
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:10%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     } 
+}
+
+
+
+@media only screen and (min-width: 361px) and (max-width: 479px) {
+	 .nav > li img {
+    width: 16%;
+    padding-right: 4px;
+	}
+	
+    .header img {
+    width: 66%;
+    padding: 3%;
+    }
+     .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.login-form {
+		/*padding: 7%;
+		margin: 7%;*/
+		
+		padding: 12%;
+		margin: 3%;
+	}
+	.tag-line {
+    font-size: 30px;
+	}
+	.login-small-adj
+	{
+		margin-top:10%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) { 
+    .sidebar
+	{
+	position :  absolute !important;
+	top: 88px;
+	
+	}
+   .nav > li img {
+    width: 16%;
+    padding-right: 4px;
+	}
+   
+   .header img {
+    width: 66%;
+    padding: 3%;
+   }
+    .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	/*
+	.login-form {
+		padding: 7%;
+		margin: 7%;
+	}*/
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:10%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+}
+
+@media only screen and (min-width: 241px) and (max-width: 319px) {
+  
+     
+     .header img {
+		width: 66%;
+		padding: 3%;
+	}
+	#sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:10%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+}
+
+@media only screen and (min-width: 176px) and (max-width: 240px) {
+    
+ 
+    .header img {
+    width: 66%;
+    padding: 3%;
+	}
+	
+	#sub-navbar
+	{
+		display:block;
+	}
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:10%;
+	}
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+	
+}
+
+
+
+
+/*****Used only for sider bar *****/
+@media only screen and (min-width: 380px) and (max-width: 479px) 
+{
+	 .sidebar
+	{
+	position :  absolute !important;
+	top: 97px;
+	
+	}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 375px) 
+{
+	 .sidebar
+	{
+	position :  absolute !important;
+	top: 94px;
+	
+	}
+}
+
+/**Added By Snehal**/
+.searchButton
+{
+  background: url(../img/search.png) right no-repeat; 
+  background-size: 20px;
+  padding-left:auto;
+  border: none;
+   
+}
+.home-page-bg
+   {
+      background-image: url("../img/background.png") ;   
+     background-repeat   : no-repeat;
+      background-size: cover;
+}
+.search
+{
+    
+    padding-right: 55px;
+    background-size: 21px auto;
+    border-radius: 14px;
+}
+.user-name-dtl-grd
+{
+     font-family: myFont , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+    padding-bottom:80px;
+    
+}
+.userlabel
+{
+  font-weight: bold;
+}
+.navbaruserborder
+{
+    border:0px;
+}
+/******/
+
+
+/*Added By Mangesh */
+.err_message
+{
+    color:Red;
+}
+
+.grid td, .grid th{
+  text-align:center;
+}
+
+.nav > li a:hover , nav > li a:focus {
+		background-color: transparent !important;
+		text-decoration:none;
+
+}
+
+
+.asterisk_input:after
+{
+    content:" *";
+    color: #e32;
+    position: absolute;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+
+
+
+/****Only for login screen adjust***/
+
+@media only screen and (min-width: 340px) and (max-width: 360px)
+{
+	.login-form {
+		padding: 12%;
+		margin: 1%;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 339px)
+{
+	.login-form {
+		padding: 11%;
+		margin: 0%;
+	}
+	.form-group
+	{
+		margin-bottom: 10px !important;
+	}
+}
+

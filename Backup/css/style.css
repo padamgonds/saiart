@@ -1,0 +1,6533 @@
+/**@font-face {
+    font-family: myFont;
+    src: url(../fonts/Calibri.ttf);
+}
+****/
+/*3rdJuly'17 BidQualification */
+	.BidQual_btns
+	{
+	  /*margin-top: -38px;  */
+	   margin-top: 2px; 
+	  text-align:center;
+	}
+    .lbl-bdQual-err-div
+    {
+        line-height: 1 ! important;
+        margin-top: -39px ! important;
+        margin-left: 176px ! important;  
+    }
+
+/***Start 10th Jan'17 BidRisks***/
+.file_updl_risks_width
+{
+    cursor: pointer;  
+    width: 97%;
+}
+
+.TopMargin_SPOC
+	{
+		    margin-top: 100px;
+	}
+
+/***End 10th Jan'17 BidRisks***/
+
+/*****************Start 9th Jan'17 BidTeam Js**********************/
+.bid_team_lead_padding
+{
+    margin-top: 27px !important;
+ }
+.bt_plus_cursor
+{
+  cursor: pointer;  
+}
+.margin-hdn-bcteam-form 
+{
+    margin-bottom: 15px !important;
+}
+ .margin-hdn-brteam-form
+{
+    margin-bottom: 27px !important;
+    /*margin-top: 30px !important;*/
+}
+#bdtlteamReview .bit-dtl-bg-adj {
+    padding-bottom: 0px !important;
+}
+/*****************End 9th Jan'17 BidTeam Js**********************/
+/********Start 6th Jan'17 Risks***********/
+.lbl_err_risk_popup
+{
+  margin-top: -61px !important;
+  margin-left : 111px !important;
+ }
+
+/********End 6th Jan'17 Risks***********/
+/****7th Nov DSR****/
+.ckh_dsr_risk
+{
+ /*margin-left: 91% !important;
+  margin-top: -44px !important; */
+       margin-right: -105px !important;
+}
+.lbl_append_risk
+{
+    margin-left:  0px !important; 
+    margin-top: 1px !important;
+}
+/****3rd Nov BidDetails****/
+.margin-row-bqf
+{
+margin-left: 43px;	
+}
+
+/*26th Oct BidDetails*/
+.fuplodbtn-bqf_view
+{   
+ margin-left: 0px !important;
+}
+.fuplodbtn-bqf_upload
+{   
+     margin-left: 60px !important;
+     width: 59px !important;
+}
+.fuploadbtn-shipley-upload 
+{
+    margin-left: 60px !important;
+    width: 59px !important;
+}
+/*14Oct Dashboard Changes*/
+.tooltip-dashboard-latestgrid
+{
+   overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 69px;
+    cursor: pointer;
+}
+.grid-txt-align-name
+{
+margin-left: 8px;	
+}
+.grid-txt-align-salesstg
+{
+margin-left: 5px;
+}
+
+/*****************13 Oct Bid Details***********************/
+.lbl_uploadbqf_align
+{
+margin-left: 114px;
+}
+.lbl_uploadshipley_align
+{
+    margin-left: 79px;
+}
+.btn_uploadbqf_align
+{
+margin-left: -50px;	
+}
+.btn_upload_bqfnew
+{
+margin-top: 7px;
+}
+.btn_view_bqfnew
+{
+margin-top: 7px;
+    margin-left: -114px;	
+}
+.align-bqf-row
+{
+	/*margin-left: 262px;*/
+	padding-left: 228px;
+}
+.btn_view_shipleynew
+{
+margin-top: 7px;
+padding-left: 0px;
+margin-left: -29px;
+/*margin-left: -87px;	
+margin-left: -26px;	*/
+}
+
+/*********July 18 UserAccessManage*********/
+.margin-cluster-uam
+{
+	overflow-x: auto ! important;
+    height: 130px ! important;
+    width: 33% ! important;
+}
+/***************14 July BidDetails******************/
+
+.tooltip
+{
+ z-index:0 ! Important;
+}
+.lbl-bdtl-err-div
+{
+	line-height: 1 ! important;
+    margin-top: -39px ! important;
+   margin-left: 117px ! important;
+    /* margin-left: 345px ! important;*/
+}
+.lbl-bdtl-rag-circle-div
+{
+	margin-left: 41% ! important;
+    margin-top: -54px ! important;
+}
+.lbl-bdtl-bidmanager-div
+{
+	margin-left: 65% ! important;
+}
+/*******14 July BidActivityManage Only For IE11********/
+ _:-ms-fullscreen, :root .align-astrisk-bam 
+  { 
+  	margin-left:10% !important;
+  }
+  /*******14 July UserAccessManage Only For IE11********/
+ _:-ms-fullscreen, :root .asterisk_adj_uam
+  { 
+  	margin-left:4% !important;
+  }
+/*****13 July BidDetails Tooltip Keywords*****/
+#ctl00_ContentPlaceHolder1_chkTask input[type="checkbox"]
+{
+    margin: 4px 4px 0 ! important;
+}
+
+#ctl00_ContentPlaceHolder1_chkAll
+{
+     margin: 4px 4px 0 ! important;    
+}
+
+#ctl00_ContentPlaceHolder1_chkKeywords input[type="checkbox"] 
+{
+    margin: 4px 4px 0 ! important;
+}
+
+#ctl00_ContentPlaceHolder1_chkSelectCluster  input[type="checkbox"] 
+{
+    margin: 4px 4px 0 ! important;
+}
+
+span.question {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #89A4CC;
+  line-height: 16px;
+  color: White;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  opacity: 1 ! important;
+}
+span.question:hover { background-color: #3D6199; }
+.align-bdtl-key-tooltip
+{
+	margin-top: -27px;
+    margin-left: 91%;
+}
+.width-bdtl-txt-keywrd
+{
+ width:90% ! important;	
+}
+/**************11 July Bid Details**************/
+ .red-circle {
+   display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Red;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;
+ margin-left: 96%;
+margin-top: -39px;
+ }
+ .green-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Green;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left: 96%;
+ margin-top: -39px;
+ }
+ .amber-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+background-color: Orange;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left: 96%;
+ margin-top: -39px;
+  }
+  .margin-bdtl-raglbl
+  {
+      font-family: Calibri , Myriad Pro;
+	  color: #02478c; 
+      margin-left: 63%; 
+  }
+  .margin-bdtl-rag-circle
+  {
+  	margin-top: -54px;
+  }
+/*****************************************************/
+/*****************8 July Bid Tracking **********************/
+.align-emptygrd-txt-btrck
+{
+margin-left: 42%;    
+}
+/******8 July User Access Manage**********/ 
+.asterisk_adj_uam
+{
+   margin-left: 8% ! important; 
+}
+.margin-uam-ddl
+{
+ width: 121% ! important; 
+}
+/**************************************/  
+/*********5 July BidActivityManage*************/
+.txt-align-width-bam
+{
+  width: 155% ! important;   
+}
+.align-astrisk-bam
+{
+ margin-left: 19% ! important;   
+}
+/************23 June SiteMaster For BTracking Scroll Dissable**************/
+/*.disable-scroll-sitemastr
+{
+  overflow:hidden ! important; 
+}*/
+/*******22 June Bid Team **********/
+.bit-dtl-bg-adj
+{
+    padding-bottom: 28px ! important;
+}
+/*****22 June User Acces Manage*****/
+.margin-cluster-div
+{
+    margin-top: -15px;
+}
+/**20June DSR Responsive**/
+ .margin-dsr-asrisk-tasks
+ {
+   margin-right: 86%;  
+ }
+ .dsr-tsk-overflow
+  {
+    overflow-x: auto ! important;
+    width: 100% ! important;
+    height: 188px ! important;
+    margin-top: 0px ! important;
+   }
+    .chk-padding
+    {
+        margin-left: 25px !important;
+    }
+    .magin-dsr-task
+    {
+     /* margin-left: 0% ! important;
+      width: 57%;*/
+      margin-left: 1% ! important;
+      width: 78%;
+    }
+    .margin-dsr-div-sl
+    {
+    margin-left: 6px;
+    }
+    .margin-dsr-div-sd
+    {
+     margin-left: -9px;
+    }
+    .margin-dsr-carret
+    {
+      margin-top: 7px ! important;  
+    }
+/*16June CDG Chnges*/
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc ! important;
+     width: 100%;
+   }
+
+ .multiselect-container {
+    width: 100%;
+    background: none ! important;
+    background-color: White ! important;
+    
+}
+/*.open > .dropdown-menu 
+{
+  overflow-x: scroll ! important;
+  height: 231px ! important;
+}
+*/
+.open > .multiselect-container
+{
+  overflow-x: scroll ! important;
+  height: 567% ! important;
+}
+.btn {
+     text-align: left ! important;
+    }
+    
+.btn-group
+ {
+   width: 100%;   
+ }
+ 
+ .dropdown-menu > li > a {
+    color: #515151;
+    padding: 10px 20px;
+    font-size: 14px;
+   font-family: Calibri , Myriad Pro ! important;
+
+}
+.dropdown-menu
+ {
+   width: 100% ! important;
+ }
+
+@-moz-document url-prefix() 
+{
+    .caret  {
+         margin-top: -10px ! important;
+     }
+}
+
+.margin-dsr-list
+{
+    background-color: white;
+    padding-left: 22px;
+    margin-top: -7px;
+    margin-bottom: -5px;
+}
+ 
+#DsrTasks a.collapsed:after {
+    content:"\e080";
+    
+}
+#DsrTasks  a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+}
+/*13June Dashboard Changes*/
+.tooltip-dashboard
+{
+   overflow:hidden; 
+   text-overflow : ellipsis;
+   white-space :nowrap;
+   width: 150px;
+   cursor: pointer;
+}
+
+.multiselect-selected-text
+{
+  text-overflow: ellipsis ! important;
+    overflow: hidden ! important;
+    white-space: pre-line ! important;  
+}
+
+.user-ul
+{
+    margin-top : 34px;
+}
+/*2June Executive Grid Dashboard*/
+    .margin-bdtl-row
+    {
+    margin-top: 13px;    
+    }
+    .margin-lbl-executive
+    {
+     margin-left: 23px;
+    }
+    .margin-row-executive
+    {
+    margin-left: 94px;    
+    }
+    .overflow-scroll
+    {
+      overflow-x: hidden !important;    
+    }
+    .margin-dashboard-row
+    {
+     margin-top: -6px;
+    }
+   .margin-dashboard-row1
+   {
+    margin-top: 10px;  
+   }
+   .lbl-executive-color
+   {
+    color: white;
+   }
+   .lbl-executive-margin
+   {
+   margin-top: 4px;    
+   }
+   
+  .margin-executive-row
+  {
+    margin-top: 11px; 
+  }
+  .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      height: 34px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }
+
+/*09 JUN EXCEL button changes*/
+.btn_excel
+{
+    height: 40px;
+    margin-right: 6px;
+}
+
+/*09 JUN BQF AND SHIPLEY changes*/
+.upd_control_lg
+{
+    width:166px;
+}
+
+/*04 Jun User Access Module*/
+.asterisk_adj
+{
+   margin-left: 16px;
+}
+
+/* 02 Jun */
+.popup_bqf
+{
+    font-family: Calibri , Myriad Pro;
+    font-size: 15px;
+    color: #02478c;
+}
+.btn_view
+{
+    margin-left: 100px;
+     margin-left: 137px\0;
+}
+
+.margin-lbl-biddtl
+{
+  margin-right: 83px;  
+}
+.margin-ddl-lrgbid
+{
+ margin-top: 4px; 
+}
+
+
+/*Activity tracker Report*/
+
+.txt_adj
+{
+        width: 85%;
+    margin-left: 15px;
+}
+
+/*activity dropdown on hover*/
+
+        .dropdown:hover .dropdown-content {
+             display: block;
+        }
+       .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* report page */
+.ul_report
+{
+    margin-top:33px;
+}
+.mrg_report
+{
+    margin-top:436px;
+}
+
+/*18 may*/
+.activity
+{
+    margin-left:15px;
+}
+
+/**24 March'16 Added**/
+.padding-btn-trac
+{
+  padding-left:7px;	
+}
+
+body
+{
+    font-family:Calibri;
+}
+
+.pull
+{
+    margin-left: -120px;
+    margin-top: -41px;
+}
+/**************** 17 March'16 Added******************************/
+ .margin-heading
+ {
+     margin-left:10px;
+     z-index: -10;
+ }
+
+/**********Added 16 March*************/
+.margin-btn-save
+{
+  margin-left : -293%;
+}
+
+/****logout***/
+.hidden_logout_txt
+{
+	width: 152px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+        /*float:left;*/
+}
+.font_logout
+{
+    font-size:12pt;
+    font-weight:bold;
+    color:White;
+    
+}
+
+/********************10 may 2016******************/
+.font_logout-adjs a:hover
+{
+  color:#fff;
+}
+.font_logout-adjs a
+{	
+	font-family: Calibri , Myriad Pro;
+    font-size:15px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;   
+}
+
+/*************************22 March'16*********************************/
+  /*************Chrome ScrollBar Color**********************/
+  .scrollbox::-webkit-scrollbar {
+            width: 1em;
+        }
+ 
+  .scrollbox::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+ 
+  .scrollbox::-webkit-scrollbar-thumb {
+     background-color:#808080;
+     outline: 1px solid slategrey;
+     border-radius: 7px;    
+    }
+   .scrollbox::-webkit-scrollbar-button:horizontal {
+     background-size: 100%;
+     height: 10px;
+     width: 10px;
+     -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+      background-color:#808080;
+     }
+     /*** IE ScrollBar Color*****/
+    .scrollbox {
+    scrollbar-face-color: #808080;
+    scrollbar-track-color: #EBEBEB;
+    scrollbar-arrow-color: #808080;
+    scrollbar-dark-shadow-color: #808080;  
+    }
+     
+  /*****************19 March'16*************************/
+  .margin-lnk-login
+  {
+  margin-left: -68px;    
+  }
+ .btn-margin
+ {
+  margin-left: -2%;   
+  }
+   .margin-dsr-add-btn
+    {
+       margin-left: 33%;
+    }
+    .margin-lbl-task
+    {
+     margin-right: -3%;
+    }
+  /************************/  
+  /****12 March'16****/
+.margin-pull-CRM
+{
+    /*margin-left: -13px;*/
+        left: 2%;
+}
+.login-header
+{
+     position: fixed;   
+     top: 0;  
+}
+
+.login-header img
+{
+    width: 20%;
+    padding: 3%;
+}
+
+.master-page-bg {
+   background-image: url("../img/repeating-left.png");   
+   background-repeat: repeat;
+   background-size: contain;
+    
+}
+
+
+.header img
+{
+      width: 30%;
+      padding: 3%;
+}
+
+.header-rigth-image
+{
+   padding-top: 2%;
+}
+
+
+.header
+{
+    /*top: 25px;  */
+    background: #711B04;
+  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+}
+
+.navbar-default {
+    background: #004299 !important;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3)) !important;
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 ) !important;
+}
+
+.navbar {
+     margin-bottom: 0px !important; 
+     border-radius: 0px !important;
+}
+
+
+
+/*.footer
+{
+    text-align: center;
+    position: fixed;
+    color: #ffffff;
+    bottom: 0; 
+    width:100%;
+    height:50px;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+
+}*/
+
+
+
+
+.copyright-symbol
+{
+   font-size: 14px;  
+}
+
+.copyright
+{
+    font-family:Calibri , Myriad Pro;
+    font-weight:normal;
+    line-height: 53px;
+    font-size: 15px; 
+}
+
+
+/*login page css*/
+
+
+.login-page-bg {
+   background-image: url("../img/loginbackground.png");   
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+
+.login-form
+{
+    margin-top:10%;
+    padding:5%;
+    /*background:url("../img/repeating-left.jpg") no-repeat;*/
+    background:url("../img/loginbackground.png") no-repeat;
+    background-size:contain;
+    border-radius: 20px;
+}
+
+
+
+#login .input-group
+{
+    background: #004299 !important;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3)) !important;
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 ) !important;  
+    
+}
+
+
+#txtLanID{
+    background: url(../img/user.png) left no-repeat;
+    padding-left: 40px;
+    background-size: 40px auto;
+    color:Grey;
+    background: White;
+}
+
+#txtPassword{
+    background:url(../img/key.png) left no-repeat;
+    padding-left: 40px;
+	background-size: 40px auto;
+	color: Grey;
+    background: White;
+}
+
+.form-logo img
+{
+      width: 30%;  
+}
+
+.frm-btn
+{
+    color: #0069b0;
+    text-align: center;
+    font-family: Calibri , Myriad Pro;
+    padding:3%;
+    
+}
+
+.frm-btn-txt
+{
+    color: #ffffff;
+}
+
+.tag-line
+{
+     font-family: Calibri , Myriad Pro;
+     color: #ffffff;
+     font-weight:normal;
+     font-size:40px;
+}
+
+
+/*Home page css*/
+
+.homepagebg
+{
+	background: url(../img/repeating-left.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	 opacity: 1;
+    filter: alpha(opacity=40);
+}
+
+
+#serach
+{
+    background: url(../img/search.png) right no-repeat;
+    padding-right: 55px;
+    background-size: 21px auto;
+    border-radius: 14px;
+}
+
+.navbar-form .form-group {
+    background: #fcfcfc;
+    background: -moz-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(22%, #f4f4f5), color-stop(55%, #e8e9ea), color-stop(100%, #dadbdd));
+    background: -webkit-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -o-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: -ms-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    background: linear-gradient(to right, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dadbdd', GradientType=1 );
+    border-radius: 10px;
+}
+
+
+.user-name
+{
+     font-family: Calibri , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+}
+
+.user-name img
+{
+    width: 10%;
+}
+
+#createnewbidbg
+{
+    background: url(../img/addbtn.png) left no-repeat;
+    padding-left: 46px;
+    background-size: 40px auto;
+    background-color: #337ab7;
+   
+}
+
+
+
+.blue-box
+{
+	font-family: Calibri , Myriad Pro;
+    background-color: #711B04;  
+    color: #ffffff;
+    padding: 1%;
+    text-align: center;
+    border: 1px gray solid; 
+    background: #711B04;
+        font-size: 18px;
+    
+}
+
+.box-inner
+{
+	width:98%;
+}
+
+.table-bordered th
+{
+    background-color: #0169b0;  
+     color: #ffffff;
+}
+
+
+
+.table-bordered tr, th ,td
+{
+    /* text-align: center;*/
+   
+}
+
+/*bid detail page*/
+.user-name-dtl
+{
+     font-family: Calibri , Myriad Pro;
+     font-size:18px;
+     line-height: 55px;
+     float: right;
+    text-align: right;
+}
+.user-name-dtl img
+{
+    width: 4%;
+}
+
+.side-bar
+{
+    padding-left:0px;
+}
+
+.left-side-bar
+{
+    background-color: #711B04;
+}
+
+.left-bar-user-dtl
+{
+     font-family: Calibri , Myriad Pro;
+     color: #ffffff;
+     font-size:15px;
+}
+
+.list-unstyled li
+{
+    font-family: Calibri , Myriad Pro;
+    color: #ffffff;  
+    font-size:15px;
+    padding:4%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.list-unstyled li img
+{
+      width:8%;
+      padding-right:4px;  
+}
+
+
+
+.nav > li 
+{
+font-family: Calibri , Myriad Pro;
+color: #ffffff;  
+font-size:15px;
+padding:4%;
+border-bottom: 1px solid grey;
+}
+
+.nav > li img
+{
+ width:8%;
+ padding-right:4px;  
+}
+
+
+.nav > li:last-child
+{
+	border-bottom: 0px;
+}
+
+
+.nav > li:hover
+{
+	background-color: #35527a;
+}
+
+.nav > li:active	
+{
+	background-color: #35527a;
+}
+
+.bit-dtl-bg
+{
+  background-color: #e8e9e9;
+
+    padding:2% 2% 0% 2%;
+}
+/*31May Reports*/
+.rpt-dtl-bg
+{
+  background-color: #e8e9e9;
+  padding-bottom: 25px;
+}
+.rpt-dtl-bg1
+{
+  background-color: #e8e9e9;
+  padding-bottom: 25px;
+  padding-top: 18px;
+}
+/*****/
+.bid-detl-frm
+{
+    margin:0 2%;
+}
+
+.bid-detl
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:16px;
+	 line-height: 59px;	
+}
+
+.page-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:25px;	
+	  color: #02478c;  
+}
+/*********11 July Bid Details*************/
+.btl-manager
+{
+     font-family: Calibri , Myriad Pro;
+	  color: #02478c; 
+	  margin-top: -53px;
+}
+
+
+/*** 6 dec 2016 vaibhav changes ***/
+.login-page-bg {
+  /* background-image: url("../img/background.png");   
+   background-repeat: no-repeat;
+   background-size: cover;*/
+   
+   
+   background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+
+
+.navbar {
+     margin-bottom: 0px !important; 
+     border-radius: 0px !important;
+     border: 0px !important;
+}
+.pull-text{
+	width:63%;
+}
+.pull-row{
+	float:right;
+}
+.pull-btn{
+	margin-left: -2px;
+}
+.pull-search{
+	margin-left: -27px;
+}
+
+.nav > li > a {
+    position: relative;
+    color: #fff !important;
+    padding: 10px 15px;
+}
+
+#sub-navbar
+{
+	display:none;
+}
+
+.master-page-bg {
+   /*background-image: url("../img/repeating-left.jpg");   
+   background-repeat: repeat;
+   background-size: contain;*/
+    
+   background: url(../img/repeating-left.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+.footer
+{
+    text-align: center;
+    color: #ffffff; 
+    height:50px;
+    z-index:1000;
+    background: #711B04;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+        bottom: 0;
+    position: fixed;
+
+}
+.grd_home
+{
+   position: absolute;
+   top: 115px;
+   padding-bottom: 5%;
+}
+.header_home
+{
+    position: fixed;
+  z-index : 1111;
+}
+
+.login-form
+{
+margin-top: 17%;
+    padding: 5%;
+    /* background: url(../img/background.png) no-repeat; */
+    background: url(../img/loginbackground.png) no-repeat;
+    background-size: contain;
+    border-radius: 40px;
+    margin-left: 405px;
+}
+
+.homepagebg
+{
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	
+}
+
+.header-rigth-image
+{
+      padding-top: 1%;
+}
+
+
+.bid-detls-frm-adj
+{
+        padding-bottom: 69px;
+} 
+
+/***7 jan 2016 change **/
+
+.login-blue-bg
+{
+
+
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    overflow:hidden;
+    position:relative;
+	height:30px;
+	background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+}
+
+
+
+/*******9 jan changes*******/
+
+.headerbar-left img
+{
+    /*width: 100%;*/
+    /**********************8 march change**********************/
+    width: 131%;
+    padding: 10%;
+}
+ /***********9may2016 change***********/
+.headerbar-left-adjs img
+{
+  width: 89%;
+   padding: 0%;
+}
+
+.headerbar-right img
+{
+    width: 100%;
+    padding: 10%;
+    /***********9may2016 change***********/
+    margin-top:12px;
+    
+}
+ /***********9may2016 change***********/
+.headerbar-right-adjs img
+{
+ margin-left: -75px;
+} 
+
+
+.icon-adj
+{
+	color:#fff;
+	font-size: 29px;
+    
+}
+
+.rightside-icons
+{
+	color:#fff;
+}
+
+.icons
+{
+	/*padding-top: 68%;*/
+	/*********************8 march change*********************/
+	padding-top: 39%;
+    padding-left: 10%;
+}
+
+
+
+
+.icon-search
+{
+	/*padding-top: 32%;*/
+}
+
+
+.icon-plus
+{
+	/*padding-top: 32%;*/
+}
+
+.user-detail
+{
+	 font-family:Calibri , Myriad Pro;
+	 font-size:15px;
+	 color:#fff;
+	 font-weight: normal;
+	 /***********9may2016 change***********/
+	 margin-left: -91px;
+}
+
+.user-detail img 
+{
+	width: 5%;
+}
+
+.user-detail-adjust
+{
+	/*float: right;*/
+	padding-left: 40%;
+	padding-top: 3.5%;
+
+}
+
+.header-search-box
+{
+	 padding-top: 18%;
+}
+ /***********9may2016 change***********/
+.header-search-box-adj
+{
+	/*margin-left: -25%;*/
+    margin-top: 14px;
+}
+/***********9may2016 change***********/
+.headerbar-nav 
+{
+    margin-left: -144px;
+}
+/***********9may2016 change***********/
+.divider-vertical {
+    height: 20px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+/***********9may2016 change***********/
+.navliadjs
+{
+	padding-left:2%;
+}
+
+ /***********9may2016 change***********/
+.headerbar-nav li 
+{
+	display:inline;
+	line-height: 52px;
+}
+
+ /***********9may2016 change***********/
+.headerbar-nav li a
+{
+	color:#fff;
+	text-decoration:none;
+	line-height: 35px;
+	/*font-size: 18px;*/
+	font-size: 14px;
+}
+/***********10may2016 change***********/
+.dropdown-menu {
+    background-color: #004299 ;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    padding: 0px ! important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 )
+}
+/***********10may2016 change***********/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #35527a;
+}
+/***********10may2016 change***********/
+.dropdown-menu li> a:hover
+{
+  color: red;
+}
+
+
+
+/***********9may2016 change***********/
+.createBid-link a
+{
+	font-family:Calibri , Myriad Pro;
+	 font-size:15px;
+	 color:#fff;
+	 font-weight: bold;
+	 cursor:pointer;
+	 text-decoration:none;
+	    margin-right: -5%;
+}
+
+
+.header-search-box input[type="text"]
+{
+	width:153px !important;
+}
+
+.createBidbtn
+{
+	/*padding-top:180%;*/
+	margin-top: 55px;
+	margin-left: -63px;
+}
+
+/**additional / or **/
+.username-dtls img {
+    width: 4%;
+}
+
+.biddetls{
+    font-family: Calibri , Myriad Pro;
+    font-size: 13px;
+    color: #fff;
+    text-align: right;
+    margin-left: 4%;
+}
+
+
+/*****13 jan chanage ****/
+
+.content-adj
+{
+	 top: 115px;	
+}
+
+/*
+.sidebar {
+    top: 103px;
+}
+*/
+
+.nav-li-adj
+	{
+		margin-top: 107px;
+	}
+	
+.userdetl
+{
+	color:#fff;
+}	
+
+.asterisk_input_es:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 5px;
+}
+.asterisk_input:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+.asterisk_input_ua:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 8px ;
+}
+.asterisk_input_bt:after
+{
+    content:" *";
+    color: #e32;
+    margin: 2px 0px 0px -2%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+	
+/**********************17 March'16 Added**************************/
+.arrow_btn
+{
+    position: fixed;
+ /*  margin-top:383px;*/
+    /*top:97px !important;*/
+   -moz-margin-start: 0px;
+    width: 20px;
+    height: 78px;
+    background-color: #711B04;
+    left: 215px !important;
+    margin-left: 3px\0;
+    margin-top:197px\0; 
+    -webkit-margin-before: 97px;
+    border-radius: 5px;
+    z-index: 1000;
+    /*margin-top: 97px;*/
+    color:#fff !important;
+    top:115px\0!important;
+    top: 224px;
+ }
+ .arrow-btn_adj
+ {
+   margin-top: 20px;
+ }
+ 
+ @-moz-document url-prefix() {
+    .arrow_btn
+    {
+    position: fixed;
+   -moz-margin-start: 0px;
+    width: 20px;
+    height: 78px;
+    background-color: #032759;
+    left: 215px !important;
+    margin-left: 20px\0;
+    margin-top:197px\0; 
+    border-radius: 5px;
+    z-index: 1000;
+    margin-top: 227px;
+    color:#fff !important;
+    top: 97px;
+    }
+}
+
+ .arrow_btn_2
+{
+    position: fixed;
+   /* -moz-margin-top : -18px  !important;*/
+   /* margin-top: 97px;*/
+    width: 20px;
+    height: 78px;
+    background-color: #711B04;
+    left: -13px;
+    margin-top:212px\0; 
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+    top: 327px;
+    top:97px\0;
+ }
+ 
+  
+      
+ .glyphicon-adj{
+ /*top: 17px;*/
+ top: 30px;
+ font-size:15px;
+ 
+ }
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+
+
+@media only screen and (min-width: 1681px) and (max-width: 1920px)
+{
+	   .ckh_dsr_risk
+	{
+ 
+       margin-right: -105px !important;
+	}
+	
+   .content-adj
+	{
+	 top: 175px;	
+	}
+	.nav-li-adj
+	{
+		margin-top: 160px;
+	}
+	/*.sidebar {
+		top: 125px;
+	}*/
+	
+	/*************15 feb 16 change *************/
+	
+	.header-search-box
+	{
+	   padding-top: 21%; 
+	}
+	 
+	.createBidbtn {
+           margin-top: 87px;
+          margin-left: -147px;
+    }
+    
+    .user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 7.5%;
+    }
+    
+    /*******14 March'16 Added*********/
+    .margin-login-txt
+    {
+        margin-left: -6%;
+    }
+    
+    .margin-login-btn
+    {
+     margin-left: -13%;    
+    }
+       /***************17 March'16 Added*******************************/ 
+     .arrow_btn
+     {
+    position: fixed;
+    margin-top: 97px;
+    width: 20px;
+    height: 35px;
+    background-color: #032759;
+    left: -13px;
+    margin-top: -33px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+ }
+ 
+  .arrow_btn_2
+     {
+    position: fixed;
+    /*margin-top: 97px;*/
+    /**************9may change***************/
+    margin-top: 47px;
+    width: 20px;
+    height: 35px;
+    background-color: #032759;
+    left: -13px;
+    margin-top: -33px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+ }
+ /**************10 may 2016 change ************/
+.createBid-link a {
+    margin-right: 18%;
+}
+ 
+}
+/****************9 may change **************/
+@media only screen and (min-width: 1590px) and (max-width: 1600px)
+{
+	/***************9 may change ***************/
+  .arrow_btn_2
+      { margin-top: 20px !important; }
+   /***************10 may 2016 change ***************/
+  .createBid-link a {
+    margin-right: 5%;
+	}
+	
+	   .ckh_dsr_risk
+	{
+ 
+       margin-right: -105px !important;
+	}
+} 
+
+
+@media only screen and (min-width: 1441px) and (max-width: 1680px)
+{
+	
+	   .ckh_dsr_risk
+	{
+ 
+       margin-right: -83px !important;
+        
+	}
+	
+	/********13 jan change*********/
+  /* .sidebar {
+    top: 125px;
+	}
+	*/
+	.nav-li-adj
+	{
+		margin-top: 135px;
+	}
+	
+   .content-adj {
+    top: 148px;
+	}
+	
+	/****************15 feb 16 change *****************/
+	
+	.header-search-box {
+    padding-top: 20%;
+    }
+    
+    .createBidbtn {
+        margin-top: 71px;
+         margin-left: -95px;
+    }
+    
+      .user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 5.5%;
+    }
+    
+      /***************17 March'16 Added*******************************/  
+      .arrow_btn
+      {
+    position: fixed;
+    margin-top: 122px;
+    width: 15px;
+    height: 78px;
+    background-color: #032759;
+    left: 266px !important;
+    /* top: -18px; */
+    margin-top:280px\0;
+    margin-left: -20px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color: #fff !important;
+}
+     .arrow_btn_2
+      {
+    position: fixed;
+    /***************9 may change****************/
+    /*margin-top: 25px;*/
+    margin-top: 27px;
+    width : 20px;
+    height: 78px;
+     background-color: #032759;
+    left: -11px;
+    margin-top: 302px\0;
+    border-radius: 5px;
+    z-index: 1000;
+    color:#fff !important;
+ }
+ .arrow-btn_adj
+ {
+   margin-top: 20px\0;
+ }
+ /******************10 may 2016 change********************/
+ .createBid-link a {
+    
+    margin-right: 9%;
+ }
+}
+
+@media only screen and (min-width: 1365px) and (max-width: 1440px)
+{
+	
+	.ckh_dsr_risk {
+    margin-right: -56px !important;
+	}
+	
+	 .lbl_append_risk {
+			margin-left: 13px !important;
+			margin-top: 1px !important;
+		}  
+
+   /*******13 jan change********/
+    .nav-li-adj
+	{
+		margin-top: 113px;
+	}
+    /**********************15 feb 16 change*********************/
+    .createBidbtn {
+    margin-top: 59px;
+    margin-left: -63px;
+  }
+  .user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 4.5%;
+ }
+ 
+   .arrow_btn_2
+      {
+      	 margin-top: 7px;
+      }
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px)
+{
+	
+	.ckh_dsr_risk
+	{
+ 
+       margin-right: -28px !important;
+	}
+	
+	/*****************13 Oct Bid Details***********************/
+.lbl_uploadbqf_align
+{
+ margin-left: 122px;
+}
+.lbl_uploadshipley_align
+{
+ margin-left: 63px;
+}
+.btn_uploadbqf_align
+{
+margin-left: -50px;	
+}
+.btn_upload_bqfnew
+{
+ margin-top: 7px;
+ margin-left: -49px;
+}
+.btn_view_bqfnew
+{
+ margin-top: 7px;
+ margin-left: -114px;	
+}
+.align-bqf-row
+{
+margin-left: 212px;
+}
+.btn_view_shipleynew
+{
+margin-top: 7px;
+margin-left: -46px;
+}
+    
+/** vaibhav 11 jan change**/
+ .icon-adj 
+ {
+    font-size: 27px;
+ }
+ 
+ /*********13 jan change********/
+/*.sidebar {
+    top: 95px;
+}*/ 
+  .nav-li-adj
+	{
+		margin-top: 99px;
+	}
+	
+/*************************15 feb change**************************/	
+	.createBidbtn {
+    margin-top: 51px;
+    margin-left: -63px;
+}
+.user-detail-adjust {
+    padding-left: 40%;
+    padding-top: 2.5%;
+}
+  
+  .bit-dtl-bg-adj
+{
+    padding-bottom:32px !important;
+}
+
+ /***************10 may 2016 change ***************/
+  .createBid-link a {
+    margin-right: -13%;
+	}
+
+/***************10 may 2016 change ***************/	
+  .headerbar-nav li a {
+    font-size: 12px;
+  }
+  
+}  
+
+@media only screen and (min-width: 992px) and (max-width: 1024px)
+{  
+    
+/*****************13 Oct Bid Details***********************/
+.lbl_uploadbqf_align
+{
+margin-left: 118px;
+}
+.lbl_uploadshipley_align
+{
+    margin-left: 52px;
+}
+.btn_uploadbqf_align
+{
+margin-left: -39px;	
+}
+.btn_upload_bqfnew
+{
+margin-top: 7px;
+}
+.btn_view_bqfnew
+{
+ margin-top: 9px;
+ margin-left: -98px;
+}
+.align-bqf-row
+{
+	margin-left: 199px;
+}
+.btn_view_shipleynew
+{
+ margin-top: 9px;
+ margin-left: -20px;
+}
+
+	
+	
+/**************13 July BidDetails***************/
+.align-bdtl-key-tooltip
+{
+ margin-top: -25px ! important;
+ margin-left: 226px ! important;	
+}
+.margin-bdtl-raglbl {
+    font-family: Calibri , Myriad Pro;
+    color: #02478c;
+    margin-left: 56% ! important;
+}
+.red-circle {
+   display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Red;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;
+margin-left: 94%;
+margin-top: -37px;
+ }
+ .green-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Green;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left: 94%;
+ margin-top: -37px;
+ }
+ .amber-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Orange;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left : 94%;
+ margin-top: -37px;
+  }
+
+/******8 July User Access Manage**********/ 
+.asterisk_adj_uam
+{
+   margin-left: 14% ! important; 
+}
+.margin-uam-ddl
+{
+ width: 141% ! important; 
+}
+/**************************************/     
+/*********7 July BidActivityManage*************/
+.align-center-bam
+{
+ margin-left: 158px ! important;    
+}
+/**********************************/
+    /***20 June DSR Responsive Apple Ipad All(Screen Rotate)****/
+  .txt-width-dsrnotes
+  {
+      width: 67%;
+  }
+ .margin-dsr-astrisk-sd
+ {
+  margin-left: 1px;
+ }
+.margin-dsr-div-sl
+{
+ margin-left: -11px ! important;
+}
+.margin-dsr-div-sd 
+{
+    margin-left: -7px;
+}
+.margin-dsr-to
+{
+  margin-left: -22px;  
+}
+.margin-dsr-asrisk
+{
+    margin-top: -30px;
+    padding-left: 1px;
+}
+.margin-dsr-add-btn {
+    margin-left: 26px;
+    margin-top: -25px;
+}
+.margin-dsr-label
+{
+  margin-left: 12px;  
+}
+
+.margin-dsr-sd-label
+{
+ margin-left: -82px ! important;
+}
+.mrg-dsr-nts
+{
+    margin-left: -34px ! important;
+    width: 125%;
+}
+
+.margin-dsr-nots-lbl
+{
+  /* margin-left: -48px;  */
+  margin-left:8px;
+}
+
+.magin-dsr-task {
+   margin-left: -3% ! important;
+   width: 60%;
+}
+.margin-dsr-tasklbl
+{
+ margin-left: -25px;
+}
+.margin-subhead
+{
+   margin-left: 14px; 
+}
+.margin-dsr-asrisk-tasks
+{
+   margin-right: 37% ! important;
+}
+
+/*****User Acces Manage*****/
+.margin-cluster-div
+{
+    margin-top: -15px;
+}
+/*************************/
+     /*2June Executive Dashboard*/
+    .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      height: 34px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }
+    /*26May*/
+   .margin-ddl-mb
+   {
+    width: 112px;
+    margin-left: -18px;
+   }
+   .margin-lbl-accnt
+   {
+       margin-left: -29px;
+   }
+    .arrow_btn
+    {
+        top:200px !important;
+        height:63px;
+        font-size:10px !important;
+        left:164px !important;
+        width:10px !important;
+        padding-left:7px !important;
+    }
+    .arrow_btn_2
+    {
+        top:300px;
+        height:63px;
+        font-size:10px !important;
+    }
+    .btn-sm
+    {
+     margin-left: -28px;
+    }
+    .btn-sm-view
+    {
+        margin-left: 69px;
+    }
+    .upd_control
+    {
+        width:135px!important;
+    }
+     .txt-margin-align-notes 
+     {
+        margin-left:-62px;
+     }
+.sidebar
+{
+   margin-top: 30px;
+}
+.padding-btn-trac
+{
+    margin-left:26px;
+}
+.padding-btn-delete-trac
+{
+    margin-left:18px;
+}
+.glyphicon-adj 
+{
+   top:24px;
+}
+ .login-form
+{
+	padding: 4%;
+}
+
+/**vaibhav 11 jan cahnge **/
+	
+.icon-adj {
+    font-size: 20px;
+}
+
+.header-search-box {
+    padding-top: 22%;
+    margin-left: -32px;
+}
+#createnewbidbg {
+    background: url(../img/addbtn.png) left no-repeat;
+    padding-left: 39px;
+    background-size: 34px auto;
+    background-color: #337ab7;
+}
+.createBidbtn {
+    padding-top: 22%;
+}
+.user-detail-adjust {
+    padding-top: 0;
+    padding-bottom: 4%;
+     /******************11 march  change screen*******************/
+    padding-left: 33%;
+}
+.icons {
+   /* padding-top: 68%;*/
+   /******************11 march  change screen*******************/
+    padding-top: 45%;
+    padding-left: 5%;
+}
+
+/*********13 jan change********/
+
+.nav-li-adj
+	{
+		 margin-top: 83px;
+	}
+   
+ /*********************15 feb change************************/  
+.header-search-box {
+    padding-top: 15%;
+    margin-left: -32px;
+}
+ 
+ .createBidbtn {
+  margin-top: 0px;
+  margin-left: 12px;
+  padding-top: 39%;
+ }
+ 
+ .search-btn-adj
+ {
+    margin-left: 2px;
+    margin-top: -2px;
+ }
+ 
+ .search-btn-adj-1
+ {
+    margin-left: 155px;
+    margin-top: -59px;
+ }
+ 
+  .bit-dtl-bg-adj {
+    padding-bottom: 42px !important;
+}
+.pull
+{
+    margin-top:-41px;
+    margin-left:-131px;
+}
+
+/*************9 may change*************/
+.headerbar-right-adjs img {
+    margin-left: -65px;
+}
+
+ /***************10 may 2016 change ***************/
+  .createBid-link a {
+    margin-right: 2%;
+	}
+ /***************10 may 2016 change ***************/	
+  .headerbar-nav li a {
+    font-size: 10px;
+  }
+/***************10 may 2016 change ***************/	
+ .divider-vertical {
+	margin-left: 5px;
+ }
+ 
+ /*Priyanka*/
+ .ckh_dsr_risk {    
+      margin-right: -5px !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px)
+{
+ 
+	/*****************13 Oct Bid Details***********************/
+	.lbl_uploadbqf_align
+	{
+	margin-left: 181px;
+	}
+	.lbl_uploadshipley_align
+	{
+		margin-left: 122px;
+	}
+	.btn_uploadbqf_align
+	{
+	margin-left: 14px;	
+	}
+	.btn_upload_bqfnew
+	{
+	margin-top: 7px;
+	}
+	.btn_view_bqfnew
+	{
+	 margin-top:7px;
+     margin-left:-27px;	
+	}
+	.align-bqf-row
+	{
+		margin-left: 0px;
+	}
+	.btn_view_shipleynew
+	{
+	margin-top: 7px;
+	margin-left: -28px;	
+	}
+/**********/
+    .margin-dsr-txtsub
+    {
+       width: 96% ! important;
+       margin-left: 2px ! important; 
+    }
+    .margin-dsr-dt-txt
+    {
+      margin-left: 3px ! important;
+      width : 96% ! important; 
+    }
+    .dsr-txt-width-sd
+    {
+     margin-left: 14px ;
+     width: 95% ;
+    }
+    .margin-dsr-div-sd
+    {
+     margin-left: 2px ! important;
+    }
+    .txt-width-dsrnotes
+    {
+      padding-left: 29px ! important;
+      width: 97% ! important;
+    }
+    .margin-dsr-tasklbl
+    {
+       margin-left: -37px; 
+    }
+    .margin-dsr-asrisk-tasks:after
+    {
+     margin-top: -22px ! important;
+     font-size: x-large ! important;
+    }
+    .margin-dsr-asrisk-tasks
+    {
+     margin-right: 92% ! important;
+    }
+    .magin-dsr-task 
+    {
+     margin-left: -60px ! important;
+     width: 108%;
+    }
+    .margin-dsr-sub-heading
+    {
+       margin-left: 13px ! important ; 
+    }
+    .table-responsive
+    {
+       width: 98% ! important; 
+    }
+    .margin-dsr-add-btn
+    {
+      margin-left: 0px ! important;  
+    }
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/*.sidebar
+{
+	position :  absolute !important;
+	top: 123px;
+}*/
+
+
+/*****************13 Oct Bid Details Apple Ipad All***********************/
+	.lbl_uploadbqf_align
+	{
+	margin-left: 73px;
+	}
+	.lbl_uploadshipley_align
+	{
+		margin-left: 14px;
+	}
+	.btn_uploadbqf_align
+	{
+	margin-left: 165px;
+    margin-top: -22px;
+	}
+	.btn_upload_bqfnew
+	{
+	margin-top: 7px;
+	margin-left: 149px;
+	}
+	.btn_view_bqfnew
+	{
+	margin-top: -25px;
+    margin-left: 220px;
+	}
+	.align-bqf-row
+	{
+		margin-left: 0px;
+	}
+	.btn_view_shipleynew
+	{
+	 margin-top: -25px;
+     margin-left: 220px;
+	}
+/**********/
+/***************14 July BidDetails Apple Ipad All******************/
+.lbl-bdtl-err-div
+{
+	line-height: 1 ! important;
+    margin-top: -39px ! important;
+    margin-left: 117px ! important;
+}
+.lbl-bdtl-rag-circle-div
+{
+	margin-left: 45% ! important;
+    margin-top: -67px ! important;
+}
+.lbl-bdtl-bidmanager-div
+{
+	margin-left: 71% ! important;
+    margin-top: 7px;
+    line-height: 1;
+}
+/**********13 July BidDetail Apple Ipad All*************/
+.align-bdtl-key-tooltip
+{
+	margin-left: 164px;
+    margin-top: -25px;
+}
+.margin-bdtl-raglbl {
+    font-family: Calibri , Myriad Pro;
+    color: #02478c;
+    margin-left: 42%;
+}
+.red-circle {
+   display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Red;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;
+margin-left: 96%;
+margin-top: -24%;
+ }
+ .green-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Green;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+ border-radius: 10px;
+margin-left: 96%;
+margin-top: -24%;
+ }
+ .amber-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+background-color: Orange;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left: 96%;
+ margin-top: -24%;
+  }
+/******8 July User Access Manage Apple Ipad All**********/ 
+.asterisk_adj_uam
+{
+   margin-left: 18% ! important; 
+}
+.margin-uam-ddl
+{
+ width: 160% ! important; 
+}
+/**************************************/  
+/*********5 July BidActivityManage Apple Ipad All*************/
+.txt-align-width-bam
+{
+  width: 225%;   
+}
+.align-astrisk-bam
+{
+ margin-left: 38%;   
+}
+/********************************************/
+/*********4 July Reports Apple Ipad All*************/
+.margin-asterisk-rpt {
+    margin-left: 735px ! important;
+}
+/********************************************/
+
+/*********29 June BidDetails Apple Ipad All*************/
+.padding-biddtl {
+    padding-bottom: 233px ! important;
+}
+/********************************************/
+/*********24 June MyBids Apple Ipad All*************/
+.margin-ddl-status-mb
+ {
+   margin-left: -2px ! important;    
+ }
+.btn_mybid
+{
+  margin-left: 0px ! important;
+}
+.margin-lbl-status-mb
+{
+ margin-left: 1px ! important;   
+}
+/*************************************/
+/*********23 June REPORT Apple Ipad All*************/
+.asterisk_input_bt:after {
+    content: " *";
+    color: #e32;
+    margin: 2px 0px 0px -2%;
+    font-size: x-large ! important;
+    padding: 0 5px 0 0;
+}
+/*************************************/
+/*********23 June Bid Details Apple Ipad All*************/
+
+.btn-sm-pull
+{
+  margin-left: -3px ! important;
+}
+
+.align-btn-bdtl
+{
+  margin-top: 32px ! important;
+  margin-left: -69px ! important;  
+}
+@-moz-document url-prefix() { 
+  .margin-astrisk-bdttl-moz {
+     margin-left: -8px ! important;
+  }
+}
+
+/******************************/
+/*********22 June Activity Tracker Report Apple Ipad All*************/
+.margin-atr-txt
+{
+  margin-left: 10px ;
+  width: 728px ; 
+}
+/***********************/
+
+/*********22 June Bid Team Apple Ipad All*************/
+.margin-bt-form
+{
+  margin-left: -48px ! important;
+}
+.align-bt-form
+{
+  margin-left: -46px ! important;  
+}
+.margin-bt-review-form
+{
+ margin-left: -41px ! important;
+}
+.align-bt-review-form
+{
+ margin-left: -42px ! important;
+}
+.bit-dtl-bg-adj 
+{
+ padding-top: 28px ! important; 
+}
+.margin-hdn-bcteam-form
+{
+  margin-left: -35px! important; 
+}
+.margin-hdn-bcteam-chk
+{
+ margin-left: -22px ! important;    
+}
+.margin-hdn-brteam-form
+{
+  margin-left: -44px ! important;  
+}
+/*************/
+/***20 June DSR Responsive Apple Ipad All****/
+.margin-dsr-dt-txt
+{
+  width: 104% ! important;  
+}
+.margin-dsr-txtsub
+{
+  width: 104% ! important;  
+}
+.dsr-txt-width-notes
+{
+  width: 120% ! important;  
+}
+.dsr-txt-width-sd
+{
+  width: 112% ! important;  
+}
+.chk-padding {
+    margin-left: 15px !important;
+}
+.margin-dsr-asrisk-tasks
+{
+  margin-right: 83%;  
+}
+.margin-dsr-to
+{
+  margin-left: -22px;  
+}
+.margin-dsr-asrisk
+{
+ margin-left: -13px;    
+}
+.margin-dsr-add-btn {
+    margin-left: 5px;
+    margin-top: -17px;
+}
+.margin-dsr-label
+{
+  margin-left: -5px;  
+}
+
+.margin-dsr-sd-label
+{
+ margin-left: -66px ! important;
+}
+.margin-dsr-nots-lbl
+{
+  margin-left: -39px;  
+}
+
+.magin-dsr-task 
+{
+  width: 77%;
+}
+.margin-dsr-tasklbl
+{
+ margin-left: 24px;
+}
+.margin-subhead
+{
+   margin-left: 14px; 
+}
+/**************************/
+.nav > li img {
+    width: 14%;
+    padding-right: 4px;
+}
+#sub-navbar
+{
+	display:block;
+}
+
+.login-form
+{
+	    padding: 18%;
+	    background-size: cover;
+}
+
+/*** vaibhav 11 jan chnage ***/
+
+.headerbar-left img {
+    width: 90%;
+    padding: 7%;
+}
+
+.headerbar-right
+{
+	float:right;
+}
+.headerbar-right img {
+    width: 90%;
+    padding: 7%;
+}
+.header-rigth-image {
+    padding-top: 2%;
+}
+
+.icon-adj {
+    font-size: 25px;
+}
+
+.navbar-icons
+{
+	 padding-top: 2%;
+    float: right;
+    padding-right: 4%;
+}
+/*****13 jan change******/
+.nav-li-adj {
+    margin-top: 141px;
+}
+.content-adj {
+    top: 149px;
+}
+
+/****************11 march 16  added*********************/
+  /*Bid Details*/
+    .margin-pull-CRM {
+     left : -6%;
+    }
+
+.margin-bdetails-link{
+ margin-top: 98%;
+ } 
+ 
+ /*Site Master*/
+ .margin-search-button
+ {
+     margin-top: 6%;
+ }
+.search-bg-xs
+        {
+            background: #fcfcfc;
+            background: -moz-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(22%, #f4f4f5), color-stop(55%, #e8e9ea), color-stop(100%, #dadbdd));
+            background: -webkit-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -o-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -ms-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: linear-gradient(to right, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dadbdd', GradientType=1 );
+            border-radius: 10px;
+        }
+
+/***********************11 march 2016 added css****************************/
+
+ .ipad-searchbox-adj
+ {
+    width: 120%;
+ }
+        
+ .btn-create-new-margin
+ {
+      margin-top: 15%;
+ }
+ 
+ /**24 March'16 Added**/
+.padding-btn-trac
+{
+  padding-left:44px;
+}
+
+.padding-btn-save-trac
+{
+  padding-left:32px;	
+}
+/****************9 may change*****************/
+.headerbar-right-adjs img {
+  margin-left: 0px;
+}
+        
+}
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+--------------------------------------------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and  (max-width: 767px) {
+  
+  .table-responsive 
+  {
+      border:0px ! important;
+  }
+
+  
+/*.sidebar
+{
+	position :  absolute !important;
+	top: 109px;
+	
+}*/
+
+/*VIEW btn on Bid Details screen.*/
+	.btn_view_biddetails
+	{
+	         margin-left: 30px;
+              margin-top: 2px;
+	}
+
+/*Escalation*/
+.margin-div
+{
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.margin-add-align
+{
+ margin-top : 7px;    
+}
+.align-div
+{
+    margin-left: 62px;
+    margin-right: -48px;
+}
+.margin-date
+{
+    margin-left: 62px;
+    margin-right: 270px;
+}
+
+/**/
+.btn-user-access
+{
+    margin-top: 6px;
+}
+.user-access-margin
+{
+    margin-right: -5px;
+    margin-left: -5px;
+ }
+.nav-li
+{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.search-margin
+{
+    margin-top: 12px;
+ }
+ .btn-create-new-margin
+ {
+      margin-top: 15px;
+ }
+.hdr-lbl-color
+{
+     color: White;
+    }
+
+.table_responsive_margin
+{
+    
+     margin-bottom: 60px;  
+}
+#sub-navbar
+{
+	display:block;
+}
+/**********************16 feb 16 change************************/
+.col_height
+{
+    min-height: auto !important;
+    height: auto !important;
+}
+
+
+.activity {
+    margin-left: 0px !important;
+    -moz-margin-left: 0px !important;
+}
+
+  .asterisk_input:after {
+    content: " *";
+    color: #e32;
+    position: absolute;
+    margin: -3px 0px 0px -2%;
+    font-size: x-large;
+    padding: 0 5px 0 0;
+    }
+    
+     .asterisk_input_bt:after {
+    content: " *";
+    color: #e32;
+    position: absolute;
+    margin: -3px 0px 0px -2%;
+    font-size: x-large;
+    padding: 0 5px 0 0;
+    }
+    
+  .asterisk_input_dsr:after {
+    content: " *" ! important;
+    color: #e32 ! important;
+    position: absolute ! important;
+    margin: -57px -1px 0px 7% ! important;
+    font-size: x-large ! important;
+    padding: 0 5px 0 0 ! important;
+}
+.logout_res
+{
+    font-size: 20px;
+    color: White;
+
+}
+#ctl00_lblWelcomeMob,#ctl00_lblUserIdMob,#ctl00_lblRoleMob
+{
+     color: White;
+}
+.navbar-toggle
+{
+    margin: 4px 15px;
+}
+.navbar
+{
+    min-height: 45px;    
+}
+.serach-wrapper
+{
+    border: 1px solid #DEDDDD;
+}
+
+#serach {
+    background:none;
+    padding-right: 0px;
+    background-color: transparent;
+    border-radius: 0px;
+    width:88%;
+    border: none;
+    box-shadow:none;
+    float:left;
+    
+}
+
+.searchButton
+{
+    width:12%;
+    box-shadow:none;
+    background-image: url(../img/search.png) center no-repeat !important;
+    background-size: 25px !important;
+}
+ .search-bg-xs
+        {
+            background: #fcfcfc;
+            background: -moz-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, #fcfcfc), color-stop(22%, #f4f4f5), color-stop(55%, #e8e9ea), color-stop(100%, #dadbdd));
+            background: -webkit-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -o-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: -ms-linear-gradient(left, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            background: linear-gradient(to right, #fcfcfc 0%, #f4f4f5 22%, #e8e9ea 55%, #dadbdd 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#dadbdd', GradientType=1 );
+            border-radius: 10px;
+        }
+.form-group
+	{
+		margin-bottom: 10px !important;
+	}
+	 .margin-dsr-add-btn
+    {
+        margin-top: 2%;    
+       margin-left : 6%;
+    }
+    
+    .btn-margin
+     {
+       margin-left: 1%;
+      }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) 
+{
+ 
+   #serach 
+   {
+    background:none;
+    border: none;
+    outline: none; 
+   }    
+/*2June Executive Dashboard*/
+    .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      height: 34px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }
+/*31May Reports*/
+.lbl-margin-rpt1
+{
+ margin-left: 13px;    
+}
+ .txt-margin-cal-rpt1
+ {
+  margin-top: -34px; 
+  width: 96%;
+  margin-left: 8px;   
+ }
+ .ddl-margin-rpt1
+ {
+  width: 702px;
+  margin-left: 9px;    
+ } 
+ .margin-rpt-heading
+ {
+  margin-top: 16px;    
+ }
+ 
+ .margin-asterisk-rpt
+ {
+   margin-left: 243px;
+  }
+ /*26May*/  
+    .margin-ddl-mb
+    {
+        width: 709px;
+        margin-left: -1px;
+    }
+    .margin-ddl-status-mb
+    {
+      margin-left: 71px;    
+    }
+    .margin-lbl-status-mb
+    {
+     margin-left: 72px;
+    }
+    .margin-btn-mb
+    {
+     margin-left: 73px;
+     margin-top: 7px;
+    }
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+    /*3rdApril 2017 BidDSR 568 x 320 rotate Apoorva*/
+    .margin-dsr-div-sd {
+        margin-left: 5px;
+        width: 540px;
+    }
+    
+    /*3rdApril 2017 BidTracking 568 x 320 rotate Apoorva*/
+    .margin_ap_btn_resp
+    {
+    margin-left: -89px;
+    margin-bottom: 6px;
+    }
+  /* .sidebar
+	{
+	position :  absolute !important;
+	top: 110px;
+	
+	}*/
+	
+	/*17-Jun-UserAcess Module changes*/
+	.userlabel
+	{
+	  margin-left: 14px;  
+	}
+	
+	.user_textbox
+	{
+	        width: 515px;
+    margin-left: 13px;
+	}
+	
+	/*VIEW btn on Bid Details screen.*/
+	.btn_view_biddetails
+	{
+	         margin-left: 30px;
+              margin-top: 2px;
+	}
+	
+    .nav > li img {
+    width: 10%;
+    padding-right: 4px;
+	}
+   .bid-detl
+	{
+	    margin-top:7px;
+	}
+   .bid-detl-frm
+   {
+       margin-top:69px;
+   }
+ 
+    .header img {
+     /* width: 46%;
+     padding : 3%;*/
+     width: 89%;
+    padding: 10%;
+    }
+    .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+	display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	.user-name img
+	{
+	 width: 4%;
+	}
+	
+	.login-form {
+		/*padding: 7%;
+		margin: 7%;*/
+		padding: 14%;
+		margin: 2%;
+		background-size: cover;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	/*17jun_responsive*/
+	.act_report
+	{
+	width: 329px;
+    margin-left: 11px;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     } 
+/*********vaibhav 11 jan chnage***********/
+
+.headerbar-left img {
+    width: 100%;
+    padding: 10%;
+}
+
+.headerbar-right
+{
+	float:right;
+}
+.header-rigth-image
+{
+	padding-top: 2%;
+}
+.headerbar-right img {
+	 width: 100%;
+    padding: 4%;
+}
+
+.icons {
+    padding-top: 90%;
+    padding-left: 10%;
+}
+
+.icon-adj {
+    font-size: 20px;
+}
+
+.navbar-icons
+{
+	    padding-top: 3%;
+    float: right;
+    padding-right: 4%;
+}
+/***********13 jan change***********/
+
+.content-adj {
+    top: 146px;
+}
+
+.nav-li-adj {
+    margin-top: 124px;
+}
+
+.modal-dialog {
+        width: 450px !important;
+        margin: 15px auto;
+        top: 142px;
+        height: 60%;
+        margin-top: 10%;
+    }
+    /* gridview horizontal visible scroll remove*/
+    .frm-grd
+    {
+    overflow: scroll;
+    height: 170px;
+    overflow-x: auto; 
+    }
+    .body
+    {
+            vertical-align: middle !Important;
+            overflow-y: auto !Important;
+             max-height: calc(100vh - 210px);
+             
+            
+    }
+    .body-esc
+    {
+         vertical-align: middle !Important;
+         overflow-y: auto !Important;
+         max-height: calc(77vh - 170px);
+    }
+    .bit-dtl-bg
+    {
+         /*margin-top: -20%;*/
+    }
+    .bid-crm
+    {
+           margin-top: -79px;
+    }
+    
+    .margin-filter-div {
+    margin-left: -1px;
+    width: 570px;
+}
+    
+    /****************9 may change*****************/
+.headerbar-right-adjs img {
+  margin-left: 0px;
+}
+    
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 479px) {
+	 .nav > li img {
+    width: 16%;
+    padding-right: 4px;
+	}
+	
+	.txt_mybid
+	{
+	    /* margin-left: -75px;*/
+	    margin-left: 1px ! important;
+    width: 100% ! important;
+	}
+	.btn_mybid
+	{
+	    margin-left: 76px;
+	}
+	.act_report
+	{
+	    width: 311px;
+        margin-left: 18px;
+	}
+	.act_track
+	{
+	    margin-top:75px !important;
+	}
+	.bid-detl
+	{
+	   /*margin-top: 29px;*/
+	     line-height: 20px;
+	      margin-top: 56px;
+	    
+	}
+    .header img {
+    /*width: 66%;
+    padding: 3%;*/
+        width: 120%;
+    padding: 10%;
+    }
+     .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+		display:block;
+	}
+	.margin-lbl-biddtl
+	{
+	    margin-right:157px !important;
+	}
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.login-form {
+		/*padding: 7%;
+		margin: 7%;*/
+		
+		padding: 12%;
+		margin: 3%;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.tag-line {
+    font-size: 30px;
+	}
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+
+
+	/*********vaibhav 11 jan chnage***********/
+	
+	.headerbar-left img {
+		width: 139%;
+		padding: 10%;
+	}
+
+	.headerbar-right
+	{
+		margin-left: 32%;
+	}
+	.header-rigth-image
+	{
+		padding-top: 2%;
+	}
+	.headerbar-right img {
+		width: 139%;
+		padding: 3%;
+	}
+
+	.icons {
+		padding-top: 22%;
+		padding-left: 10%;
+	}
+
+	.icon-adj {
+		font-size: 20px;
+	}
+
+	.navbar-icons
+	{
+		padding-top: 4%;
+		float: right;
+		padding-right: 4%;
+	}
+	
+	
+	/****13 jan changes*****/
+	
+	.nav-li-adj {
+    margin-top: 113px;
+	}
+	
+	/****************9 may change*****************/
+.headerbar-right-adjs img {
+  margin-left: 0px;
+}
+
+	/*Priyanka*/
+   .ckh_dsr_risk {
+     /* margin-left: 10% !important;
+      margin-top: 0px !important;*/
+      margin-right: -5px !important;
+    }
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) { 
+   
+     /*4thdApril2017 BidDSR Apoorva*/
+     .Comptency {
+    margin-left: -17px !important;
+    margin-right: 15px;
+}
+     .TopMargin_SPOC {
+			margin-top: -8px !important;
+		}
+     
+   .lbl_append_risk 
+    {
+       /* margin-left: 70px !important;
+         margin-top: -23px !important; */
+         margin-left: 0px !important;
+		 margin-top: 0px !important;
+    }
+    .ckh_dsr_risk {
+     /* margin-left: 10% !important;
+      margin-top: 0px !important;*/
+      margin-right: -5px !important;
+    }
+   /*3rdApril2017 ActivityTrackerReport Apoorva*/
+    .margin_actr_row
+    {
+    margin-top: 28px !important;
+    }
+       /* .sidebar
+	{
+	position :  absolute !important;
+	top: 88px;
+	
+	}*/
+	/********22July BidDetails 320-640***********/
+	.lbl-bdtl-err-div 
+	{
+    line-height: 1 ! important;
+    margin-top: -3px ! important;
+    margin-left: 0px ! important;
+    }
+    .lbl-bdtl-rag-circle-div 
+    {
+    margin-left: -155% ! important;
+    margin-top: 1px ! important;
+    }
+    .lbl-bdtl-bidmanager-div
+     {
+      margin-left: -1% ! important;
+     }
+	/*****************13 July BidDetails 320-640*******************/
+	.align-bdtl-key-tooltip 
+	{
+	 margin-left: 258px;
+	}
+	.btl-manager 
+	{
+      margin-top: -2px;
+    }
+    .margin-bdtl-rag-circle 
+    {
+     margin-top: -5px;
+     margin-left: -173px;
+    }
+    .red-circle {
+   display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Red;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;
+margin-left: 75%;
+margin-top: -17px;
+ }
+ .green-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Green;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+ border-radius: 10px;
+margin-left: 75%;
+margin-top: -17px;
+ }
+ .amber-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+background-color: Orange;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left: 75%;
+ margin-top: -17px;
+  }
+	/*********8 July UserAccessManage 320-640***************/
+	.margin-uam-ddl 
+	{
+     width : 90% ! important;
+    }
+     /************************/
+	.pull-search{
+		margin-left:-22px;
+	}
+	.pull-btn{
+		margin-left:1px;
+	}
+	.pull-text{
+		margin-left:2px;
+		width:52%;
+	}
+	.heading-title
+	{
+	    margin-top:-10px;
+	}
+	.hdr-lbl-color
+	{
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+	}
+   .nav > li img {
+    width: 16%;
+    padding-right: 4px;
+	}
+   
+   .header img {
+    /*width: 66%;
+    padding: 3%;*/
+    width: 150%;
+    padding: 10%;
+   }
+    .user-name-dtl 
+    {
+		float: none;
+		text-align: left;
+    }
+    #sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	/*
+	.login-form {
+		padding: 7%;
+		margin: 7%;
+	}*/
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+	/*********vaibhav 11 jan chnage***********/
+	
+	.headerbar-left img {
+		width: 175%;
+		padding: 10%;
+	}
+
+	.headerbar-right
+	{
+		margin-left: 28%;
+	}
+	.header-rigth-image
+	{
+		padding-top: 2%;
+	}
+	.headerbar-right img {
+		    width: 175%;
+			padding: 2%;
+	}
+
+	.icons {
+		padding-top: 22%;
+		padding-left: 10%;
+	}
+
+	.icon-adj {
+		font-size: 20px;
+	}
+
+	.navbar-icons
+	{
+	    padding-top: 5%;
+		float: right;
+		padding-right: 4%;
+	}
+	.modal-dialog {
+        width: 300px  !important;
+        margin: 15px auto;
+         top: 38px;
+    }
+    .bid-detl
+	{
+	     margin-top: 30px !important;
+      
+	     line-height: 20px;
+	}
+	/*17jun changes*/
+	
+	.margin-lbl-biddtl
+	{
+	    margin-right:106px;
+	}
+	/****************9 may change*****************/
+.headerbar-right-adjs img {
+  margin-left: 0px;
+}
+    
+}
+
+@media only screen and (min-width: 241px) and (max-width: 319px) {
+  
+     
+     .header img {
+		width: 66%;
+		padding: 3%;
+	}
+	#sub-navbar
+	{
+		display:block;
+	}
+	
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+     .modal-dialog {
+        width: 280px  !important;
+        margin: 15px auto;
+    }
+    
+    /****************9 may change*****************/
+.headerbar-right-adjs img {
+  margin-left: 0px;
+}
+}
+
+@media only screen and (min-width: 176px) and (max-width: 240px) {
+    
+ 
+    .header img {
+    width: 66%;
+    padding: 3%;
+	}
+	
+	#sub-navbar
+	{
+		display:block;
+	}
+	.btn-small-adj
+	{
+	  margin-top:2%;
+	}
+	
+	.user-name
+	{
+    
+     float: none;
+	 text-align: left;
+	}
+	
+	.user-name img
+	{
+	 width: 6%;
+	}
+	
+	.tag-line {
+    font-size: 30px;
+	}
+	
+	.login-small-adj
+	{
+		margin-top:16%;
+	}
+	.bid-detls-frm-adj
+    {
+        padding-bottom: 0px;
+     }
+     .modal-dialog {
+        width: 240px !important;
+        margin: 15px auto;
+    }
+    
+    /****************9 may change*****************/
+.headerbar-right-adjs img {
+  margin-left: 0px;
+}
+	
+}
+
+
+
+
+/*****Used only for sider bar *****/
+@media only screen and (min-width: 380px) and (max-width: 479px) 
+{
+	/* .sidebar
+	{
+	position :  absolute !important;
+	top: 97px;
+	
+	}*/
+}
+
+@media only screen and (min-width: 360px) and (max-width: 375px) 
+{
+	/*3rdJuly'17 BidQualification */
+	.Comptency {
+	    margin-left: -14px !important;
+	   margin-right: 15px;
+
+	}
+	.BidQual_btns
+	{
+	 margin-top: 0px;	 
+	}
+	.OUT_panel_adj {
+		margin-top: 11px;
+	}
+	
+	/*****************13 July'16 BidDetails*******************/
+	.align-bdtl-key-tooltip 
+	{
+	 margin-left: 290px;
+	}
+	.btl-manager
+	{
+	 margin-top: 0 ! important;	
+    }
+    .margin-bdtl-rag-circle
+    {
+     margin-left: -198px;
+         margin-top: -4px;
+    }
+    .red-circle {
+   display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Red;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;
+margin-left: 73%;
+margin-top: -20px;
+ }
+ .green-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+ background-color: Green;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left: 73%;
+ margin-top: -20px;
+ }
+ .amber-circle {
+ display: block;
+ height: 20px;
+ width: 20px;
+background-color: Orange;
+-moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ border-radius: 10px;
+ margin-left: 73%;
+ margin-top: -20px;
+  }
+    /*******5 July Bid Activity Tracker********/
+    .margin-btn-bat
+    {
+     margin-left: -17px ! important;   
+    }
+    /*****************************************/
+    /*******5 July Bid Activity Manage********/
+    .act_track
+    {
+     padding-top: 16px ! important;   
+    }
+   /********************************/
+  /******29 June MyBids 375-667**********/     
+   .margin-lbl-status-mb
+   {
+    margin-left: 2px;   
+   }
+   .margin-ddl-status-mb
+   {
+    margin-left: 0px;   
+   }
+   .margin-btn-mb-aple
+   {
+     margin-left: 58px;  
+   }
+   /*****31st March 17*****/
+   .margin-btn-create-resp
+   {
+    margin-bottom: -86px;
+   }
+   .margin-btn-search-resp
+   {
+     margin-top: 71px !important;
+   }
+ /*************************/
+ /******22 June User Access Manage 320-640**********/   
+ .bid-detls-frm-adj
+ {
+  padding-bottom: 0px;
+  margin-top: 7px;
+  } 
+.bid-detl 
+{
+  line-height: 20px;
+  margin-top: 30px;
+  padding-top: 40px;  
+}
+
+.margin-uam-lbl
+{
+  margin-left: 17px;  
+}
+
+.margin-uam-ddl
+{
+  margin-left: 14px;
+  width: 339px ! important;  
+  margin-top: 5px;
+}
+.asterisk_adj_uam 
+{
+    margin-left: 1px;
+}
+.margin-cluster-uam
+{
+  margin-left: 21px;  
+}
+.margin-uam-chk-admin
+{
+    margin-left: 71px;
+    margin-top: -26px;
+}
+.ddl-margin-rpt1 {
+    width: 318px ! important;
+    margin-left: 13px;
+}
+/******************************/
+    
+	.pull-search{
+		margin-left:-22px;
+	}
+	.pull-btn{
+		margin-left:15px;
+	}
+	.pull-text{
+		margin-left:20px;
+		width:52%;
+	}
+    .errormsg
+    {
+        line-height: 27px!important;
+    }
+    
+    .txt-margin-align-notes
+     {
+        margin-left: 7px;
+	    width: 296px;
+      }
+	/* .sidebar
+	{
+	position :  absolute !important;
+	top: 94px;
+	
+	}*/
+	/*******11 March'16 Added Note3********/
+	.margin-pull-CRM
+	{
+	    margin-top: 3%;
+	}
+	
+	.margin-lbl-biddtl
+	{
+	    margin-right:121px !important;
+	}
+	
+	.margin-heading
+	{
+	    /*margin-top: 3%;*/
+	    margin-top: 18%;
+	}
+	.margin-dsr-sub-heading
+    {
+     margin-left : 4%;
+     margin-right: 4%;    
+    }
+    .modal-dialog {
+        width: 320px !important;
+        margin: 15px auto;
+    }
+    
+    /**24 March'16 Added**/
+.padding-btn-trac
+  {
+	padding-left:12px;	
+ }
+ .padding-btn-delete-trac
+ {
+ 	padding-left:0px;	
+ }
+}
+
+.err_message
+{
+    color:Red;
+}
+
+.grid td, .grid th{
+  text-align:center;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.nav > li a:hover , nav > li a:focus {
+		background-color: transparent !important;
+		text-decoration:none;
+
+}
+.chkboxList 
+{
+    overflow-y: scroll;
+    height: 183px;
+}
+.chkboxList-dsr
+{
+    overflow-y: scroll;
+    height: 166px;
+}
+.padding-biddtl
+{
+ padding-bottom: 130px;
+}
+
+.cssPager td
+{
+    padding-left: 4px;     
+    padding-right: 4px;    
+}
+
+
+
+
+.col_height
+{
+        height: 700px;
+        padding-top: 14px;
+}
+/*******11 March 16 Added***********/
+.lblerr-adj
+{
+    margin-top: -4%;
+}
+
+/****Only for login screen adjust***/
+
+@media only screen and (min-width: 340px) and (max-width: 360px)
+{
+	.login-form {
+		padding: 12%;
+		margin: 1%;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.nav-li-adj {
+		margin-top: 128px;
+	}
+	
+    .errormsg
+    {
+        line-height: 27px!important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 339px)
+{
+	.login-form {
+		padding: 11%;
+		margin: 0%;
+		/******15 feb 16 change ******/
+		    margin-top: 15%;
+	}
+	.form-group
+	{
+		margin-bottom: 10px !important;
+	}
+	.nav-li-adj {
+    margin-top: 120px;
+	}
+}
+
+@media only screen and (min-width: 320px)  and (max-width: 359px)
+{
+	/*** 18-Aug-17 - Priyanka Nikam *****/
+	.OUT_page_adj
+	{
+	   margin-top: -10px !important;
+	}
+	.OUT_panel_adj {
+		margin-top: -53px !important;
+	}
+			
+	 .lbl-bdQual-err-div
+    {
+        line-height: 1 ! important;
+        margin-top: 0px ! important;
+        margin-left: 4px ! important;  
+    }
+    
+	.createQualification-link {
+		 margin-left: 85px !important;
+		margin-top: 8px !important;
+	}
+     /***3rd April 2017 BidDSR Apoorva***/
+    .margin_dsr_draft_resp
+    {
+      margin-left: 47px;  
+    }
+    .margin_dsr_send_resp
+    {
+     margin-left: -23px;   
+    }
+    .margin_dsr_prev_resp
+    {
+     margin-left: 83px;
+     margin-top: 7px;   
+    }
+     /***3rd April 2017 BidTracking Apoorva***/
+    .margin_ap_btn_resp
+    {
+     margin-left: -89px;
+     margin-bottom: 9px;   
+    }
+    /***3rd April 2017 BidRisks Apoorva***/
+    .margin_risks_newbtn_resp
+    {
+    margin-top: 6px;
+    margin-left: -17px;
+    }
+    
+    /***3rd April 2017 AllBidScreens Apoorva***/
+    .margin_bdtl_hdr_row_resp
+    {
+        /* margin-top: 11px;   */
+         margin-top: 77px;
+         margin-left: -23px !important;
+    }
+    .margin_bidDoc_frm_resp
+    {
+     margin-top: -59px;   
+    }
+     /***3rd April 2017 BidActivityTracker Apoorva***/
+    .margin_actr_row_resp
+    {
+      margin-top: 17px;  
+    }
+      /****3rdApril2017 BidFrozen Apoorva****/
+    .margin_bf_row_resp
+    {
+      margin-top: 16px;  
+    }
+    /****3rdApril2017 Sitemaster Apoorva****/
+    .margin_btncrebid_resp
+    {
+     margin-left: -36px;   
+    }
+    .margin_togglmenu_resp
+    {
+     margin-top: 18px;   
+    }
+    /***3rd April 2017 ActivityTrackerReport Apoorva***/
+    .margin_actr_row
+    {
+     margin-top: 12px; 
+    }
+     /**********3rdApril2017 ShowSearchBids Apoorva************/ 
+    .margin-rpt-heading 
+    {
+     margin-top: 76px !important;
+    }
+    .margin_showresult_row
+    {
+      margin-top: 13px;  
+    }
+    .mardin_shwres_hdr
+    {
+      margin-bottom: -41px;  
+    }
+   /********3rdApril 2017 My bids Apoorva**********/ 
+   .margin_row_mybid
+   {
+     margin-top: 12px; 
+   }
+   .margin-btn-search-resp
+   {
+     margin-top: 73px !important;  
+   }
+   .btn-create-new-margin 
+   {
+    margin-top: 71px !important;  
+   }
+    
+	/*****************13 Oct Bid Details***********************/
+	.lbl_uploadbqf_align
+	{
+	margin-left: 19px;
+	}
+	.lbl_uploadshipley_align
+	{
+		margin-left: 19px;
+	}
+	.btn_uploadbqf_align
+	{
+	margin-left: 16px;	
+	}
+	.btn_upload_bqfnew
+	{
+	margin-top: 7px;
+	}
+	.btn_view_bqfnew
+	{
+	margin-top: 7px;
+		margin-left: 0px;	
+	}
+	.align-bqf-row
+	{
+		margin-left: -17px;
+	}
+	.btn_view_shipleynew
+	{
+	margin-top: 7px;
+	margin-left: 1px;	
+	}
+
+	
+	/********22July BidDetails 320-640***********/
+	.lbl-bdtl-err-div 
+	{
+    line-height: 1 ! important;
+    margin-top: -3px ! important;
+    margin-left: 0px ! important;
+    }
+    .lbl-bdtl-rag-circle-div 
+    {
+    margin-left: -155% ! important;
+    margin-top: 1px ! important;
+    }
+    .lbl-bdtl-bidmanager-div
+     {
+      margin-left: -1% ! important;
+     }
+   /*******5 July Bid Activity Tracker 320-640********/
+    .margin-btn-bat
+    {
+     margin-left: -17px ! important;   
+    }
+    /*****************************************/
+   /*********5 July BidActivityManage 320-640*************/
+    .txt-align-width-bam
+    {
+     width: 97% ! important;   
+    }
+    
+    /***************************************/
+     /*********29 June SiteMaster 320-640*************/
+    .margin-search-button
+    {
+       margin-top: 39px; 
+    }
+    .btn-create-new-margin
+    {
+      margin-top: 34px;
+    }
+   
+    /*********29 June Bid Details 320-640*************/
+    .margin-pull-CRM
+    {
+     margin-top: 6px;
+     margin-left: -18px;    
+    }
+    .align-btn-bdtl-bqf
+    {
+     margin-left: 0px ! important; 
+    }
+    .margin-ddl-bdtl
+    {
+     margin-left: -18px;
+     width: 308px;  
+    }
+    .open > .multiselect-container 
+    {
+      margin-left: 17px;  
+    }
+    /**************************/
+   /*********29 June MyBids 320-640*************/
+    .btn_mybid
+    {
+     margin-top: 6px; 
+    }
+ /*********29 June User Access Module 320-640*************/
+.pull-btn {
+    margin-left: -15px ! important;
+}
+.margin-form-uam
+{
+ margin-top: -65px ! important;   
+}
+/*************************************/    
+     /*************24 June Site Master*********************/
+    .nav-li-adj
+    {
+     margin-top: 151px ! important;
+    }
+ /*********************************/
+/*********22 June Activity Tracker Report 320-640*************/
+.margin-atr-txt
+{
+  margin-left: 14px;
+  width: 313px;
+}
+/***********************/
+
+ /******22 June User Access Manage 320-640**********/   
+ .bid-detls-frm-adj
+ {
+   padding-bottom: 19px;
+   /* margin-top: 7px;*/
+   /* margin-top: -40px;*/
+    margin-top: 10px ;
+  } 
+.bid-detl 
+{
+  line-height: 20px;
+  margin-top: 35px;
+  padding-top: 40px;  
+}
+
+.margin-uam-lbl
+{
+  margin-left: 17px;  
+}
+
+.margin-uam-ddl
+{
+  margin-left: 14px;
+  width: 285px;  
+  margin-top: 5px;
+}
+.asterisk_adj_uam 
+{
+    margin-left: 1px;
+}
+.margin-cluster-uam
+{
+  margin-left: 21px;  
+}
+.margin-uam-chk-admin
+{
+    margin-left: 71px;
+    margin-top: -26px;
+}
+
+ /***20 June DSR Responsive 320-640****/
+.margin-dsr-label
+{
+  margin-left: 12px;  
+}
+.margin-dsr-nots-lbl
+{
+  margin-left: 1px;  
+}
+
+.magin-dsr-task {
+   width: 345px;
+   margin-left: -79px ! important;
+}
+.btn_Qual 
+{
+	margin-left: 4px ! important; 
+	/*margin-left: 70px ! important;*/
+ }
+.btn 
+{
+	margin-left: 17px ! important; 
+	/*margin-left: 70px ! important;*/
+ }
+.margin-dsr-tasklbl
+{
+ margin-left: -23px;
+}
+.margin-subhead
+{
+   margin-left: 14px; 
+}
+.margin-dsr-txtsub
+{
+  width: 281px;
+  margin-left: 14px;
+}
+
+.margin-dsr-dt-txt
+{
+  width: 277px;
+  margin-left: 16px; 
+}
+
+.margin-dsr-asrisk-tasks:after
+{
+ margin-top: -22px ! important;
+ padding-left: 22px ! important;
+ font-size: x-large ! important;
+}
+
+.margin-dsr-btn
+{
+ margin-left: 3px ! important;   
+ }
+ 
+ .margin-dsr-div-sl
+ {
+   margin-left: 1px ! important;  
+ }
+ .margin-dsr-div-sd
+ {
+    margin-left: 13px; 
+    width: 307px ;
+ }
+ .margin-txt-sd-dsr
+ {
+  margin-left: 4px ! important;  
+ }
+
+/******************/
+    
+   /*2June Executive Dashboard*/
+    .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      height: 79px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }
+    
+	
+	/*31May Reports*/
+    .lbl-margin-rpt1
+    {
+     margin-left: 13px;    
+    }
+     .txt-margin-cal-rpt1
+     {
+      margin-top: -21px; 
+      margin-left: 13px;
+      width: 261px;
+     }
+     .ddl-margin-rpt1
+     {
+       width: 280px;
+       margin-left: 13px;
+     } 
+    .margin-rpt-heading
+    {
+     margin-top: 54px;    
+    }
+    .margin-asterisk-rpt
+	{
+     margin-left: 302px;
+    }
+}
+
+
+/*31May Reports*/
+@media only screen and (min-width: 533px)  
+{
+    .margin-rpt-heading
+    {
+     margin-top: -13px;    
+    }
+   
+}
+
+.fotter_new_wrap
+{
+    width:100%;    
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    color: #ffffff; 
+   
+    z-index:1000;
+    background: #004299;
+    background: -moz-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #004299), color-stop(25%, #006aa3), color-stop(49%, #008aac), color-stop(91%, #00aab3), color-stop(100%, #00aab3));
+    background: -webkit-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -o-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: -ms-linear-gradient(left, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004299', endColorstr='#00aab3', GradientType=1 );
+      
+}
+
+
+.searchButton
+{
+  background: url(../img/search.png) right no-repeat; 
+  background-size: 20px;
+  padding-left:auto;
+  border: none;
+   
+}
+
+.gray
+{
+    background-color: #F5F5F5;
+}
+.light
+{
+    background-color:#E8E9E9;
+}
+
+.a{
+     cursor:pointer;
+}
+.lstbx
+{
+    height: 60px;
+    cursor: pointer;
+    font-size: 11px;
+    background-color: #00BFFF;
+    padding: 5px;
+    margin: 5px 0px;
+ }
+.serch-li
+{
+    display:block;
+    width:250px;
+    z-index:9999;
+    position:absolute;
+    list-style-type:none;
+    height:200px;
+    background-color:White;
+    padding:10px;
+    overflow:auto;
+    font-size: 12px;
+    background-color:#00BFFF;
+ 
+}    
+.inner-li
+{
+  list-style-type :none;
+  margin-bottom: -50px;
+  
+  
+} 
+
+.chb-padding
+{
+	 padding-top: 0px;
+     padding-left: 32px;
+}
+
+.page-sub-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:18px;	
+	  color: #02478c;  
+}
+
+.section-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:15px;	
+	  color: #02478c;  
+}
+
+/*User Access*/
+.user-accsee-lbl-margin
+{
+   margin-right: 11px; 
+    }
+
+/*DSR*/
+.asterisk_input_dsr:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px -0.5%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+
+.asterisk_input_dsr_t:after
+{
+    content:" *";
+    color: #e32;
+   position: absolute;
+    margin: 2px 0px 0px 0%;
+    font-size: xx-large;
+    padding: 0 5px 0 0;
+}
+.btn-cre-dsr
+{
+  padding-left: 651px;
+  padding-top: 19px;
+}	
+.txtarea-h-w
+{
+  height: 144px;
+  width: 246px;
+}
+.pull-left
+{
+  float: left !important;
+}
+.lbl-padding
+{
+    padding-right: 24px;
+}
+.btn-passing-crt
+{
+padding-left: 789px;    
+}
+/************************Added by Snehal 13 Jan*****************************************/
+.gridcontrolsize
+{
+   /* width: 110%;*/
+}
+/****************************Added By Snehal 20 Jan***************/
+/*Bid Documents*/
+.bg-color-colhead
+{
+ background-color:#7da4ff;
+}
+.bg-color-col
+{
+ background-color:#C1ECFA;
+}
+.span-padding
+{
+ padding-top: 40px;
+}
+.red 
+{
+  color: #d14;
+}
+.row-padding-doc
+{
+padding-bottom: 0px; 
+}
+.txt-doc-align
+{
+    text-align:justify;
+}
+.lbl-font-size
+{
+    font-size:large;
+   
+}
+.btn-add-padding
+{
+    padding-left: 498px;
+ }
+.grd-align-center
+{
+   padding-left: 217px;
+}
+  /*******************Added By Snehal 22 jan****************************/
+
+
+.a{
+     cursor:pointer;
+}
+.lstbx
+{
+    height: 60px;
+    cursor: pointer;
+    font-size: 11px;
+    background-color: #00BFFF;
+    padding: 5px;
+    margin: 5px 0px;
+ }
+.serch-li
+{
+    display:block;
+    width:250px;
+    z-index:9999;
+    position:absolute;
+    list-style-type:none;
+    height:200px;
+    background-color:White;
+    padding:10px;
+    overflow:auto;
+    font-size: 12px;
+    background-color:#00BFFF;
+ 
+}    
+.inner-li
+{
+  list-style-type :none;
+  margin-bottom: -50px;
+  
+} 
+
+.chb-padding
+{
+	 padding-top: 0px;
+     padding-left: 32px;
+}
+
+.page-sub-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:18px;	
+	  color: #02478c;  
+}
+
+.section-heading
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:15px;	
+	  color: #02478c;  
+}
+.btn-add-save-padding
+{
+padding-left: 569px;    
+}
+.grd-padding-dl
+{
+padding-left: 26px;    
+}
+.btn-add-save
+{
+    padding-right: 73px;
+}
+
+/*DSR*/
+.btn-cre-dsr
+{
+  padding-left: 651px;
+  padding-top: 19px;
+}	
+.txtarea-h-w
+{
+  height: 144px;
+  width: 246px;
+}
+.pull-left
+{
+  float: left !important;
+}
+.lbl-padding
+{
+    padding-right: 24px;
+}
+.btn-passing-crt
+{
+padding-left: 789px;    
+}
+
+
+.grd_textbox
+{
+    width: 125px;
+}
+
+/*******************Added By Snehal 28 jan****************/
+
+.col_height
+{
+        min-height: 400px;
+        
+}
+#bidmanagement a.collapsed:after {
+    content:"\e080";
+}
+#bidmanagement  a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+}
+
+
+#proposal a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+   float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#proposal a.collapsed:after {
+    content:"\e080";
+}
+
+#solution a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+   float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#solution a.collapsed:after {
+    content:"\e080";
+}
+
+#createDraft a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#createDraft a.collapsed:after {
+    content:"\e080";
+}
+
+#ReviewDraft a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#ReviewDraft a.collapsed:after {
+    content:"\e080";
+}
+
+#finalize a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: left;
+    margin-right:5px;
+    color: White;
+   
+}
+#finalize a.collapsed:after {
+    content:"\e080";
+}
+
+.panel_gradient
+{
+    background: linear-gradient(to right, #008aac 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#008aac 0%, endColorstr=#00aab3);
+    color: #fcf8e3 !important;
+    font-family: Calibri , Myriad Pro !important;
+}
+/**************Added By Snehal 3feb*************************/
+
+th.sortasc a  
+   {
+     display:block; padding:0 4px 0 15px; 
+      background:url(../img/up.png) no-repeat;  
+   }
+  
+  th.sortdesc a 
+ {
+     display:block; padding:0 4px 0 15px; 
+     background:url(../img/down.png) no-repeat;
+ }
+ 
+ #arrow a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    margin-right:2px;
+    color: White;
+   
+}
+#arrow a.collapsed:after {
+    content:"\e080";
+}
+.heading-title
+{
+	 font-family: Calibri , Myriad Pro;
+	 font-size:15px;	
+	  color: #02478c;  
+}
+
+/*added by Apurva Escalation*/
+.lbl-padding-esc-mail
+{
+    padding-right: 26px;    
+}
+.txt-margin-align
+{
+    margin-left: -62px;
+}
+.txt-margin-align-notes {
+    margin-left: -62px;
+}
+.margin-star
+{
+    margin-left: -20px;
+}
+/*****************15 feb 16 change*********************/
+
+/*@media only screen and (max-width: 768px)*/
+@media only screen (min-width: 700px) and (max-width: 768px) and (orientation: portrait) 
+{
+    .bit-dtl-bg-adj {
+    padding-bottom: 37px !important;
+    }
+   .txt-margin-align-notes 
+     {
+        margin-left:-62px;
+     }
+    
+    .txt-margin-align
+     {
+      margin-left: -50px;
+     }
+     .margin-dsr-txtsub
+     {
+         width: 471px;
+     }
+}
+
+@media only screen and (max-width: 800px)
+{
+     /*2June Executive Dashboard*/
+   /* .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 768px;
+      margin-left: 0;
+      height: 33px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }*/
+    .bit-dtl-bg-adj {
+    padding-bottom: 26px !important;
+ }
+#ctl00_ContentPlaceHolder1_txtNotes
+{
+    margin-left:0px !important;
+}
+}
+
+.bit-dtl-bg-adj
+{
+    padding-bottom:19px;
+}
+
+.pull-txt-left
+{
+    text-align: left !important;
+}
+
+/*****************11 March Added********************/
+.hdr-lbl-color{
+color: White;
+}
+
+
+/*******************17 MAR - Added By Mangesh *******************/
+.chkbxAdmin
+{
+	padding-top: 6px;
+}
+
+.imgbtn
+{
+	height:19px;
+	width:19px;
+	float:right;
+	border-width: 0px;
+}
+
+/****************************16 march added code**************************/
+.toogle-btn
+{
+    border-color: #ddd;
+    background-color: #337AB7;
+}
+.toogle-btn .icon-bar
+{
+   background-color:White;
+}
+
+
+@media (min-width: 768px)
+{   
+    .left-nav-btn .navbar-toggle
+     {
+         display: block; 
+         float:left;
+         margin-left: 15px;
+    }
+   
+    /*31May Reports*/
+   .margin-rpt-heading
+    {
+     margin-top: 14px;    
+    }
+    
+}
+/*
+ #ctl00_ContentPlaceHolder1_FileUpload1, #File1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.span-input {
+    position: relative;
+    padding: 5px;
+}*/
+
+.btn_auto_pop
+{
+ margin-left:75px;
+}
+ 
+
+
+/************ 18-AUG-2017  PRIYANKA NIKAM*******************************************************************************/
+@media only screen and (min-width: 360px)  and (max-width: 410px)
+{
+	.OUT_panel_adj {
+		margin-top: -55px !important;
+	}
+	.OUT_page_adj
+			{
+			   margin-top: -10px !important;
+			}
+	.TopMargin_SPOC
+	{
+		 margin-top: 0% !important;
+	}
+	
+	/*** 18-Aug-17 - Priyanka Nikam *****/
+	.createQualification-link {
+		 margin-left: 85px !important;
+		 margin-top: 8px !important;
+	 }
+	   /***3rd April 2017 AllBidScreens Apoorva***/
+    .margin_bdtl_hdr_row_resp
+    {
+        /* margin-top: 11px;   */
+         margin-top: 70px;
+         margin-left: -23px !important;
+    }
+    
+     /***3rd April 2017 BidDSR Apoorva***/
+    .margin_dsr_draft_resp
+    {
+      margin-left: 47px;  
+    }
+    .margin_dsr_send_resp
+    {
+     margin-left: -23px;   
+    }
+    .margin_dsr_prev_resp
+    {
+     margin-left: 83px;
+     margin-top: 7px;   
+    }
+     /***3rd April 2017 BidTracking Apoorva***/
+    .margin_ap_btn_resp
+    {
+     margin-left: -89px;
+     margin-bottom: 9px;   
+    }
+    /***3rd April 2017 BidRisks Apoorva***/
+    .margin_risks_newbtn_resp
+    {
+    margin-top: 6px;
+    margin-left: -17px;
+    }
+    .margin_bidDoc_frm_resp
+    {
+     margin-top: -59px;   
+    }
+     /***3rd April 2017 BidActivityTracker Apoorva***/
+    .margin_actr_row_resp
+    {
+      margin-top: 17px;  
+    }
+      /****3rdApril2017 BidFrozen Apoorva****/
+    .margin_bf_row_resp
+    {
+      margin-top: 16px;  
+    }
+    /****3rdApril2017 Sitemaster Apoorva****/
+    .margin_btncrebid_resp
+    {
+     margin-left: -36px;   
+    }
+    .margin_togglmenu_resp
+    {
+     margin-top: 18px;   
+    }
+    /***3rd April 2017 ActivityTrackerReport Apoorva***/
+    .margin_actr_row
+    {
+     margin-top: 12px; 
+    }
+     /**********3rdApril2017 ShowSearchBids Apoorva************/ 
+    .margin-rpt-heading 
+    {
+     margin-top: 76px !important;
+    }
+    .margin_showresult_row
+    {
+      margin-top: 13px;  
+    }
+    .mardin_shwres_hdr
+    {
+      margin-bottom: -41px;  
+    }
+   /********3rdApril 2017 My bids Apoorva**********/ 
+   .margin_row_mybid
+   {
+     margin-top: 12px; 
+   }
+   .margin-btn-search-resp
+   {
+     margin-top: 73px !important;  
+   }
+   .btn-create-new-margin 
+   {
+    margin-top: 71px !important;  
+   }
+    
+	/*****************13 Oct Bid Details***********************/
+	.lbl_uploadbqf_align
+	{
+	margin-left: 19px;
+	}
+	.lbl_uploadshipley_align
+	{
+		margin-left: 19px;
+	}
+	.btn_uploadbqf_align
+	{
+	margin-left: 16px;	
+	}
+	.btn_upload_bqfnew
+	{
+	margin-top: 7px;
+	}
+	.btn_view_bqfnew
+	{
+	margin-top: 7px;
+		margin-left: 0px;	
+	}
+	.align-bqf-row
+	{
+		margin-left: -17px;
+	}
+	.btn_view_shipleynew
+	{
+	margin-top: 7px;
+	margin-left: 1px;	
+	}
+
+	
+	/********22July BidDetails 320-640***********/
+	.lbl-bdtl-err-div 
+	{
+    line-height: 1 ! important;
+    margin-top: -3px ! important;
+    margin-left: 0px ! important;
+    }
+    .lbl-bdtl-rag-circle-div 
+    {
+    margin-left: -155% ! important;
+    margin-top: 1px ! important;
+    }
+    .lbl-bdtl-bidmanager-div
+     {
+      margin-left: -1% ! important;
+     }
+   /*******5 July Bid Activity Tracker 320-640********/
+    .margin-btn-bat
+    {
+     margin-left: -17px ! important;   
+    }
+    /*****************************************/
+   /*********5 July BidActivityManage 320-640*************/
+    .txt-align-width-bam
+    {
+     width: 97% ! important;   
+    }
+    
+    /***************************************/
+     /*********29 June SiteMaster 320-640*************/
+    .margin-search-button
+    {
+       margin-top: 39px; 
+    }
+    .btn-create-new-margin
+    {
+      margin-top: 34px;
+    }
+   
+    /*********29 June Bid Details 320-640*************/
+    .margin-pull-CRM
+    {
+     margin-top: 6px;
+     margin-left: -18px;    
+    }
+    .align-btn-bdtl-bqf
+    {
+     margin-left: 0px ! important; 
+    }
+    .margin-ddl-bdtl
+    {
+     margin-left: -18px;
+     width: 308px;  
+    }
+    .open > .multiselect-container 
+    {
+      margin-left: 17px;  
+    }
+    /**************************/
+   /*********29 June MyBids 320-640*************/
+    .btn_mybid
+    {
+     margin-top: 6px; 
+    }
+ /*********29 June User Access Module 320-640*************/
+.pull-btn {
+    margin-left: -15px ! important;
+}
+.margin-form-uam
+{
+ margin-top: -65px ! important;   
+}
+/*************************************/    
+     /*************24 June Site Master*********************/
+    .nav-li-adj
+    {
+     margin-top: 151px ! important;
+    }
+ /*********************************/
+/*********22 June Activity Tracker Report 320-640*************/
+.margin-atr-txt
+{
+  margin-left: 14px;
+  width: 313px;
+}
+/***********************/
+
+ /******22 June User Access Manage 320-640**********/   
+ .bid-detls-frm-adj
+ {
+   padding-bottom: 15px;
+   /* margin-top: 7px;*/
+    margin-top: 10px;
+  } 
+.bid-detl 
+{
+  line-height: 20px;
+  margin-top: 35px;
+  padding-top: 40px;  
+}
+
+.margin-uam-lbl
+{
+  margin-left: 17px;  
+}
+
+.margin-uam-ddl
+{
+  margin-left: 14px;
+  width: 285px;  
+  margin-top: 5px;
+}
+.asterisk_adj_uam 
+{
+    margin-left: 1px;
+}
+.margin-cluster-uam
+{
+  margin-left: 21px;  
+}
+.margin-uam-chk-admin
+{
+    margin-left: 71px;
+    margin-top: -26px;
+}
+
+ /***20 June DSR Responsive 320-640****/
+.margin-dsr-label
+{
+  margin-left: 12px;  
+}
+.margin-dsr-nots-lbl
+{
+  margin-left: 1px;  
+}
+
+.magin-dsr-task {
+   width: 345px;
+   margin-left: -79px ! important;
+}
+.btn 
+{
+	margin-left: 17px ! important;   
+	/* margin-left: 130px ! important;*/
+ }
+.margin-dsr-tasklbl
+{
+ margin-left: -23px;
+}
+.margin-subhead
+{
+   margin-left: 14px; 
+}
+.margin-dsr-txtsub
+{
+  width: 281px;
+  margin-left: 14px;
+}
+
+.margin-dsr-dt-txt
+{
+  width: 277px;
+  margin-left: 16px; 
+}
+
+.margin-dsr-asrisk-tasks:after
+{
+ margin-top: -22px ! important;
+ padding-left: 22px ! important;
+ font-size: x-large ! important;
+}
+
+.margin-dsr-btn
+{
+ margin-left: 3px ! important;   
+ }
+ 
+ .margin-dsr-div-sl
+ {
+   margin-left: 1px ! important;  
+ }
+ .margin-dsr-div-sd
+ {
+    margin-left: 13px; 
+    width: 307px ;
+ }
+ .margin-txt-sd-dsr
+ {
+  margin-left: 4px ! important;  
+ }
+
+/******************/
+    
+   /*2June Executive Dashboard*/
+    .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      height: 79px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }
+    
+	
+	/*31May Reports*/
+    .lbl-margin-rpt1
+    {
+     margin-left: 13px;    
+    }
+     .txt-margin-cal-rpt1
+     {
+      margin-top: -21px; 
+      margin-left: 13px;
+      width: 261px;
+     }
+     .ddl-margin-rpt1
+     {
+       width: 280px;
+       margin-left: 13px;
+     } 
+    .margin-rpt-heading
+    {
+     margin-top: 54px;    
+    }
+    .margin-asterisk-rpt
+	{
+     margin-left: 302px;
+    }
+}
+
+/************ 18-AUG-2017  PRIYANKA NIKAM********/
+@media only screen and (min-width: 411px)  and (max-width: 735px)
+{
+	/*** 18-Aug-17 - Priyanka Nikam *****/
+	.Comptency {
+		margin-left: -17px !important;
+		margin-right: 16px;
+	}
+	.TopMargin_SPOC
+	{
+		    margin-top: -18px !important;
+	}
+
+	.OUT_page_adj
+			{
+			   margin-top: -10px !important;
+			}
+	.OUT_panel_adj {
+		margin-top: -55px !important;
+	}
+	.lbl-bdtl-err-div 
+	{
+    line-height: 1 ! important;
+    margin-top: -3px ! important;
+    margin-left: 0px ! important;
+    }
+    
+	   .BidQual_btns {
+			margin-top: 1px;
+			margin-left: -11px;
+			/*margin-left: -84px;*/
+			/*margin-left:26px;*/
+		}
+	
+	.createQualification-link {
+		 margin-left: 85px !important;
+		 margin-top: 8px !important;
+	 }
+	 
+	  .margin_bdtl_hdr_row_resp
+    {
+        /* margin-top: 11px;   */
+         margin-top: 90px;
+         margin-left: -23px !important;
+    }
+    
+     /***3rd April 2017 BidDSR Apoorva***/
+    .margin_dsr_draft_resp
+    {
+      margin-left: 47px;  
+    }
+    .margin_dsr_send_resp
+    {
+     margin-left: -23px;   
+    }
+    .margin_dsr_prev_resp
+    {
+     margin-left: 83px;
+     margin-top: 7px;   
+    }
+     /***3rd April 2017 BidTracking Apoorva***/
+    .margin_ap_btn_resp
+    {
+     margin-left: -89px;
+     margin-bottom: 9px;   
+    }
+    /***3rd April 2017 BidRisks Apoorva***/
+    .margin_risks_newbtn_resp
+    {
+    margin-top: 6px;
+    margin-left: -17px;
+    }
+    
+    /***3rd April 2017 AllBidScreens Apoorva***/
+   
+    .margin_bidDoc_frm_resp
+    {
+     margin-top: -59px;   
+    }
+     /***3rd April 2017 BidActivityTracker Apoorva***/
+    .margin_actr_row_resp
+    {
+      margin-top: 17px;  
+    }
+      /****3rdApril2017 BidFrozen Apoorva****/
+    .margin_bf_row_resp
+    {
+      margin-top: 16px;  
+    }
+    /****3rdApril2017 Sitemaster Apoorva****/
+    .margin_btncrebid_resp
+    {
+     margin-left: -36px;   
+    }
+    .margin_togglmenu_resp
+    {
+     margin-top: 18px;   
+    }
+    /***3rd April 2017 ActivityTrackerReport Apoorva***/
+    .margin_actr_row
+    {
+     margin-top: 12px; 
+    }
+     /**********3rdApril2017 ShowSearchBids Apoorva************/ 
+    .margin-rpt-heading 
+    {
+     margin-top: 76px !important;
+    }
+    .margin_showresult_row
+    {
+      margin-top: 13px;  
+    }
+    .mardin_shwres_hdr
+    {
+      margin-bottom: -41px;  
+    }
+   /********3rdApril 2017 My bids Apoorva**********/ 
+   .margin_row_mybid
+   {
+     margin-top: 12px; 
+   }
+   .margin-btn-search-resp
+   {
+     margin-top: 73px !important;  
+   }
+   .btn-create-new-margin 
+   {
+    margin-top: 71px !important;  
+   }
+    
+	/*****************13 Oct Bid Details***********************/
+	.lbl_uploadbqf_align
+	{
+	margin-left: 19px;
+	}
+	.lbl_uploadshipley_align
+	{
+		margin-left: 19px;
+	}
+	.btn_uploadbqf_align
+	{
+	margin-left: 16px;	
+	}
+	.btn_upload_bqfnew
+	{
+	margin-top: 7px;
+	}
+	.btn_view_bqfnew
+	{
+	margin-top: 7px;
+		margin-left: 0px;	
+	}
+	.align-bqf-row
+	{
+		margin-left: -17px;
+	}
+	.btn_view_shipleynew
+	{
+	margin-top: 7px;
+	margin-left: 1px;	
+	}
+
+	
+	/********22July BidDetails 320-640***********/
+	.lbl-bdtl-err-div 
+	{
+    line-height: 1 ! important;
+    margin-top: -3px ! important;
+    margin-left: 0px ! important;
+    }
+    .lbl-bdtl-rag-circle-div 
+    {
+    margin-left: -155% ! important;
+    margin-top: 1px ! important;
+    }
+    .lbl-bdtl-bidmanager-div
+     {
+      margin-left: -1% ! important;
+     }
+   /*******5 July Bid Activity Tracker 320-640********/
+    .margin-btn-bat
+    {
+     margin-left: -17px ! important;   
+    }
+    /*****************************************/
+   /*********5 July BidActivityManage 320-640*************/
+    .txt-align-width-bam
+    {
+     width: 97% ! important;   
+    }
+    
+    /***************************************/
+     /*********29 June SiteMaster 320-640*************/
+    .margin-search-button
+    {
+       margin-top: 39px; 
+    }
+    .btn-create-new-margin
+    {
+      margin-top: 34px;
+    }
+   
+    /*********29 June Bid Details 320-640*************/
+    .margin-pull-CRM
+    {
+     margin-top: 6px;
+     margin-left: -18px;    
+    }
+    .align-btn-bdtl-bqf
+    {
+     margin-left: 0px ! important; 
+    }
+    .margin-ddl-bdtl
+    {
+     margin-left: -18px;
+     width: 308px;  
+    }
+    .open > .multiselect-container 
+    {
+      margin-left: 17px;  
+    }
+    /**************************/
+   /*********29 June MyBids 320-640*************/
+    .btn_mybid
+    {
+     margin-top: 6px; 
+    }
+ /*********29 June User Access Module 320-640*************/
+.pull-btn {
+    margin-left: -15px ! important;
+}
+.margin-form-uam
+{
+ margin-top: -65px ! important;   
+}
+/*************************************/    
+     /*************24 June Site Master*********************/
+    .nav-li-adj
+    {
+     margin-top: 151px ! important;
+    }
+ /*********************************/
+/*********22 June Activity Tracker Report 320-640*************/
+.margin-atr-txt
+{
+  margin-left: 14px;
+  width: 313px;
+}
+/***********************/
+
+ /******22 June User Access Manage 320-640**********/   
+ .bid-detls-frm-adj
+ {
+   padding-bottom: 15px;
+   margin-top: 7px;
+    /*margin-top: -40px;*/
+  } 
+.bid-detl 
+{
+  line-height: 20px;
+  margin-top: 35px;
+  padding-top: 40px;  
+}
+
+.margin-uam-lbl
+{
+  margin-left: 17px;  
+}
+
+.margin-uam-ddl
+{
+  margin-left: 14px;
+  width: 285px;  
+  margin-top: 5px;
+}
+.asterisk_adj_uam 
+{
+    margin-left: 1px;
+}
+.margin-cluster-uam
+{
+  margin-left: 21px;  
+}
+.margin-uam-chk-admin
+{
+    margin-left: 71px;
+    margin-top: -26px;
+}
+
+ /***20 June DSR Responsive 320-640****/
+.margin-dsr-label
+{
+  margin-left: 12px;  
+}
+.margin-dsr-nots-lbl
+{
+  margin-left: 1px;  
+}
+
+.magin-dsr-task {
+   width: 345px;
+   margin-left: -79px ! important;
+}
+.btn 
+{
+	margin-left: 17px ! important;   
+	/* margin-left: 155px ! important;*/
+ }
+.margin-dsr-tasklbl
+{
+ margin-left: -23px;
+}
+.margin-subhead
+{
+   margin-left: 14px; 
+}
+.margin-dsr-txtsub
+{
+  width: 281px;
+  margin-left: 14px;
+}
+
+.margin-dsr-dt-txt
+{
+  width: 277px;
+  margin-left: 16px; 
+}
+
+.margin-dsr-asrisk-tasks:after
+{
+ margin-top: -22px ! important;
+ padding-left: 22px ! important;
+ font-size: x-large ! important;
+}
+
+.margin-dsr-btn
+{
+ margin-left: 3px ! important;   
+ }
+ 
+ .margin-dsr-div-sl
+ {
+   margin-left: 1px ! important;  
+ }
+ .margin-dsr-div-sd
+ {
+    margin-left: 13px; 
+    width: 307px ;
+ }
+ .margin-txt-sd-dsr
+ {
+  margin-left: 4px ! important;  
+ }
+
+/******************/
+    
+   /*2June Executive Dashboard*/
+    .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      height: 79px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }
+    
+	
+	/*31May Reports*/
+    .lbl-margin-rpt1
+    {
+     margin-left: 13px;    
+    }
+     .txt-margin-cal-rpt1
+     {
+      margin-top: -21px; 
+      margin-left: 13px;
+      width: 261px;
+     }
+     .ddl-margin-rpt1
+     {
+       width: 280px;
+       margin-left: 13px;
+     } 
+    .margin-rpt-heading
+    {
+     margin-top: 54px;    
+    }
+    .margin-asterisk-rpt
+	{
+     margin-left: 302px;
+    }
+}
+
+/************ 18-AUG-2017  PRIYANKA NIKAM********/
+@media only screen and (min-width: 736px)  and (max-width: 780px)
+{
+	/*** 18-Aug-17 - Priyanka Nikam *****/
+	.Comptency
+     {
+     	    margin-left: 0px !important;
+     }
+	.OUT_page_adj
+			{
+			   margin-top: -10px !important;
+			}
+	.OUT_panel_adj {
+		margin-top: 11px;
+	}
+	.TopMargin_SPOC
+	{
+		margin-top: 15% !important;
+	}
+	.createQualification-link {
+		 margin-left: 85px !important;
+		 margin-top: 8px !important;
+	 }
+	 
+	  .margin_bdtl_hdr_row_resp
+    {
+        /* margin-top: 11px;   */
+         margin-top: 125px;
+         margin-left: -23px !important;
+    }
+    
+     /***3rd April 2017 BidDSR Apoorva***/
+    .margin_dsr_draft_resp
+    {
+      margin-left: 47px;  
+    }
+    .margin_dsr_send_resp
+    {
+     margin-left: -23px;   
+    }
+    .margin_dsr_prev_resp
+    {
+     margin-left: 83px;
+     margin-top: 7px;   
+    }
+     /***3rd April 2017 BidTracking Apoorva***/
+    .margin_ap_btn_resp
+    {
+     margin-left: -89px;
+     margin-bottom: 9px;   
+    }
+    /***3rd April 2017 BidRisks Apoorva***/
+    .margin_risks_newbtn_resp
+    {
+    margin-top: 6px;
+    margin-left: -17px;
+    }
+    
+    /***3rd April 2017 AllBidScreens Apoorva***/
+   
+    .margin_bidDoc_frm_resp
+    {
+     margin-top: -59px;   
+    }
+     /***3rd April 2017 BidActivityTracker Apoorva***/
+    .margin_actr_row_resp
+    {
+      margin-top: 17px;  
+    }
+      /****3rdApril2017 BidFrozen Apoorva****/
+    .margin_bf_row_resp
+    {
+      margin-top: 16px;  
+    }
+    /****3rdApril2017 Sitemaster Apoorva****/
+    .margin_btncrebid_resp
+    {
+     margin-left: -36px;   
+    }
+    .margin_togglmenu_resp
+    {
+     margin-top: 18px;   
+    }
+    /***3rd April 2017 ActivityTrackerReport Apoorva***/
+    .margin_actr_row
+    {
+     margin-top: 12px; 
+    }
+     /**********3rdApril2017 ShowSearchBids Apoorva************/ 
+    .margin-rpt-heading 
+    {
+     margin-top: 76px !important;
+    }
+    .margin_showresult_row
+    {
+      margin-top: 13px;  
+    }
+    .mardin_shwres_hdr
+    {
+      margin-bottom: -41px;  
+    }
+   /********3rdApril 2017 My bids Apoorva**********/ 
+   .margin_row_mybid
+   {
+     margin-top: 12px; 
+   }
+   .margin-btn-search-resp
+   {
+     margin-top: 73px !important;  
+   }
+   .btn-create-new-margin 
+   {
+    margin-top: 71px !important;  
+   }
+    
+	/*****************13 Oct Bid Details***********************/
+	.lbl_uploadbqf_align
+	{
+	margin-left: 19px;
+	}
+	.lbl_uploadshipley_align
+	{
+		margin-left: 19px;
+	}
+	.btn_uploadbqf_align
+	{
+	margin-left: 16px;	
+	}
+	.btn_upload_bqfnew
+	{
+	margin-top: 7px;
+	}
+	.btn_view_bqfnew
+	{
+	margin-top: 7px;
+		margin-left: 0px;	
+	}
+	.align-bqf-row
+	{
+		margin-left: -17px;
+	}
+	.btn_view_shipleynew
+	{
+	margin-top: 7px;
+	margin-left: 1px;	
+	}
+
+	
+	/********22July BidDetails 320-640***********/
+	.lbl-bdtl-err-div 
+	{
+    line-height: 1 ! important;
+    margin-top: -3px ! important;
+    margin-left: 0px ! important;
+    }
+    .lbl-bdtl-rag-circle-div 
+    {
+    margin-left: -155% ! important;
+    margin-top: 1px ! important;
+    }
+    .lbl-bdtl-bidmanager-div
+     {
+      margin-left: -1% ! important;
+     }
+   /*******5 July Bid Activity Tracker 320-640********/
+    .margin-btn-bat
+    {
+     margin-left: -17px ! important;   
+    }
+    /*****************************************/
+   /*********5 July BidActivityManage 320-640*************/
+    .txt-align-width-bam
+    {
+     width: 97% ! important;   
+    }
+    
+    /***************************************/
+     /*********29 June SiteMaster 320-640*************/
+    .margin-search-button
+    {
+       margin-top: 39px; 
+    }
+    .btn-create-new-margin
+    {
+      margin-top: 34px;
+    }
+   
+    /*********29 June Bid Details 320-640*************/
+    .margin-pull-CRM
+    {
+     margin-top: 6px;
+     margin-left: -18px;    
+    }
+    .align-btn-bdtl-bqf
+    {
+     margin-left: 0px ! important; 
+    }
+    .margin-ddl-bdtl
+    {
+     margin-left: -18px;
+     width: 308px;  
+    }
+    .open > .multiselect-container 
+    {
+      margin-left: 17px;  
+    }
+    /**************************/
+   /*********29 June MyBids 320-640*************/
+    .btn_mybid
+    {
+     margin-top: 6px; 
+    }
+ /*********29 June User Access Module 320-640*************/
+.pull-btn {
+    margin-left: -15px ! important;
+}
+.margin-form-uam
+{
+ margin-top: -65px ! important;   
+}
+/*************************************/    
+     /*************24 June Site Master*********************/
+    .nav-li-adj
+    {
+     margin-top: 151px ! important;
+    }
+ /*********************************/
+/*********22 June Activity Tracker Report 320-640*************/
+.margin-atr-txt
+{
+  margin-left: 14px;
+  width: 313px;
+}
+/***********************/
+
+ /******22 June User Access Manage 320-640**********/   
+ .bid-detls-frm-adj
+ {
+   padding-bottom: 0px;
+   /* margin-top: 7px;*/
+    margin-top: -40px;
+  } 
+.bid-detl 
+{
+  line-height: 20px;
+  margin-top: 35px;
+  padding-top: 40px;  
+}
+
+.margin-uam-lbl
+{
+  margin-left: 17px;  
+}
+
+.margin-uam-ddl
+{
+  margin-left: 14px;
+  width: 285px;  
+  margin-top: 5px;
+}
+.asterisk_adj_uam 
+{
+    margin-left: 1px;
+}
+.margin-cluster-uam
+{
+  margin-left: 21px;  
+}
+.margin-uam-chk-admin
+{
+    margin-left: 71px;
+    margin-top: -26px;
+}
+
+ /***20 June DSR Responsive 320-640****/
+.margin-dsr-label
+{
+  margin-left: 12px;  
+}
+.margin-dsr-nots-lbl
+{
+  margin-left: 1px;  
+}
+
+.magin-dsr-task {
+   width: 345px;
+   margin-left: -79px ! important;
+}
+.btn 
+{
+	/*margin-left: 17px ! important;   */
+	 margin-left: 155px ! important;
+ }
+.margin-dsr-tasklbl
+{
+ margin-left: -23px;
+}
+.margin-subhead
+{
+   margin-left: 14px; 
+}
+.margin-dsr-txtsub
+{
+  width: 281px;
+  margin-left: 14px;
+}
+
+.margin-dsr-dt-txt
+{
+  width: 277px;
+  margin-left: 16px; 
+}
+
+.margin-dsr-asrisk-tasks:after
+{
+ margin-top: -22px ! important;
+ padding-left: 22px ! important;
+ font-size: x-large ! important;
+}
+
+.margin-dsr-btn
+{
+ margin-left: 3px ! important;   
+ }
+ 
+ .margin-dsr-div-sl
+ {
+   margin-left: 1px ! important;  
+ }
+ .margin-dsr-div-sd
+ {
+    margin-left: 13px; 
+    width: 307px ;
+ }
+ .margin-txt-sd-dsr
+ {
+  margin-left: 4px ! important;  
+ }
+
+/******************/
+    
+   /*2June Executive Dashboard*/
+    .blue-box-executive
+   {
+	  font-family: Calibri , Myriad Pro;
+      background-color: #0169b0;  
+      color: #ffffff;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      height: 79px;
+      padding: 0%;
+      border: 1px gray solid; 
+      background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+    }
+    
+	
+	/*31May Reports*/
+    .lbl-margin-rpt1
+    {
+     margin-left: 13px;    
+    }
+     .txt-margin-cal-rpt1
+     {
+      margin-top: -21px; 
+      margin-left: 13px;
+      width: 261px;
+     }
+     .ddl-margin-rpt1
+     {
+       width: 280px;
+       margin-left: 13px;
+     } 
+    .margin-rpt-heading
+    {
+     margin-top: 54px;    
+    }
+    .margin-asterisk-rpt
+	{
+     margin-left: 302px;
+    }
+}
+
+
+/************for tab**********/
+@media only screen and (min-width: 781px)  and (max-width: 950px)
+{
+					/*** 18-Aug-17 - Priyanka Nikam *****/
+					.Comptency
+     {
+     	    margin-left: 0px !important;
+     }
+					.OUT_page_adj
+					{
+					   margin-top: -10px !important;
+					}
+					.OUT_panel_adj {
+						/*margin-top: 11px;*/
+						margin-top: -70px !important;
+					}
+					.panelmargin
+					{
+						margin-top:-30px !important;
+					}
+					.TopMargin_SPOC
+					{
+						margin-top: 15% !important;
+					}
+					.createQualification-link {
+						 margin-left: 85px !important;
+						 margin-top: 8px !important;
+					 }
+	 
+					  .margin_bdtl_hdr_row_resp
+					{
+						/* margin-top: 11px;   */
+						 margin-top: 125px;
+						 margin-left: -23px !important;
+					}
+    
+					 /***3rd April 2017 BidDSR Apoorva***/
+					.margin_dsr_draft_resp
+					{
+					  margin-left: 47px;  
+					}
+					.margin_dsr_send_resp
+					{
+					 margin-left: -23px;   
+					}
+					.margin_dsr_prev_resp
+					{
+					 margin-left: 83px;
+					 margin-top: 7px;   
+					}
+					 /***3rd April 2017 BidTracking Apoorva***/
+					.margin_ap_btn_resp
+					{
+					 margin-left: -89px;
+					 margin-bottom: 9px;   
+					}
+					/***3rd April 2017 BidRisks Apoorva***/
+					.margin_risks_newbtn_resp
+					{
+					margin-top: 6px;
+					margin-left: -17px;
+					}
+    
+					/***3rd April 2017 AllBidScreens Apoorva***/
+   
+					.margin_bidDoc_frm_resp
+					{
+					 margin-top: -59px;   
+					}
+					 /***3rd April 2017 BidActivityTracker Apoorva***/
+					.margin_actr_row_resp
+					{
+					  margin-top: 17px;  
+					}
+					  /****3rdApril2017 BidFrozen Apoorva****/
+					.margin_bf_row_resp
+					{
+					  margin-top: 16px;  
+					}
+					/****3rdApril2017 Sitemaster Apoorva****/
+					.margin_btncrebid_resp
+					{
+					 margin-left: -36px;   
+					}
+					.margin_togglmenu_resp
+					{
+					 margin-top: 18px;   
+					}
+					/***3rd April 2017 ActivityTrackerReport Apoorva***/
+					.margin_actr_row
+					{
+					 margin-top: 12px; 
+					}
+					 /**********3rdApril2017 ShowSearchBids Apoorva************/ 
+					.margin-rpt-heading 
+					{
+					 margin-top: 76px !important;
+					}
+					.margin_showresult_row
+					{
+					  margin-top: 13px;  
+					}
+					.mardin_shwres_hdr
+					{
+					  margin-bottom: -41px;  
+					}
+				   /********3rdApril 2017 My bids Apoorva**********/ 
+				   .margin_row_mybid
+				   {
+					 margin-top: 12px; 
+				   }
+				   .margin-btn-search-resp
+				   {
+					 margin-top: 73px !important;  
+				   }
+				   .btn-create-new-margin 
+				   {
+					margin-top: 71px !important;  
+				   }
+    
+					/*****************13 Oct Bid Details***********************/
+					.lbl_uploadbqf_align
+					{
+					margin-left: 19px;
+					}
+					.lbl_uploadshipley_align
+					{
+						margin-left: 19px;
+					}
+					.btn_uploadbqf_align
+					{
+					margin-left: 16px;	
+					}
+					.btn_upload_bqfnew
+					{
+					margin-top: 7px;
+					}
+					.btn_view_bqfnew
+					{
+					margin-top: 7px;
+						margin-left: 0px;	
+					}
+					.align-bqf-row
+					{
+						margin-left: -17px;
+					}
+					.btn_view_shipleynew
+					{
+					margin-top: 7px;
+					margin-left: 1px;	
+					}
+
+	
+					/********22July BidDetails 320-640***********/
+					.lbl-bdtl-err-div 
+					{
+					line-height: 1 ! important;
+					margin-top: -3px ! important;
+					margin-left: 0px ! important;
+					}
+					.lbl-bdtl-rag-circle-div 
+					{
+					margin-left: -155% ! important;
+					margin-top: 1px ! important;
+					}
+					.lbl-bdtl-bidmanager-div
+					 {
+					  margin-left: -1% ! important;
+					 }
+				   /*******5 July Bid Activity Tracker 320-640********/
+					.margin-btn-bat
+					{
+					 margin-left: -17px ! important;   
+					}
+					/*****************************************/
+				   /*********5 July BidActivityManage 320-640*************/
+					.txt-align-width-bam
+					{
+					 width: 97% ! important;   
+					}
+    
+					/***************************************/
+					 /*********29 June SiteMaster 320-640*************/
+					.margin-search-button
+					{
+					   margin-top: 39px; 
+					}
+					.btn-create-new-margin
+					{
+					  margin-top: 34px;
+					}
+   
+					/*********29 June Bid Details 320-640*************/
+					.margin-pull-CRM
+					{
+					 margin-top: 6px;
+					 margin-left: -18px;    
+					}
+					.align-btn-bdtl-bqf
+					{
+					 margin-left: 0px ! important; 
+					}
+					.margin-ddl-bdtl
+					{
+					 margin-left: -18px;
+					 width: 308px;  
+					}
+					.open > .multiselect-container 
+					{
+					  margin-left: 17px;  
+					}
+					/**************************/
+				   /*********29 June MyBids 320-640*************/
+					.btn_mybid
+					{
+					 margin-top: 6px; 
+					}
+				 /*********29 June User Access Module 320-640*************/
+				.pull-btn {
+					margin-left: -15px ! important;
+				}
+				.margin-form-uam
+				{
+				 margin-top: -65px ! important;   
+				}
+				/*************************************/    
+					 /*************24 June Site Master*********************/
+					.nav-li-adj
+					{
+					 margin-top: 151px ! important;
+					}
+				 /*********************************/
+				/*********22 June Activity Tracker Report 320-640*************/
+				.margin-atr-txt
+				{
+				  margin-left: 14px;
+				  width: 313px;
+				}
+				/***********************/
+
+				 /******22 June User Access Manage 320-640**********/   
+				 .bid-detls-frm-adj
+				 {
+				   padding-bottom: 0px;
+				   /* margin-top: 7px;*/
+					margin-top: 1px;
+				  } 
+				.bid-detl 
+				{
+				  line-height: 20px;
+				 /* margin-top: 35px;*/
+				   margin-top: -40px;
+				  padding-top: 40px;  
+				}
+
+				.margin-uam-lbl
+				{
+				  margin-left: 17px;  
+				}
+
+				.margin-uam-ddl
+				{
+				  margin-left: 14px;
+				  width: 285px;  
+				  margin-top: 5px;
+				}
+				.asterisk_adj_uam 
+				{
+					margin-left: 1px;
+				}
+				.margin-cluster-uam
+				{
+				  margin-left: 21px;  
+				}
+				.margin-uam-chk-admin
+				{
+					margin-left: 71px;
+					margin-top: -26px;
+				}
+
+				 /***20 June DSR Responsive 320-640****/
+				.margin-dsr-label
+				{
+				  margin-left: 12px;  
+				}
+				.margin-dsr-nots-lbl
+				{
+				  margin-left: 1px;  
+				}
+
+				.magin-dsr-task {
+				   width: 345px;
+				   margin-left: -79px ! important;
+				}
+				.btn 
+				{
+					/*margin-left: 17px ! important;   */
+					 margin-left: 155px ! important;
+				 }
+				 .btnSubmitcss
+				 {
+				 	margin-left: 17px ! important;
+				 }
+				.margin-dsr-tasklbl
+				{
+				 margin-left: -23px;
+				}
+				.margin-subhead
+				{
+				   margin-left: 14px; 
+				}
+				.margin-dsr-txtsub
+				{
+				  width: 281px;
+				  margin-left: 14px;
+				}
+
+				.margin-dsr-dt-txt
+				{
+				  width: 277px;
+				  margin-left: 16px; 
+				}
+
+				.margin-dsr-asrisk-tasks:after
+				{
+				 margin-top: -22px ! important;
+				 padding-left: 22px ! important;
+				 font-size: x-large ! important;
+				}
+
+				.margin-dsr-btn
+				{
+				 margin-left: 3px ! important;   
+				 }
+ 
+				 .margin-dsr-div-sl
+				 {
+				   margin-left: 1px ! important;  
+				 }
+				 .margin-dsr-div-sd
+				 {
+					margin-left: 13px; 
+					width: 307px ;
+				 }
+				 .margin-txt-sd-dsr
+				 {
+				  margin-left: 4px ! important;  
+				 }
+
+				/******************/
+    
+				   /*2June Executive Dashboard*/
+					.blue-box-executive
+				   {
+					  font-family: Calibri , Myriad Pro;
+					  background-color: #0169b0;  
+					  color: #ffffff;
+					  text-align: center;
+					  width: 100%;
+					  margin-left: 0;
+					  height: 79px;
+					  padding: 0%;
+					  border: 1px gray solid; 
+					  background: linear-gradient(to right, #004299 0%, #006aa3 25%, #008aac 49%, #00aab3 91%, #00aab3 100%);
+					}
+    
+	
+					/*31May Reports*/
+					.lbl-margin-rpt1
+					{
+					 margin-left: 13px;    
+					}
+					 .txt-margin-cal-rpt1
+					 {
+					  margin-top: -21px; 
+					  margin-left: 13px;
+					  width: 261px;
+					 }
+					 .ddl-margin-rpt1
+					 {
+					   width: 280px;
+					   margin-left: 13px;
+					 } 
+					.margin-rpt-heading
+					{
+					 margin-top: 54px;    
+					}
+					.margin-asterisk-rpt
+					{
+					 margin-left: 302px;
+					}
+}
+
+
+
+
+@media only screen and (min-width: 800px)  and (max-width: 950px)
+{
+	.TopMargin_SPOC
+	{
+		    margin-top: 15% !important;
+	}
+	
+	.createQualification-link {
+		/*margin-left: 549px !important;*/
+		margin-left:300px !important;
+		margin-top:-45px !important;
+	}
+}
+
+@media only screen and (min-width: 951px)  and (max-width: 1020px)
+{
+	.TopMargin_SPOC
+	{
+		    margin-top: 22% !important;
+	}
+	
+	.createQualification-link {
+		/*margin-left: 600px !important;*/
+		margin-left: 330px !important;
+		margin-top: -71px !important;
+	}
+}
+@media only screen and (min-width: 1024px)  and (max-width: 1024px)
+{
+.ckh_dsr_risk
+{
+ /*margin-left: 91% !important;
+  margin-top: -44px !important; */
+       margin-right: -35px !important;
+}
+}
+/*******END*************************************************************************************************************************/
+
+.logo_sai_adj
+{
+    width: 315px !important;
+    height: 140px !important;
+    margin-top: -57px;
+    margin-left: -84px;
+}
